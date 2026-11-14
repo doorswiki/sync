@@ -275,6 +275,10 @@ return {
 	icon = 'Container icon.png',
 	color = false,
 },
+['Container'] = {
+	icon = 'Container icon.png',
+	color = false,
+},
 ['Bulb'] = {
 	icon = 'Bulb icon.png',
 	link = false,
@@ -555,6 +559,10 @@ return {
 	icon = 'Interacted icon.png',
 	color = false
 },
+['Impacts'] = {
+	icon = 'Push icon.svg',
+	color = false
+},
 ['Item Slot'] = {
 	icon = 'Item Slot icon.svg',
 	link = false,
@@ -806,7 +814,7 @@ return {
 	color = false
 },
 ['Shakelight'] = {
-	icon = 'Shakelight icon V2.png',
+	icon = 'Shakelight icon v2.png',
 	plural = 'Shakelights',
 	color = false
 },
@@ -826,7 +834,7 @@ return {
 	color = false
 },
 ['Flashlight'] = {
-	icon = 'Flashlight icon V2.png',
+	icon = 'Flashlight icon v2.png',
 	plural = 'Flashlights',
 	color = false
 },
@@ -866,12 +874,12 @@ return {
 	color = false
 },
 ['Skeleton Key'] = {
-	icon = 'Skeleton Key icon, unused.png',
+	icon = 'Skeleton Key icon v2.png',
 	plural = 'Skeleton Keys',
 	color = false
 },
 ['Lockpick'] = {
-	icon = 'Lockpick icon V2.png',
+	icon = 'Lockpick icon v2.png',
 	plural = 'Lockpicks',
 	color = false
 },
@@ -1078,13 +1086,13 @@ return {
 ['Backdoor Key'] = {
 	icon = 'Backdoor Key icon.png',
 	link = 'Backdoor Key',
-	plural = 'Key#tabber-Backdoor_Room_Key',
+	plural = 'Backdoor Keys',
 	color = false
 },
 ['Retro Key'] = {
 	icon = 'Retro Key icon.png',
 	plural = 'Retro Keys',
-	link = 'Key#tabber-Retro_Key',
+	link = 'Key',
 	color = false
 },
 ['Iron Key'] = {
