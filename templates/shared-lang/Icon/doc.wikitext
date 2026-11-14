@@ -1,0 +1,46 @@
+<noinclude>{{Documentation subpage}}</noinclude>
+{{Lua|module=Image|data=ObjectData}}
+
+;Related Sources
+:[[Template:Obj]]
+:[[Module:Object]]
+
+;Description
+:Displays an icon/image for a given object. Primarily used within other templates and modules as a shorthand for linking to image files stored in [[Module:ObjectData]].
+
+;Syntax
+:<code><nowiki>{{ i | <1> | <2> | <3> }}</nowiki></code>
+
+;Parameters
+:<code>1</code> Object/file name.
+:*If object exists in [[Module:ObjectData]] with set ''icon'' parameter, uses that icon (Examples 1, 2, 3, 4);
+:**If ''icon'' parameter not set, defaults to <code><1>.png</code>.
+:*Can be used for regular files as well. To do so specify full file name with extension (Examples 5, 6).
+:<code>2</code> Image size in pixels without 'px'. Default is 25.
+:<code>3</code> Image link configuration
+:*'''string''': custom link.
+:*'''1''': sets link the object's name.
+:*'''-1''': restores default mediawiki file link.
+:*'''0''': disables the link completely (edge cases, as its disabled by default).
+
+;Examples
+:{| class="wikitable"
+!Code !! Result
+|-
+|<code><nowiki>{{I|Stardust}}</nowiki></code><br>Object exists in data || {{I|Stardust}}
+|-
+|<code><nowiki>{{I|Stardust|50}}</nowiki></code><br>Custom icon size || {{I|Stardust|50}}
+|-
+|<code><nowiki>{{I|Stardust||1}}</nowiki></code><br>Link set to [[Stardust]] || {{I|Stardust||1}}
+|-
+|<code><nowiki>{{I|Stardust||-1}}</nowiki></code><br>Native image file link present || {{I|Stardust||-1}}
+|-
+|<code><nowiki>{{I|Rush.png|80}}</nowiki></code><br>Object not present in data with custom size || {{I|Rush.png|80}}
+|-
+|<code><nowiki>{{I|Rush.png|80|Entities}}</nowiki></code><br>Object not present in data with custom size and link || {{I|Rush.png|80|Entities}}
+|}
+
+;Icons preview
+{{#invoke:Image|docs}}
+
+[[Category:Templates]]

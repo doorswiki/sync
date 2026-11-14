@@ -110,6 +110,8 @@
   "Template:DOORSWiki userpage": "templates/shared-lang/DOORSWiki userpage/DOORSWiki userpage.wikitext",
   "Template:Hoverimg": "templates/shared-lang/Hoverimg/Hoverimg.wikitext",
   "Template:I": "templates/shared-lang/I/I.wikitext",
+  "Template:Icon": "templates/shared-lang/Icon/Icon.wikitext",
+  "Template:Icon/doc": "templates/shared-lang/Icon/doc.wikitext",
   "Template:Icons": "templates/shared-lang/Icons/Icons.wikitext",
   "Template:Icons/doc": "templates/shared-lang/Icons/doc.wikitext",
   "Template:ItemSkins": "templates/shared-lang/ItemSkins/ItemSkins.wikitext",
