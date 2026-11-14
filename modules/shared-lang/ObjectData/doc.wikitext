@@ -1,33 +1,39 @@
 == Data Structure Overview ==
-'''Scribunto''' module (data base) for storing and configuring all possible entries (objects) for:
-* [[Template:Obj]] (combines color & icon)
-* [[Template:Color]] (color/classes related, text & link parameters)
+'''Scribunto''' module (database) for storing and configuring all possible entries (objects) used by:
+* [[Template:Obj]] (combines color and icon with extra logic)
+* [[Template:Color]] (color/classes-related text and link parameters)
 * [[Template:I]] (icon parameter)
-Object's existence is required within this module (for organization and other purposes) for it to work with the templates above<br>
-To add color stylings, visit [[Template:Color/styles.css]]<br>
-To add an entry to the data base, enter editing mode and add the following entry to appropriate location within the table (look for comments, they start with <code>--</code>):
+
+An object's existence within this module is required for it to work with the templates above (for organizational and other purposes).
+
+To add color styling, visit [[Template:Color/styles.css]].
+
+To add an entry to the database, enter editing mode and add the following entry to the appropriate location within the table (look for comments, which start with <code>--</code>):
+
 <syntaxhighlight lang=lua>
-["<Entry (object name)>"] = {
-	"<Parameter (key)>" = "<Value>",
+["<Entry> (object name)"] = {
+	["<Parameter (key)>"] = "<Value>",
 	...
 },
 </syntaxhighlight>
-<Parameter> can be some or all of the following lines:<br>
-<small>(ONLY PUT A VALUE IN IF IT'S REQUIRED FOR THE OBJECT)</small>
+
+<Parameter> can be one or more of the following:<br>
+<small>(ONLY PROVIDE A VALUE IF IT IS REQUIRED FOR THE OBJECT)</small>
+
 * <code>icon = <string>/false</code>
-** Replaces the default '<object name>_Icon.png' file to the desired media
-** '''false''' disables icon completely
+** Replaces default <code><Entry>.png</code> to the desired media.
+** Set to '''false''' if the object is not intended to include media.
 * <code>link = <string>/false</code>
-** Replaces the default object hyperlink (which is the object name itself) with <string>
-** '''false''' removes hyperlink completely
+** Replaces the default object hyperlink (which uses the object's name) with the specified string.
+** Set to '''false''' to disable the hyperlink.
 * <code>plural = <string></code>
-** provides plural form for the object template.
+** Provides the plural form for the Obj template (see examples).
 * <code>text = <string></code>
-** Replaces object's name with a custom provided text by default
-*** Can be used for objects with identical names or objects with unique symbols that can't be typed from standard US keyboard or any similar cases (e.g., Singularity (Layer) -> Singularity, Jalabono -> Jalaboño)
-* <code>extraClass = <string></code>
-** If color requires additional css classes, put any classes in a row separated by space
+** Replaces the object's name with custom text by default.
+*** Can be used for objects with identical names, unique symbols that cannot be typed using a standard US keyboard, or similar cases (e.g., Singularity (Layer) -> Singularity, Jalabono -> Jalaboño).
 * <code>color = <string>/false</code>
-** Applies (reuses) color of the specified object to that entry
-*** Inherits "extraClass" and CSS variables
-** '''false''' prevents any color classes from getting added
+** Applies (reuses) the color of the specified object for the entry (points to self by default).
+*** Inherits its "extraClass" parameter and CSS variables.
+** Set to '''false''' if the object is not supposed to have color styling.
+* <code>extraClass = <string></code>
+** If the color requires additional CSS classes, specify them in a space-separated string.
