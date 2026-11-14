@@ -1,142 +1,349 @@
 return {
 
 -- Currencies --
+['Candy'] = {
+	icon = 'Candy icon.png',
+	color = false
+},
 ['Gold'] = {
-	icon = 'Gold icon.png',
+	icon = 'Gold icon.png'
+},
+['Knobs Boost'] = {
+	icon = 'Knobs Boost icon.png',
+	link = 'Boosts',
+	plural = 'Knobs Boosts'
 },
 ['Knob'] = {
 	icon = 'Knobs icon.png',
-	plural = 'Knobs',
 	link = 'Knobs',
+	plural = 'Knobs'
 },
 ['Knobs'] = {
 	icon = 'Knobs icon.png',
 	color = 'Knob'
 },
-['Knobs Boost'] = {
-	icon = 'Knobs Boost icon.png',
-	plural = 'Knobs Boosts',
-	link = 'Boosts',
-},
-['Stardust'] = {
-	icon = 'Stardust icon.png',
-},
 ['Revive'] = {
 	icon = 'Revive icon.png',
-	plural = 'Revives',
+	plural = 'Revives'
 },
 ['Robux'] = {
 	icon = 'Robux icon.svg',
-	link = 'Shops',
+	link = 'Shops'
 },
-['Candy'] = {
-	icon = 'Candy icon.png',
-	color = false
+['Stardust'] = {
+	icon = 'Stardust icon.png'
 },
 
+
 -- Floors / Visions --
-['The Hotel'] = {
-	icon = 'The Hotel icon.svg',
-	color = false
-},
-['The Mines'] = {
-	icon = 'The Mines icon.svg',
-	color = false
-},
-['The Rooms'] = {
-	icon = 'The Rooms icon.svg',
-	color = false
-},
-['The Backdoor'] = {
-	icon = 'The Backdoor icon.png',
-	color = false
-},
-['The Outdoors'] = {
-	icon = 'The Outdoors icon.png',
-	color = false
-},
-['The Archives'] = {
-	icon = 'The Archives icon.png',
-	color = false
-},
-['The Stairwell'] = {
-	icon = 'The Stairwell icon.png',
-	color = false
-},
-['Super Hard Mode'] = {
-    icon = 'Super Hard Mode icon.svg',
-    color = false
-},
-['Retro Mode'] = {
-	icon = 'Retro Mode icon.svg',
-	color = false
-},
 ['BATTLE Mode'] = {
 	icon = 'BATTLE Mode icon.png',
 	color = false
 },
-['Rush Mode'] = {
-	icon = 'Rush Mode icon.png',
+['Battle Mode'] = {
+	icon = 'BATTLE Mode icon.png',
+	link = false,
 	color = false
 },
-['Trick or Treat'] = {
-	icon = 'Entities icon v1.png',
+['Creak'] = {
+	icon = 'Creak icon.png',
+	link = false,
 	color = false
 },
 ['The Candy Vault'] = {
 	icon = 'Creak icon.png',
 	color = false
 },
+['Trick or Treat'] = {
+	icon = 'Entities icon v1.png',
+	color = false
+},
+['Retro Mode'] = {
+	icon = 'Retro Mode icon.svg',
+	color = false
+},
+['Rush Mode'] = {
+	icon = 'Rush Mode icon.png',
+	color = false
+},
+['Super Hard Mode'] = {
+	icon = 'Super Hard Mode icon.svg',
+	color = false
+},
+['The Archives'] = {
+	icon = 'The Archives icon.png',
+	color = false
+},
+['Backdoor'] = {
+	icon = 'The Backdoor icon.png',
+	link = false,
+	color = false
+},
+['The Backdoor'] = {
+	icon = 'The Backdoor icon.png',
+	color = false
+},
+['Hotel'] = {
+	icon = 'The Hotel icon.svg',
+	link = false,
+	color = false
+},
+['The Hotel'] = {
+	icon = 'The Hotel icon.svg',
+	color = false
+},
+['Mines'] = {
+	icon = 'The Mines icon.svg',
+	link = false,
+	color = false
+},
+['The Mines'] = {
+	icon = 'The Mines icon.svg',
+	color = false
+},
+['Outdoors'] = {
+	icon = 'The Outdoors icon.png',
+	link = false,
+	color = false
+},
+['The Outdoors'] = {
+	icon = 'The Outdoors icon.png',
+	color = false
+},
+['Rooms'] = {
+	icon = 'The Rooms icon.svg',
+	link = false,
+	color = false
+},
+['The Rooms'] = {
+	icon = 'The Rooms icon.svg',
+	color = false
+},
+['The Stairwell'] = {
+	icon = 'The Stairwell icon.png',
+	color = false
+},
 
--- General --
-['Upload'] = {
-	icon = 'DoorsWikiUI Upload.svg',
+
+-- Status Effects (no monochrome variants) --
+['Status Effects'] = {
+	icon = 'Invincibility icon.png',
+	color = false
+},
+['Invincibility'] = {
+	icon = 'Invincibility icon.png',
 	link = false,
 	color = false
 },
-['Miscellaneous'] = {
-	icon = 'Miscellaneous icon.svg',
+['God Mode'] = {
+	icon = 'Invincibility icon.png',
+	link = 'Status Effects',
+	color = false
+},
+['Green Herb Effect'] = {
+	icon = 'Green Herb Effect icon.png',
+	color = false
+},
+['Herb of Viridis Effect'] = {
+	icon = 'Green Herb Effect icon.png',
+	link = false,
+	color = false,
+},
+['Herb of Viridis (effect)'] = {
+	icon = 'Green Herb Effect icon.png',
+	link = 'Status Effects',
+	text = 'Herb of Viridis',
+	color = false,
+},
+['HerbGreenEffect'] = {
+	icon = 'Green Herb Effect icon.png',
+	link = false,
+	text = 'Herb of Viridis',
+	color = false,
+},
+['Red Herb'] = {
+	icon = 'Red Herb icon.png',
+	link = 'Status Effects',
+	color = false
+},
+['Pink Herb'] = {
+	icon = 'Red Herb icon.png',
+	link = 'Status Effects',
+	color = false
+},
+['HerbRedEffect'] = {
+	icon = 'Red Herb icon.png',
 	link = false,
 	color = false
 },
-['Strobing'] = {
-	icon = 'Strobing icon.png',
+['Confusion'] = {
+	icon = 'Confusion icon.png',
+	link = 'Status Effects',
+	color = false
+},
+['Starlit I'] = {
+	icon = 'Starlit I icon.svg',
+	link = 'Status Effects',
+	color = false
+},
+['Starlit II'] = {
+	icon = 'Starlit II icon.svg',
+	link = 'Status Effects',
+	color = false
+},
+['Starlit III'] = {
+	icon = 'Starlight icon.svg',
+	link = 'Status Effects',
+	color = false
+},
+['StarlightSmall'] = {
+	icon = 'Starlit I icon.svg',
 	link = false,
 	color = false
 },
-['Paper monochrome'] = {
-	icon = 'Paper monochrome icon.png',
+['StarlightMedium'] = {
+	icon = 'Starlit II icon.svg',
 	link = false,
 	color = false
 },
-['Admin Panel'] = {
-	icon = 'Admin Panel icon.svg',
-	color = false
-},
-['Items'] = {
-	icon = 'Items icon.svg',
-	color = false
-},
-['Speed Boost'] = {
-	icon = 'Speed Boost icon.png',
+['StarlightHuge'] = {
+	icon = 'Starlight icon.svg',
 	link = false,
+	color = false
+},
+['Starlight'] = {
+	icon = 'Starlight icon.svg',
+	color = false
+},
+['Starlight Imbuement'] = {
+	icon = 'Starlit II icon.svg',
 	color = false
 },
 ['Movement Speed'] = {
 	icon = 'Speed Boost icon.png',
 	color = false
 },
+['Speed'] = {
+	icon = 'Speed Boost icon.png',
+	link = false,
+	color = false
+},
+['Speed Boost'] = {
+	icon = 'Speed Boost icon.png',
+	link = 'Status Effects',
+	color = false
+},
+['SpeedBoost'] = {
+	icon = 'Speed Boost icon.png',
+	link = false,
+	color = false
+},
+['Wet'] = {
+	icon = 'Wet icon.png',
+	link = 'Status Effects',
+	color = false
+},
+['Fire'] = {
+	icon = 'Fire icon.png',
+	link = false,
+	color = false
+},
+['Burning'] = {
+	icon = 'Fire icon.png',
+	link = 'Status Effects',
+	color = false
+},
+['Firedamp'] = {
+	icon = 'Firedamp icon.png',
+	link = false,
+	color = false
+},
+['In Firedamp'] = {
+	icon = 'Firedamp icon.png',
+	link = 'Status Effects',
+	color = false
+},
+['InFiredamp'] = {
+	icon = 'Firedamp icon.png',
+	link = false,
+	color = false
+},
+['Portrait'] = {
+	icon = 'Portrait icon.png',
+	link = false,
+	color = false
+},
+['Portrait Presence'] = {
+	icon = 'Portrait icon.png',
+	link = 'Status Effects',
+	color = false
+},
+['Portrait Cracked'] = {
+	icon = 'Portrait Cracked icon.png',
+	link = false,
+	color = false
+},
+['Portrait Presence (Cracked)'] = {
+	icon = 'Portrait Cracked icon.png',
+	link = 'Status Effects',
+	color = false
+},
+['Grave'] = {
+	icon = 'RIP icon.png',
+	link = false,
+	color = false
+},
+['RIP'] = {
+	icon = 'RIP icon.png',
+	link = false,
+	color = false
+},
+['Invoked Spirit'] = {
+	icon = 'RIP icon.png',
+	link = 'Status Effects',
+	color = false
+},
+['Crouching'] = {
+	icon = 'Crouching icon.png',
+	link = 'Status Effects',
+	color = false
+},
+['Sitting'] = {
+	icon = 'Sitting icon.png',
+	link = 'Status Effects',
+	color = false
+},
+['Sprinting'] = {
+	icon = 'Sprinting icon.png',
+	link = 'Status Effects',
+	color = false
+},
+
+
+-- General --
+['Achievement'] = {
+	icon = 'Achievements icon.svg',
+	color = false
+},
 ['Achievements'] = {
 	icon = 'Achievements icon.svg',
 	color = false
 },
-['Behavior'] = {
-	icon = 'Skull icon.png',
+['Admin Panel'] = {
+	icon = 'Admin Panel icon.svg',
+	color = false
+},
+['Backpack'] = {
+	icon = 'Backpack icon.svg',
 	link = false,
 	color = false
 },
-['Headphones'] = {
-	icon = 'Headphones icon.png',
+['Item Skins'] = {
+	icon = 'Backpack icon.svg',
+	color = false
+},
+['Block'] = {
+	icon = 'Block icon.svg',
 	link = false,
 	color = false
 },
@@ -145,139 +352,10 @@ return {
 	link = false,
 	color = false
 },
-['Currency'] = {
-	icon = 'Currency icon.png',
-	color = false
-},
-['Coins'] = {
-	icon = 'Coins icon.png',
+['Bugs'] = {
+	icon = 'Bug icon.svg',
 	link = false,
 	color = false
-},
-['Crucifix wiki'] = {
-	icon = 'Crucifix wiki icon.png',
-	link = false,
-	color = false
-},
-['Damage'] = {
-	icon = 'Damage simplified icon.png',
-	link = false,
-	color = false
-},
-['Door'] = {
-	icon = 'Doors no tilt icon.png',
-	link = false,
-	color = false
-},
-['Doors (feature)'] = {
-	icon = 'Doors no tilt icon.png',
-	color = false
-},
-['Gallery'] = {
-	icon = 'Gallery icon.svg',
-	link = false,
-	color = false
-},
-['Health'] = {
-	icon = 'Health icon.png',
-	color = false
-},
-['Hiding'] = {
-	icon = 'Hiding icon.png',
-	color = false
-},
-['History'] = {
-	icon = 'Magnifier icon.svg',
-	link = false,
-	color = false
-},
-['Instakill'] = {
-	icon = 'Skull red icon.png',
-	link = false,
-	color = false
-},
-['Interact'] = {
-	icon = 'Interact icon.png',
-	link = false,
-	color = false
-},
-['Looting'] = {
-	icon = 'Interact icon.png',
-	color = false
-},
-['Overview'] = {
-	icon = 'Overview icon.svg',
-	link = false,
-	color = false
-},
-['Eye'] = {
-	icon = 'Overview icon.svg',
-	link = false,
-	color = false
-},
-['Player'] = {
-	icon = 'Player icon.svg',
-	link = false,
-	color = false
-},
-['Positive'] = {
-	icon = 'Positive icon.png',
-	link = false,
-	color = false
-},
-['Negative'] = {
-	icon = 'Negative icon.png',
-	link = false,
-	color = false
-},
-['Pros and Cons'] = {
-	icon = 'Pros and Cons icon.png',
-	link = false,
-	color = false
-},
-['Neutral'] = {
-	icon = 'Pros and Cons icon.png',
-	link = false,
-	color = false
-},
-['Hourglass'] = {
-	icon = 'Hourglass icon.svg',
-	color = false
-},
-['Hashtag'] = {
-	icon = 'Hashtag icon.png',
-	color = false
-},
-['Puzzle'] = {
-	icon = 'Puzzle icon.svg',
-	color = false
-},
-['Puzzles'] = {
-	icon = 'Puzzle icon.svg',
-	color = false
-},
-['Speech'] = {
-	icon = 'Speech icon.svg',
-	link = false,
-	color = false
-},
-['Dialogue'] = {
-	icon = 'Speech icon.svg',
-	color = false,
-	plural = 'Dialogues'
-},
-['Upcoming'] = {
-	icon = 'Upcoming icon.png',
-	link = false,
-	color = false
-},
-['Containers'] = {
-	icon = 'Container icon.png',
-	color = false,
-},
-['Container'] = {
-	icon = 'Container icon.png',
-	color = false,
 },
 ['Bulb'] = {
 	icon = 'Bulb icon.png',
@@ -293,161 +371,13 @@ return {
 	icon = 'ButtonX icon.png',
 	color = false
 },
-['Usage'] = {
-	icon = 'Lighter icon.png',
-	link = false,
-	color = false
-},
-['Energy'] = {
-	icon = 'Energy icon.png',
-	link = false,
-	color = false
-},
-['Script'] = {
-	icon = 'Script icon.png',
-	link = false,
-	color = false
-},
-['Journal'] = {
-	icon = 'Journal icon.svg',
-	color = false
-},
-['References'] = {
-	icon = 'References icon.png',
-	link = false,
-	color = false
-},
-['Modifiers'] = {
-	icon = 'Modifiers monochrome icon.png',
-	color = false
-},
-['No Knobs'] = {
-	icon = 'No Knobs icon.svg',
-	link = false,
-	color = false
-},
-['No Rift'] = {
-	icon = 'No Rift icon.svg',
-	link = false,
-	color = false
-},
-['Rift'] = {
-	icon = 'Rift icon.svg',
-	color = false
-},
-['Rift monochrome'] = {
-	icon = 'Rift monochrome icon.svg',
-	link = false,
-	color = false
-},
-['No Progress'] = {
-	icon = 'No Progress icon.svg',
-	link = false,
-	color = false
-},
-['Entities'] = {
-	icon = 'Entities icon.svg',
-	color = false
-},
-['Question'] = {
-	icon = 'Question icon.png',
-	link = false,
-	color = false
-},
-['Invincibility'] = {
-	icon = 'Invincibility icon.png',
-	link = false,
-	color = false
-},
-['Invincibility monochrome'] = {
-	icon = 'Invincibility monochrome icon.png',
-	link = false,
-	color = false
-},
-['Status Effects'] = {
-	icon = 'Invincibility icon.png',
-	color = false
-},
-['Fire'] = {
-	icon = 'Fire monochrome icon.png',
-	link = false,
-	color = false
-},
-['Confusion'] = {
-	icon = 'Confusion icon.png',
-	link = false,
-	color = false
-},
-['Portrait'] = {
-	icon = 'Portrait icon.png',
-	link = false,
-	color = false
-},
-['Portrait Cracked'] = {
-	icon = 'Portrait Cracked icon.png',
-	link = false,
-	color = false
-},
-['Wet'] = {
-	icon = 'Wet icon.png',
-	link = false,
-	color = false
-},
-['Red Herb Effect'] = {
-	icon = 'Red Herb Effect icon.png',
-	link = false,
-	color = false
-},
-['Green Herb Effect'] = {
-	icon = 'Green Herb Effect icon.png',
-	link = false,
-	color = false
-},
-['Starlight Huge'] = {
-	icon = 'Starlight Huge icon.png',
-	link = false,
-	color = false
-},
-['Starlight Medium'] = {
-	icon = 'Starlight Medium icon.png',
-	link = false,
-	color = false
-},
-['Starlight Imbuement'] = {
-	icon = 'Starlight Medium icon.png',
-	color = false
-},
-['Starlight Small'] = {
-	icon = 'Starlight Small icon.png',
-	link = false,
-	color = false
-},
-['Firedamp'] = {
-	icon = 'Firedamp icon.png',
-	link = false,
-	color = false
-},
-['Crouching'] = {
-	icon = 'Crouching icon.png',
-	link = false,
-	color = false
-},
-['Backpack'] = {
-	icon = 'Backpack icon.svg',
-	link = false,
-	color = false
-},
-['Item Skins'] = {
-	icon = 'Backpack icon.svg',
-	color = false
-},
 ['Chroma'] = {
 	icon = 'Chroma icon.svg',
 	link = false,
 	color = false
 },
-['Default Chroma'] = {
-	icon = 'Default Chroma icon.svg',
+['Clock'] = {
+	icon = 'Clock icon.svg',
 	link = false,
 	color = false
 },
@@ -456,12 +386,44 @@ return {
 	link = false,
 	color = false
 },
+['X'] = {
+	icon = 'Close icon.png',
+	link = false,
+	color = false
+},
 ['Codes'] = {
 	icon = 'Codes icon.png',
 	color = false
 },
+['Coins'] = {
+	icon = 'Coins icon.png',
+	link = false,
+	color = false
+},
+['Container'] = {
+	icon = 'Container icon.png',
+	color = false
+},
+['Containers'] = {
+	icon = 'Container icon.png',
+	color = false
+},
 ['Credits'] = {
 	icon = 'Credits icon.svg',
+	link = false,
+	color = false
+},
+['Crucifix monochrome'] = {
+	icon = 'Crucifix monochrome icon.png',
+	link = false,
+	color = false
+},
+['Currency'] = {
+	icon = 'Currency icon.png',
+	color = false
+},
+['Damage'] = {
+	icon = 'Damage icon, simplified.png',
 	link = false,
 	color = false
 },
@@ -478,12 +440,22 @@ return {
 	icon = 'Death icon.png',
 	color = false
 },
+['Default Chroma'] = {
+	icon = 'Default Chroma icon.svg',
+	link = false,
+	color = false
+},
 ['Development'] = {
 	icon = 'Development icon.png',
 	link = false,
 	color = false
 },
 ['Donate'] = {
+	icon = 'Donate icon.png',
+	link = false,
+	color = false
+},
+['Donation'] = {
 	icon = 'Donate icon.png',
 	link = false,
 	color = false
@@ -497,17 +469,50 @@ return {
 	link = false,
 	color = false
 },
+['Door'] = {
+	icon = 'Doors no tilt icon.png',
+	link = false,
+	color = false
+},
+['Doors (feature)'] = {
+	icon = 'Doors no tilt icon.png',
+	color = false
+},
+['Bell'] = {
+	icon = 'DoorsWikiUI Bell.svg',
+	link = false,
+	color = false
+},
+['Options'] = {
+	icon = 'DoorsWikiUI Preferences.svg',
+	link = false,
+	color = false
+},
+['Upload'] = {
+	icon = 'DoorsWikiUI Upload.svg',
+	link = false,
+	color = false
+},
 ['Elevator'] = {
 	icon = 'Elevator icon.png',
 	link = false,
 	color = false
 },
-['Lever'] = {
-	icon = 'Lever icon.png',
+['Energy'] = {
+	icon = 'Energy icon.png',
 	link = false,
 	color = false
 },
+['Entities'] = {
+	icon = 'Entities icon.svg',
+	color = false
+},
 ['Enter'] = {
+	icon = 'Enter icon.png',
+	link = false,
+	color = false
+},
+['Exit'] = {
 	icon = 'Enter icon.png',
 	link = false,
 	color = false
@@ -522,8 +527,18 @@ return {
 	link = false,
 	color = false
 },
-['Fire Effect'] = {
-	icon = 'Fire Effect icon.png',
+['Exchange'] = {
+	icon = 'Exchange icon.png',
+	link = false,
+	color = false
+},
+['Fire Escape'] = {
+	icon = 'Fire Escape icon.png',
+	link = false,
+	color = false
+},
+['Fire monochrome'] = {
+	icon = 'Fire monochrome icon.png',
 	link = false,
 	color = false
 },
@@ -532,13 +547,31 @@ return {
 	link = false,
 	color = false
 },
+['Gallery'] = {
+	icon = 'Gallery icon.svg',
+	link = false,
+	color = false
+},
 ['Gift'] = {
 	icon = 'Gift icon.png',
 	link = false,
 	color = false
 },
+['Hashtag'] = {
+	icon = 'Hashtag icon.png',
+	color = false
+},
 ['Hazards'] = {
 	icon = 'Hazards icon.png',
+	color = false
+},
+['Headphones'] = {
+	icon = 'Headphones icon.png',
+	link = false,
+	color = false
+},
+['Health'] = {
+	icon = 'Health icon.png',
 	color = false
 },
 ['Heartbeat Control Minigame'] = {
@@ -550,17 +583,53 @@ return {
 	icon = 'Heartbeat Control Minigame icon.png',
 	color = false
 },
-['Interacted'] = {
-	icon = 'Interacted icon.png',
+['Herb'] = {
+	icon = 'Herb monochrome icon.png',
 	link = false,
+	color = false
+},
+['Hiding'] = {
+	icon = 'Hiding icon.png',
+	color = false
+},
+['Hourglass'] = {
+	icon = 'Hourglass icon.svg',
+	color = false
+},
+['Inspect'] = {
+	icon = 'Inspect icon.svg',
+	link = false,
+	color = false
+},
+['Interact'] = {
+	icon = 'Interact icon.png',
+	link = false,
+	color = false
+},
+['Looting'] = {
+	icon = 'Interact icon.png',
 	color = false
 },
 ['Interactables'] = {
 	icon = 'Interacted icon.png',
 	color = false
 },
-['Impacts'] = {
-	icon = 'Push icon.svg',
+['Interacted'] = {
+	icon = 'Interacted icon.png',
+	link = false,
+	color = false
+},
+['Inventory'] = {
+	icon = 'Inventory Slot icon.svg',
+	color = false
+},
+['Inventory Slot'] = {
+	icon = 'Inventory Slot icon.svg',
+	color = false
+},
+['Invincibility monochrome'] = {
+	icon = 'Invincibility monochrome icon.png',
+	link = false,
 	color = false
 },
 ['Item Slot'] = {
@@ -568,13 +637,16 @@ return {
 	link = false,
 	color = false
 },
-['Jumping'] = {
-	icon = 'Jumping icon.png',
-	link = false,
+['Items'] = {
+	icon = 'Items icon.svg',
 	color = false
 },
-['Ladder'] = {
-	icon = 'Ladder icon.png',
+['Journal'] = {
+	icon = 'Journal icon.svg',
+	color = false
+},
+['Jumping'] = {
+	icon = 'Jumping icon.png',
 	link = false,
 	color = false
 },
@@ -582,8 +654,33 @@ return {
 	icon = 'Ladder icon.png',
 	color = false
 },
+['Ladder'] = {
+	icon = 'Ladder icon.png',
+	link = false,
+	color = false
+},
+['Left Arrow'] = {
+	icon = 'Left arrow icon.png',
+	link = false,
+	color = false
+},
+['Left Hand Hold'] = {
+	icon = 'Left hand holding icon.png',
+	link = false,
+	color = false
+},
+['Lever'] = {
+	icon = 'Lever icon.png',
+	link = false,
+	color = false
+},
 ['Lighter button'] = {
 	icon = 'Lighter button icon.png',
+	link = false,
+	color = false
+},
+['Usage'] = {
+	icon = 'Lighter icon.png',
 	link = false,
 	color = false
 },
@@ -596,6 +693,11 @@ return {
 	icon = 'Lock icon.svg',
 	color = false
 },
+['Conversion'] = {
+	icon = 'Loop icon.svg',
+	link = false,
+	color = false
+},
 ['Lotus Revive'] = {
 	icon = 'Lotus Revive icon.svg',
 	link = false,
@@ -606,19 +708,144 @@ return {
 	link = 'Lotus#Usage',
 	color = false
 },
+['History'] = {
+	icon = 'Magnifier icon.svg',
+	link = false,
+	color = false
+},
+['Magnifier'] = {
+	icon = 'Magnifier icon.svg',
+	link = false,
+	color = false
+},
+['Microphone'] = {
+	icon = 'Microphone icon.png',
+	link = false,
+	color = false
+},
+['Miscellaneous'] = {
+	icon = 'Miscellaneous icon.svg',
+	link = false,
+	color = false
+},
 ['Modifiers red'] = {
 	icon = 'Modifiers icon.png',
 	link = 'Modifiers',
 	color = false,
 	text = 'Modifiers'
 },
+['Modifiers'] = {
+	icon = 'Modifiers monochrome icon.png',
+	color = false
+},
+['Moonlight'] = {
+	icon = 'Moonlight icon.svg',
+	color = false
+},
+['Negative'] = {
+	icon = 'Negative icon.png',
+	link = false,
+	color = false
+},
+['No Knobs'] = {
+	icon = 'No Knobs icon.svg',
+	link = false,
+	color = false
+},
+['No Progress'] = {
+	icon = 'No Progress icon.svg',
+	link = false,
+	color = false
+},
+['No Rift'] = {
+	icon = 'No Rift icon.svg',
+	link = false,
+	color = false
+},
+['Eye'] = {
+	icon = 'Overview icon.svg',
+	link = false,
+	color = false
+},
+['Overview'] = {
+	icon = 'Overview icon.svg',
+	link = false,
+	color = false
+},
+['Paintbrush'] = {
+	icon = 'Paintbrush monochrome icon.svg',
+	link = false,
+	color = false
+},
+['Paper monochrome'] = {
+	icon = 'Paper monochrome icon.png',
+	link = false,
+	color = false
+},
+['Pencil'] = {
+	icon = 'Pencil icon.svg',
+	link = false,
+	color = false
+},
+['Placeholder'] = {
+	icon = 'Placeholder.png',
+	link = false,
+	color = false
+},
 ['Play'] = {
 	icon = 'Play icon.png',
 	link = false,
 	color = false
 },
-['Revive monochrome'] = {
-	icon = 'Revive monochrome icon.png',
+['Player'] = {
+	icon = 'Player icon.svg',
+	link = false,
+	color = false
+},
+['Positive'] = {
+	icon = 'Positive icon.png',
+	link = false,
+	color = false
+},
+['Neutral'] = {
+	icon = 'Pros and Cons icon.png',
+	link = false,
+	color = false
+},
+['Pros and Cons'] = {
+	icon = 'Pros and Cons icon.png',
+	link = false,
+	color = false
+},
+['Impacts'] = {
+	icon = 'Push icon.svg',
+	color = false
+},
+['Push'] = {
+	icon = 'Push icon.svg',
+	link = false,
+	color = false
+},
+['Puzzle'] = {
+	icon = 'Puzzle icon.svg',
+	color = false
+},
+['Puzzles'] = {
+	icon = 'Puzzle icon.svg',
+	color = false
+},
+['Question'] = {
+	icon = 'Question icon.png',
+	link = false,
+	color = false
+},
+['Modifiers Glow'] = {
+	icon = 'Red Light monochrome icon.svg',
+	link = false,
+	color = false
+},
+['References'] = {
+	icon = 'References icon.png',
 	link = false,
 	color = false
 },
@@ -627,20 +854,46 @@ return {
 	link = false,
 	color = false
 },
+['Revive monochrome'] = {
+	icon = 'Revive monochrome icon.png',
+	link = false,
+	color = false
+},
+['Rift'] = {
+	icon = 'Rift icon.svg',
+	color = false
+},
+['Rift monochrome'] = {
+	icon = 'Rift monochrome icon.svg',
+	link = false,
+	color = false
+},
+['Right Arrow'] = {
+	icon = 'Right arrow icon.png',
+	link = false,
+	color = false
+},
+['Right Hand Hold'] = {
+	icon = 'Right hand holding icon.png',
+	link = false,
+	color = false
+},
 ['Saves'] = {
 	icon = 'Saves icon.svg',
 	color = false
 },
+['Exploiting'] = {
+	icon = 'Script icon.png',
+	link = false,
+	color = false
+},
+['Script'] = {
+	icon = 'Script icon.png',
+	link = false,
+	color = false
+},
 ['Seeds'] = {
 	icon = 'Seeds icon.png',
-	color = false
-},
-['Inventory Slot'] = {
-	icon = 'Inventory Slot icon.svg',
-	color = false
-},
-['Inventory'] = {
-	icon = 'Inventory Slot icon.svg',
 	color = false
 },
 ['Settings'] = {
@@ -653,8 +906,23 @@ return {
 	link = false,
 	color = false
 },
+['Sit'] = {
+	icon = 'Sit icon.svg',
+	link = false,
+	color = false
+},
 ['Skip'] = {
 	icon = 'Skip icon.png',
+	link = false,
+	color = false
+},
+['Behavior'] = {
+	icon = 'Skull icon.png',
+	link = false,
+	color = false
+},
+['Instakill'] = {
+	icon = 'Skull red icon.png',
 	link = false,
 	color = false
 },
@@ -663,7 +931,22 @@ return {
 	link = false,
 	color = false
 },
-['Stair'] = {
+['Dialogue'] = {
+	icon = 'Speech icon.svg',
+	plural = 'Dialogues',
+	color = false
+},
+['Speech'] = {
+	icon = 'Speech icon.svg',
+	link = false,
+	color = false
+},
+['Exclamation'] = {
+	icon = 'Exclamation icon.png',
+	link = false,
+	color = false
+},
+['Floor'] = {
 	icon = 'Stair icon.png',
 	link = false,
 	color = false
@@ -672,8 +955,37 @@ return {
 	icon = 'Stair icon.png',
 	color = false
 },
+['Stair'] = {
+	icon = 'Stair icon.png',
+	link = false,
+	color = false
+},
 ['Standing'] = {
 	icon = 'Standing icon.png',
+	link = false,
+	color = false
+},
+['Features'] = {
+	icon = 'Star icon.png',
+	color = false
+},
+['Star'] = {
+	icon = 'Star icon.png',
+	link = false,
+	color = false
+},
+['Box'] = {
+	icon = 'Storage Box puzzle icon.png',
+	link = false,
+	color = false
+},
+['Storage'] = {
+	icon = 'Storage interact icon.png',
+	link = false,
+	color = false
+},
+['Strobing'] = {
+	icon = 'Strobing icon.png',
 	link = false,
 	color = false
 },
@@ -687,13 +999,13 @@ return {
 	link = false,
 	color = false
 },
-['Trashcan'] = {
+['Trash'] = {
 	icon = 'Trashcan icon.png',
 	link = false,
 	color = false
 },
-['Trolley'] = {
-	icon = 'Trolley icon.svg',
+['Trashcan'] = {
+	icon = 'Trashcan icon.png',
 	link = false,
 	color = false
 },
@@ -702,70 +1014,53 @@ return {
 	link = 'Shops#Store',
 	color = false
 },
+['Trolley'] = {
+	icon = 'Trolley icon.svg',
+	link = false,
+	color = false
+},
+['Upcoming'] = {
+	icon = 'Upcoming icon.png',
+	link = false,
+	color = false
+},
+['Volume Mute'] = {
+	icon = 'Volume mute icon.svg',
+	link = false,
+	color = false
+},
+['Volume Play'] = {
+	icon = 'Volume play icon.svg',
+	link = false,
+	color = false
+},
 ['Warning'] = {
 	icon = 'Warning icon.svg',
 	link = false,
 	color = false
 },
-['Moonlight'] = {
-	icon = 'Moonlight icon.svg',
+['Waterdrops'] = {
+	icon = 'Wet monochrome icon.png',
+	link = false,
 	color = false
 },
-['Starlight'] = {
-	icon = 'Starlight icon.svg',
+['Wrench'] = {
+	icon = 'Wrench icon.png',
+	link = false,
 	color = false
-},
-['Star'] = {
-	icon = 'Star icon.png',
-	color = false,
-	link = false
-},
-['Features'] = {
-	icon = 'Star icon.png',
-	color = false
-},
-['Streak'] = {
-	icon = 'Streak icon.png',
-	color = false,
-	link = 'Daily Runs'
-},
-['Streak 1 day'] = {
-	icon = 'Streak 1 day icon.png',
-	color = false,
-	link = 'Daily Runs'
-},
-['Streak 7 days'] = {
-	icon = 'Streak 7 days icon.png',
-	color = false,
-	link = 'Daily Runs'
-},
-['Streak 14 days'] = {
-	icon = 'Streak 14 days icon.png',
-	color = false,
-	link = 'Daily Runs'
-},
-['Streak 30 days'] = {
-	icon = 'Streak 30 days icon.png',
-	color = false,
-	link = 'Daily Runs'
-},
-['Streak 60 days'] = {
-	icon = 'Streak 60 days icon.png',
-	color = false,
-	link = 'Daily Runs'
 },
 
 
 -- Items --
 ['Birdseeds'] = {
 	icon = 'Placeholder.png',
-	color = false,
-	link = 'Upcoming_Content#Birdseeds'
+	link = 'Upcoming_Content#Birdseeds',
+	color = false
 },
 ['Glitched Present'] = {
 	icon = 'Glitched Present icon.png',
-	color = false,
-	link = 'Present'
+	link = 'Present',
+	color = false
 },
 ['Present'] = {
 	icon = 'Glitched Present icon.png',
@@ -781,23 +1076,23 @@ return {
 },
 ['Scanner Module Translator'] = {
 	icon = 'Scanner Module Translator icon.png',
-	color = false,
-	link = 'Scanner Module'
+	link = 'Scanner Module',
+	color = false
 },
 ['Scanner Module Flashlight'] = {
 	icon = 'Scanner Module Flashlight icon.png',
-	color = false,
-	link = 'Scanner Module'
+	link = 'Scanner Module',
+	color = false
 },
 ['Scanner Module Threat Detector'] = {
 	icon = 'Scanner Module Threat Detector icon.png',
-	color = false,
-	link = 'Scanner Module'
+	link = 'Scanner Module',
+	color = false
 },
 ['Scanner Module EGG'] = {
 	icon = 'Scanner Module EGG icon.png',
-	color = false,
-	link = 'Scanner Module'
+	link = 'Scanner Module',
+	color = false
 },
 ['Salvage Scrap'] = {
 	icon = 'Salvage Scrap icon.png',
@@ -1079,7 +1374,7 @@ return {
 },
 ['Hotel Key'] = {
 	icon = 'Hotel Key icon v2.png',
-    link = 'Hotel Key',
+	link = 'Hotel Key',
 	plural = 'Hotel Keys',
 	color = false
 },
@@ -1091,8 +1386,8 @@ return {
 },
 ['Retro Key'] = {
 	icon = 'Retro Key icon.png',
-	plural = 'Retro Keys',
 	link = 'Key',
+	plural = 'Retro Keys',
 	color = false
 },
 ['Iron Key'] = {
@@ -1289,11 +1584,6 @@ return {
 	plural = 'Green Herbs',
 	color = false
 },
-['Green Herb Effect'] = {
-	icon = 'Green Herb Effect icon.png',
-	plural = 'Green Herb Effects',
-	color = false
-},
 ['Glitch Fragment'] = {
 	icon = 'Glitch Fragment icon.png',
 	plural = 'Glitch Fragments',
@@ -1301,39 +1591,39 @@ return {
 },
 ['Holy Grenade'] = {
 	icon = 'Holy Grenade icon.png',
+	link = 'Removed_and_Scrapped_Content#tabber-Holy_Grenade',
 	plural = 'Holy Grenades',
-	color = false,
-	link = 'Removed_and_Scrapped_Content#tabber-Holy_Grenade'
+	color = false
 },
 ['Glitched Bandage'] = {
 	icon = 'Glitched Bandage icon.png',
+	link = 'Removed_and_Scrapped_Content#tabber-Glitched_Bandage',
 	plural = 'Glitched Bandages',
-	color = false,
-	link = 'Removed_and_Scrapped_Content#tabber-Glitched_Bandage'
+	color = false
 },
 ['Potion'] = {
 	icon = 'Potion icon.png',
+	link = 'Removed_and_Scrapped_Content#tabber-Potion',
 	plural = 'Potions',
-	color = false,
-	link = 'Removed_and_Scrapped_Content#tabber-Potion'
+	color = false
 },
 ['Drone'] = {
 	icon = 'Drone icon.png',
+	link = 'Removed_and_Scrapped_Content#tabber-Drone',
 	plural = 'Drones',
-	color = false,
-	link = 'Removed_and_Scrapped_Content#tabber-Drone'
+	color = false
 },
 ['Rush Bottle'] = {
 	icon = 'Rush Bottle icon.png',
+	link = 'Removed_and_Scrapped_Content#tabber-Rush_Bottle',
 	plural = 'Rush Bottles',
-	color = false,
-	link = 'Removed_and_Scrapped_Content#tabber-Rush_Bottle'
+	color = false
 },
 ['Honcho Mug'] = {
 	icon = 'Honcho Mug placeholder icon.png',
+	link = 'Removed_and_Scrapped_Content#tabber-Honcho Mug',
 	plural = 'Rush Bottles',
-	color = false,
-	link = 'Removed_and_Scrapped_Content#tabber-Honcho Mug'
+	color = false
 },
 ['Mini-Shield Potion'] = {
 	icon = 'Mini-Shield Potion icon.png',
@@ -1446,15 +1736,15 @@ return {
 },
 ['M249'] = {
 	icon = 'M249 icon.png',
+	link = 'Secrets#M249',
 	plural = 'M249s',
-	color = false,
-	link = 'Secrets#M249'
+	color = false
 },
 ['Evil Dollar'] = {
 	icon = 'Evil Dollar icon.png',
+	link = 'Evil Dollar',
 	plural = 'Evil Dollars',
-	color = false,
-	link = 'Evil Dollar'
+	color = false
 },
 ['Gummy Flashlight'] = {
 	icon = 'Gummy Flashlight icon.png',
@@ -1470,1775 +1760,1775 @@ return {
 -- Achiecements colors --
 ['Default'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Battle'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['BattleCool'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Crucifix (color)'] = {
-	text = 'Crucifix',
 	icon = false,
 	link = 'Achievements/Gradients',
-	color = 'Crucifix'
+	color = 'Crucifix',
+	text = 'Crucifix'
 },
 ['CrucifixRare'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['CrucifixScary'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Escape'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['EscapeBlue'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['EscapeInsane'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['EscapeUnique'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Glitch'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['GlitchPurple'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['GroupMember'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Holiday'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['HolidayCool'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Ranked'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['RareEncounter'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['RedYellow'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Rush'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Scary'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Scary2'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['ShinyRed'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Special'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Survive'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['SurviveRare'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['THAdventure'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['THHard'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['THQuest'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['THVoid'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['UTG'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Unique'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Vision'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Archives'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['Stairwell'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 ['EscapeHollow'] = {
 	icon = false,
-	link = 'Achievements/Gradients',
+	link = 'Achievements/Gradients'
 },
 
 -- Achievements --
 ['Welcome'] = {
 	icon = 'Welcome Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Group Member'] = {
 	icon = 'Group Member Badge.png',
-	color = 'GroupMember',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'GroupMember'
 },
 ['Buddy System'] = {
 	icon = 'Buddy System Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Back From The Dead'] = {
 	icon = 'Back From The Dead Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['In Plain Sight'] = {
 	icon = 'In Plain Sight Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['One Of Many'] = {
 	icon = 'One Of Many Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['A Bone To Pick'] = {
 	icon = 'A Bone To Pick Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Picking Flowers'] = {
 	icon = 'Picking Flowers Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Rebirth'] = {
 	icon = 'Rebirth Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Interconnected'] = {
 	icon = 'Interconnected Badge.png',
-	color = 'RareEncounter',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'RareEncounter'
 },
 ['Lost In Translation'] = {
 	icon = 'Lost In Translation Badge.png',
-	color = 'RareEncounter',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'RareEncounter'
 },
 ['Herb Of Viridis'] = {
 	icon = 'Herb Of Viridis Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Expert Technician'] = {
 	icon = 'Expert Technician Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Improvise'] = {
 	icon = 'Improvise Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Whoever Smelt It'] = {
 	icon = 'Whoever Smelt It Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Trespassing'] = {
 	icon = 'Trespassing Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Running Track'] = {
 	icon = 'Running Track Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Down The Drain'] = {
 	icon = 'Down The Drain Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Welcome Back'] = {
 	icon = 'Welcome Back Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Betrayal'] = {
 	icon = 'Betrayal Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Ten Of Many'] = {
 	icon = 'Ten Of Many Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Hundred Of Many'] = {
 	icon = 'Hundred Of Many Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ["D'oh!"] = {
 	icon = "D'oh! Badge.png",
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Feed the Birds'] = {
 	icon = 'Feed the Birds Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['You Finally Turn Green'] = {
 	icon = 'You Finally Turn Green Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Unpatched Dupe Glitch'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Quick Purchase'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Paperclip Challenge'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Rage Room'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Fried Mushrooms'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['REDACTED'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Patience'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Mission Successful'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['QA Tester'] = {
 	icon = 'QA Tester Badge.png',
-	color = 'Special',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Special'
 },
 ['Content Creator'] = {
 	icon = 'Content Creator Badge.png',
-	color = 'Special',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Special'
 },
 ['Out Of My Way'] = {
 	icon = 'Out Of My Way Badge.png',
-	color = 'Survive',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Survive'
 },
 ['You Can Run'] = {
 	icon = 'You Can Run Badge.png',
-	color = 'Survive',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Survive'
 },
 ['I See You'] = {
 	icon = 'I See You Badge.png',
-	color = 'Survive',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Survive'
 },
 ['Wrong Room'] = {
 	icon = 'Wrong Room Badge.png',
-	color = 'Survive',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Survive'
 },
 ['Look At Me'] = {
 	icon = 'Look at Me Badge.png',
-	color = 'Survive',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Survive'
 },
 ['Eviction Notice'] = {
 	icon = 'Eviction Notice Badge.png',
-	color = 'Survive',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Survive'
 },
 ['Dead Of Night'] = {
 	icon = 'Dead Of Night Badge.png',
-	color = 'SurviveRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'SurviveRare'
 },
 ['Rebound'] = {
 	icon = 'Rebound Badge.png',
-	color = 'SurviveRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'SurviveRare'
 },
 ['Two Steps Forward'] = {
 	icon = 'Two Steps Forward Badge.png',
-	color = 'SurviveRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'SurviveRare'
 },
 ['Playtime'] = {
 	icon = 'Playtime Badge.png',
-	color = 'RareEncounter',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'RareEncounter'
 },
 ["I Don't Believe My Eyes"] = {
 	icon = "I Don't Believe My Eyes Badge.png",
-	color = 'Survive',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Survive'
 },
 ['Just A Prank'] = {
 	icon = 'Just A Prank Badge.png',
-	color = 'Survive',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Survive'
 },
 ['Helping Hand'] = {
 	icon = 'Helping Hand Badge.png',
-	color = 'SurviveRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'SurviveRare'
 },
 ['Trickshot'] = {
 	icon = 'Trickshot Badge.png',
-	color = 'SurviveRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'SurviveRare'
 },
 ['Trade Offer'] = {
 	icon = 'Trade Offer Badge.png',
-	color = 'SurviveRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'SurviveRare'
 },
 ['Sshh!'] = {
 	icon = 'Sshh! Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Supporting Small Businesses'] = {
 	icon = 'Supporting Small Businesses Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Pls Donate'] = {
 	icon = 'Pls Donate Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['It Stares Back'] = {
 	icon = 'It Stares Back Badge.png',
-	color = 'RareEncounter',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'RareEncounter'
 },
 ['Meet Timothy'] = {
 	icon = 'Meet Timothy Badge.png',
-	color = 'RareEncounter',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'RareEncounter'
 },
 ['Error'] = {
 	icon = 'Error Badge.png',
-	color = 'RareEncounter',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'RareEncounter'
 },
 ['Meet Jack'] = {
 	icon = 'Meet Jack Badge.png',
-	color = 'RareEncounter',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'RareEncounter'
 },
 ['TRIAL & ERROR'] = {
 	icon = 'TRIAL & ERROR Badge.png',
-	color = 'RareEncounter',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'RareEncounter'
 },
 ['Most Valuable Employee'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'EscapeBlue',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'EscapeBlue'
 },
 ['Witness Protection'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Limitless Paper'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Hello Walker'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Firewall'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Crowd Watching'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Perfect Memory'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Carpet Burn'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ["It's Still You"] = {
 	icon = "Archives Placeholder Badge.png",
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Bubble Popping'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Fih Are Friends'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Paparazzi'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Now Served'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Smashing Deal'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Shock Hazard'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Who Am I?'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Enlightened'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Girl Dinner'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Pizza Time'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Gold Standard'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Bad Luck'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Rock Bottom'] = {
 	icon = 'Rock Bottom Badge.png',
-	color = 'Escape',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Escape'
 },
 ['Detour'] = {
 	icon = 'Detour Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Around Back'] = {
 	icon = 'Around Back Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Other Way Around'] = {
 	icon = 'Other Way Around Badge.png',
-	color = 'EscapeUnique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'EscapeUnique'
 },
 ['See You Soon'] = {
 	icon = 'See You Soon Badge.png',
-	color = 'Escape',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Escape'
 },
 ['Touched Grass'] = {
 	icon = 'Touched Grass Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Down The Water Spout'] = {
 	icon = 'Down The Water Spout Badge.png',
-	color = 'EscapeUnique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'EscapeUnique'
 },
 ['Forgotten Memories'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Emergency Exit'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Z-50'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Archives',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Archives'
 },
 ['Going Down'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Going Up'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Evil Be Gone'] = {
 	icon = 'Evil Be Gone Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Stay Out Of My Way'] = {
 	icon = 'Stay Out Of My Way Badge.png',
-	color = 'Crucifix',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Crucifix'
 },
 ['Unbound'] = {
 	icon = 'Unbound Badge.png',
-	color = 'Crucifix',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Crucifix'
 },
 ['Take A Breather'] = {
 	icon = 'Take A Breather Badge.png',
-	color = 'Crucifix',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Crucifix'
 },
 ['All Figured Out'] = {
 	icon = 'All Figured Out Badge.png',
-	color = 'Crucifix',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Crucifix'
 },
 ["You Can't See Me"] = {
 	icon = "You Can't See Me Badge.png",
-	color = 'Crucifix',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Crucifix'
 },
 ['I Hate You'] = {
 	icon = 'I Hate You Badge.png',
-	color = 'Crucifix',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Crucifix'
 },
 ['Two Steps Ahead'] = {
 	icon = 'Two Steps Ahead Badge.png',
-	color = 'Crucifix',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Crucifix'
 },
 ['Outwitted'] = {
 	icon = 'Outwitted Badge.png',
-	color = 'Crucifix',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Crucifix'
 },
 ["It's Not My Time"] = {
 	icon = "It's Not My Time Badge.png",
-	color = 'Crucifix',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Crucifix'
 },
 ['Bug Zapper'] = {
 	icon = 'Bug Zapper Badge.png',
-	color = 'Crucifix',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Crucifix'
 },
 ['Lost In The Dark'] = {
 	icon = 'Lost In The Dark Badge.png',
-	color = 'CrucifixRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'CrucifixRare'
 },
 ['Under New Management'] = {
 	icon = 'Under New Management Badge.png',
-	color = 'CrucifixRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'CrucifixRare'
 },
 ['Red Light'] = {
 	icon = 'Red Light Badge.png',
-	color = 'CrucifixRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'CrucifixRare'
 },
 ['Lookman No Looking'] = {
 	icon = 'Lookman No Looking Badge.png',
-	color = 'CrucifixRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'CrucifixRare'
 },
 ['Time Out'] = {
 	icon = 'Time Out Badge.png',
-	color = 'CrucifixRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'CrucifixRare'
 },
 ['Bug Bomb'] = {
 	icon = 'Bug Bomb Badge.png',
-	color = 'Crucifix',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Crucifix'
 },
 ['Not Funny'] = {
 	icon = 'Not Funny Badge.png',
-	color = 'Crucifix',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Crucifix'
 },
 ['The Bigger They Are'] = {
 	icon = 'The Bigger They Are Badge.png',
-	color = 'Crucifix',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Crucifix'
 },
 ["Queen's Gambit"] = {
 	icon = "Queen's Gambit Badge.png",
-	color = 'Crucifix',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Crucifix'
 },
 ['Scammed'] = {
 	icon = 'Scammed Badge.png',
-	color = 'CrucifixRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'CrucifixRare'
 },
 ["Playtime's Over"] = {
 	icon = "Playtime's Over Badge.png",
-	color = 'CrucifixRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'CrucifixRare'
 },
 ['Annihilation'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'CrucifixRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'CrucifixRare'
 },
 ['Not Five Stars'] = {
 	icon = 'Not Five Stars Badge.png',
-	color = 'EscapeUnique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'EscapeUnique'
 },
 ['Hotel Hell'] = {
 	icon = 'Hotel Hell Badge.png',
-	color = 'EscapeInsane',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'EscapeInsane'
 },
 ['Rocky Road'] = {
 	icon = 'Rocky Road Badge.png',
-	color = 'EscapeUnique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'EscapeUnique'
 },
 ['A Hard Place'] = {
 	icon = 'A Hard Place Badge.png',
-	color = 'EscapeInsane',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'EscapeInsane'
 },
 ['Star Employee'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'EscapeUnique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'EscapeUnique'
 },
 ['Storage Wars'] = {
 	icon = 'Archives Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Taking Candy From Abe'] = {
     icon = 'Taking Candy From Abe.png',
-    color = 'SurviveRare',
-    link = 'Achievements'
+    link = 'Achievements',
+    color = 'SurviveRare'
 },
 ['Winner'] = {
 	icon = 'Winner Badge.png',
-	color = 'Battle',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Battle'
 },
 ['Winner Winner'] = {
 	icon = 'Winner Winner Badge.png',
-	color = 'BattleCool',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'BattleCool'
 },
 ['In Plain Sight 2'] = {
 	icon = 'In Plain Sight 2 Badge.png',
-	color = 'BattleCool',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'BattleCool'
 },
 ['Pointers'] = {
 	icon = 'Pointers Badge.png',
-	color = 'Battle',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Battle'
 },
 ['High Roller'] = {
 	icon = 'High Roller Badge.png',
-	color = 'BattleCool',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'BattleCool'
 },
 ['A Triple'] = {
 	icon = 'A Triple Badge.png',
-	color = 'Battle',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Battle'
 },
 ['Party Wipe'] = {
 	icon = 'Party Wipe Badge.png',
-	color = 'BattleCool',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'BattleCool'
 },
 ['Finders Keepers'] = {
 	icon = 'Finders Keepers Badge.png',
-	color = 'Battle',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Battle'
 },
 ['The One Who Dealt It'] = {
 	icon = 'The One Who Dealt It Badge.png',
-	color = 'Battle',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Battle'
 },
 ['Ring Out'] = {
 	icon = 'Ring Out Badge.png',
-	color = 'Battle',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Battle'
 },
 ['Potassium Power'] = {
 	icon = 'Potassium Power Badge.png',
-	color = 'Battle',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Battle'
 },
 ['Battler'] = {
 	icon = 'Battler Badge.png',
-	color = 'BattleCool',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'BattleCool'
 },
 ['MACHINE LEARNING'] = {
 	icon = 'MACHINE LEARNING Badge.png',
-	color = 'Vision',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Vision'
 },
 ['CLEAN RUN'] = {
 	icon = 'CLEAN RUN Badge.png',
-	color = 'Vision',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Vision'
 },
 ['PARALLEL PROCESSING'] = {
 	icon = 'PARALLEL PROCESSING Badge.png',
-	color = 'Vision',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Vision'
 },
 ['LOW LATENCY'] = {
 	icon = 'LOW LATENCY Badge.png',
-	color = 'Vision',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Vision'
 },
 ['UPTIME'] = {
 	icon = 'UPTIME Badge.png',
-	color = 'Vision',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Vision'
 },
 ['Everything Everywhere All At Once'] = {
 	icon = 'Everything Everywhere All At Once Badge.png',
-	color = 'GlitchPurple',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'GlitchPurple'
 },
 ['Truer Tower Hero'] = {
 	icon = 'Truer Tower Hero Badge.png',
-	color = 'THQuest',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'THQuest'
 },
 ['We Out Here'] = {
 	icon = 'We Out Here Badge.png',
-	color = 'THQuest',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'THQuest'
 },
 ['Tower Hero'] = {
 	icon = 'Tower Hero Badge.png',
-	color = 'THQuest',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'THQuest'
 },
 ['True Tower Hero'] = {
 	icon = 'True Tower Hero Badge.png',
-	color = 'THHard',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'THHard'
 },
 ['Hotel Adventurer'] = {
 	icon = 'Hotel Adventurer Badge.png',
-	color = 'THAdventure',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'THAdventure'
 },
 ['Void Buster'] = {
 	icon = 'Void Buster Badge.png',
-	color = 'THVoid',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'THVoid'
 },
 ["You're It"] = {
 	icon = "You're It Badge.png",
-	color = 'UTG',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'UTG'
 },
 ['THE HOLLOW: Sweet Deceit'] = {
     icon = 'THE HOLLOW Sweet Deceit Badge.png',
-    color = 'EscapeHollow',
-    link = 'Achievements'
+    link = 'Achievements',
+    color = 'EscapeHollow'
 },
 ['Sweet Deceit'] = {
     icon = 'Sweet Deceit Badge.png',
-    color = 'Scary',
-    link = 'Achievements'
+    link = 'Achievements',
+    color = 'Scary'
 },
 ['CERTIFIED RUSH FAN'] = {
 	icon = 'CERTIFIED RUSH FUN Badge.png',
-	color = 'Rush',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Rush'
 },
 ['Trick Or Treat!'] = {
 	icon = 'Trick Or Treat! Badge.png',
-	color = 'Scary',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Scary'
 },
 ['Far From Home'] = {
 	icon = 'Far From Home Badge.png',
-	color = 'Scary2',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Scary2'
 },
 ['Good Haul'] = {
 	icon = 'Good Haul Badge.png',
-	color = 'Scary2',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Scary2'
 },
 ['Sugar Rush'] = {
 	icon = 'Sugar Rush Badge.png',
-	color = 'Scary',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Scary'
 },
 ['Sugar Crash'] = {
 	icon = 'Sugar Crash Badge.png',
-	color = 'Scary2',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Scary2'
 },
 ['Silent Night'] = {
 	icon = 'Silent Night Badge.png',
-	color = 'Holiday',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Holiday'
 },
 ['Holiday Spirit'] = {
 	icon = 'Holiday Spirit Badge.png',
-	color = 'HolidayCool',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'HolidayCool'
 },
 ['BLOXFEST: Double Feature'] = {
 	icon = 'BLOXFEST Double Feature Badge.png',
-	color = 'GlitchPurple',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'GlitchPurple'
 },
 ['Hardstuck'] = {
 	icon = 'Hardstuck Badge.png',
-	color = 'Ranked',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Ranked'
 },
 ['THE HUNT: First Edition'] = {
 	icon = 'THE HUNT First Edition Badge.png',
-	color = 'EscapeBlue',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'EscapeBlue'
 },
 ['Survival The Jeff The Killer'] = {
 	icon = 'Survival The Jeff The Killer Badge.png',
-	color = 'ShinyRed',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'ShinyRed'
 },
 ['Survive The Drakobloxxers'] = {
 	icon = 'Survive The Drakobloxxers Badge.png',
-	color = 'ShinyRed',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'ShinyRed'
 },
 ['Rock Bottom (Before HOTEL+)'] = {
 	icon = 'Rock Bottom Badge.png',
-	color = 'Escape',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Escape'
 },
 ['Roomy'] = {
 	icon = 'Roomy Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Back On Track'] = {
 	icon = 'Back On Track Badge.png',
-	color = 'EscapeUnique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'EscapeUnique'
 },
 ['A-1000'] = {
 	icon = 'A-1000 Badge.png',
-	color = 'EscapeInsane',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'EscapeInsane'
 },
 ['Red Mist'] = {
 	icon = 'Red Mist Badge.png',
-	color = 'CrucifixRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'CrucifixRare'
 },
 ['Stop Right There'] = {
 	icon = 'Stop Right There Badge.png',
-	color = 'CrucifixRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'CrucifixRare'
 },
 ['Grin Reaper'] = {
 	icon = 'Grin Reaper Badge.png',
-	color = 'CrucifixRare',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'CrucifixRare'
 },
 ['Detour (Before The Outdoors)'] = {
 	icon = 'Detour Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['THE TAKEOVER: NOOB'] = {
 	icon = 'THE TAKEOVER NOOB Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['THE TAKEOVER: PRO'] = {
 	icon = 'THE TAKEOVER PRO Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['THE TAKEOVER: MASTER'] = {
 	icon = 'THE TAKEOVER MASTER Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['THE TAKEOVER: EXTREME'] = {
 	icon = 'THE TAKEOVER EXTREME Badge.png',
-	color = 'Default',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Default'
 },
 ['Flash Point'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Super-Size Me'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Plug & Play'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Emancipation Customization'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Stair Master'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Conga Line'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Second Wind'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Unique',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Unique'
 },
 ['Out Hot Eat The Food'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Grindset'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Dust To Dust'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Garage Sale'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Clay World'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Pro Gamer'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Cracked Gamer'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Charles Drowned'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 ['Friend Ball'] = {
 	icon = 'Stairwell Placeholder Badge.png',
-	color = 'Stairwell',
-	link = 'Achievements'
+	link = 'Achievements',
+	color = 'Stairwell'
 },
 
 -- Modifier colors --
-['Defaultm'] = { -- disambig with achievement gradients
-    link = false,
+['Defaultm'] = {
     icon = false,
+    link = false,
     text = 'Default'
 },
-['Playerm'] = {  -- disambig with player icon
-    link = false,
+['Playerm'] = {
     icon = false,
+    link = false,
     color = 'Player',
     text = 'Player'
 },
 ['Helpful1'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Helpful2'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Helpful3'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Helpful4'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Danger0'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Danger1'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Danger2'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Danger3'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Danger4'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Danger5'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Danger6'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Hide'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Seek'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Figure'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Dupe'] = {
-    link = false,
-    icon = false
-},
-['Rushm'] = { -- disambig with achievement gradients
-    link = false,
     icon = false,
+    link = false
+},
+['Rushm'] = {
+    icon = false,
+    link = false,
     text = 'Rush'
 },
 ['Ambush'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Eyes'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Screech'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Timothy'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Snare'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Halt'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Giggle'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Curious'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['White'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Pink'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Cool'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 ['Purple'] = {
-    link = false,
-    icon = false
+    icon = false,
+    link = false
 },
 
 -- Modifiers --
 ['ADMIN PANEL'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful4'
 },
 ['RANDOM EVENTS'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Cool'
 },
 ['CUSTOM SEED'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Cool'
 },
 ['Trick Or Treat (modifier)'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'White'
 },
 ['Voice Acting'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'White'
 },
 ['Uh Oh'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger3'
 },
 ['How Unfortunate'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger4'
 },
 ['Chaos, Chaos'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger5'
 },
 ['Electrical Work'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger0'
 },
 ['Bad Electrical Work'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger1'
 },
 ['Power Shortage'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger2'
 },
 ['Lights Out'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger3'
 },
 ['El Goblino Was Here'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger1'
 },
 ['El Goblino\'s Payday'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger2'
 },
 ['More Stuff'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful2'
 },
 ['Less Stuff'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger1'
 },
 ['Out Of Stuff'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger3'
 },
 ['Wear And Tear'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger1'
 },
 ['Small Hands'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger2'
 },
 ['Baby Hands'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger2'
 },
 ['Gone Fishing'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger0'
 },
 ['Soundproofing'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger0'
 },
 ['Wet Floor'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger1'
 },
 ['Bad Ventilation'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger1'
 },
 ['Smelt It'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger1'
 },
 ['Dealt It'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger1'
 },
 ['Locked And Loaded'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger2'
 },
 ['Key Key Key Key'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger3'
 },
 ['Nowhere To Hide'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger2'
 },
 ['Jammin\''] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger2'
 },
 ['Tripped'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger1'
 },
 ['Tripped And Fell'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger2'
 },
 ['Last Few Breaths'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger3'
 },
 ['Last Breath'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger4'
 },
 ['Didn\'t Skip Leg Day'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful1'
 },
 ['Faster, Faster, Faster'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful2'
 },
 ['MAXIMUM OVERDRIVE'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful4'
 },
 ['My Knees Are Killing Me'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger0'
 },
 ['My Legs Are Killing Me'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger1'
 },
 ['Injuries'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger1'
 },
 ['Good Time'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful1'
 },
 ['Bad Time'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger2'
 },
 ['Really Bad Time'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger3'
 },
 ['Worst Time Ever'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger6'
 },
 ['Rush Hour'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Rushm'
 },
 ['I\'m Runnin\' Here'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Rushm'
 },
 ['I\'m Tip-Toein\' Here'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Rushm'
 },
 ['Rush Around'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Rushm'
 },
 ['Wrong Number'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Dupe'
 },
 ['Battle Of Wits'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Dupe'
 },
 ['I\'m Everywhere'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Screech'
 },
 ['Think Fast'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Screech'
 },
 ['Think Faster'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Screech'
 },
 ['Bug Spray'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Timothy'
 },
 ['Itchy'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Timothy'
 },
 ['Nosey'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Eyes'
 },
 ['Always Watching'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Eyes'
 },
 ['Seeing Double'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Eyes'
 },
 ['Four Eyes'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Eyes'
 },
 ['Every Angle'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Eyes'
 },
 ['Come Back Here'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Figure'
 },
 ['Back For Seconds'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Ambush'
 },
 ['Afterimage'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Ambush'
 },
 ['Rent\'s Due'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Hide'
 },
 ['New Roommate'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Hide'
 },
 ['Watch Your Step'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Snare'
 },
 ['Are Those Pancakes?!'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Snare'
 },
 ['I Love Pancakes!!!'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Snare'
 },
 ['Run From It'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'White'
 },
 ['Destiny Still Arrives'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'White'
 },
 ['Haha'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Giggle'
 },
 ['Laughing Stock'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Giggle'
 },
 ['No Laughing Matter'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Giggle'
 },
 ['Dripped Out'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Giggle'
 },
 ['Infested'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Defaultm'
 },
 ['Bug Problem'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Defaultm'
 },
 ['Blitz, Oh'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Curious'
 },
 ['Look, Man'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Curious'
 },
 ['Vacuum Sealed'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Curious'
 },
 ['Make Haste'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Curious'
 },
 ['MOCK PROFILE'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful4'
 },
 ['UNLOCK ALL JOURNAL'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful4'
 },
 ['UNLOCK ALL JOURNAL+'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful4'
 },
 ['SKIP TO OUTDOORS MAZE'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful4'
 },
 ['MINES: SKIP TO 1ST SEEK'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful4'
 },
 ['MINES: SKIP TO 2ND SEEK'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful4'
 },
 ['TRAILER TESTING'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Cool'
 },
 ['SKIP TO LIBRARY'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful4'
 },
 ['SKIP TO ARCHIVES'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful4'
 },
 ['SKIP TO END'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful4'
 },
 ['Trick Or Treat'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Defaultm'
 },
 ['SUPER HARD MODE!!!'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Defaultm'
 },
 ['BATTLE MODE'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Defaultm'
 },
 ['SURVIVE THE DRAKOBLOXXERS'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Defaultm'
 },
 ['Cringle\'s Workshop'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Defaultm'
 },
 ['CHAT CONTROL'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Defaultm'
 },
 ['HOTEL-'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Defaultm'
 },
 ['Lights On'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful1'
 },
 ['El Goblino On Break'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful2'
 },
 ['A Few Places To Hide'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Danger1'
 },
 ['Again & Again & Again'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Ambush'
 },
 ['You Really Can Run'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Seek'
 },
 ['It Can Run Too'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Seek'
 },
 ['Roundabout'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Halt'
 },
 ['Room For More'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Curious'
 },
 ['Stop Right Then'] = {
-    text = 'Stop Right Then',
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
-    color = 'Curious'
+    link = 'Modifiers',
+    color = 'Curious',
+    text = 'Stop Right Then'
 },
 ['Upcoming Modifier 1'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Defaultm'
 },
 ['Upcoming Modifier 2'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Curious'
 },
 ['Upcoming Modifier 3'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Curious'
 },
 ['Pocket Change'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful2'
 },
 ['One For All'] = {
-    link = 'Modifiers',
     icon = 'Modifiers icon.png',
+    link = 'Modifiers',
     color = 'Helpful2'
 },
 
@@ -3381,49 +3671,49 @@ return {
 
 -- People --
 ['Lightning_Splash'] = {
-    icon = 'Lsplash_Discord.png',
+    icon = 'Lsplash_Discord.png'
 },
 ['RediblesQW'] = {
-    icon = 'RediblesQW_PFP.png',
+    icon = 'RediblesQW_PFP.png'
 },
 ['VerticoZ'] = {
-    icon = 'VerticoZ icon.png',
+    icon = 'VerticoZ icon.png'
 },
 ['jasper_creations'] = {
-    icon = 'Jasper.creations Discord.png',	
+    icon = 'Jasper.creations Discord.png'
 },
 ['ItsThump'] = {
-    icon = 'ItsThumpProfile.png',
+    icon = 'ItsThumpProfile.png'
 },
 ['jackco_speed25'] = {
-    icon = 'jackco_speed25 icon.png'	
+    icon = 'jackco_speed25 icon.png'
 },
 ['ASaku_Draw'] = {
-    icon = 'ASaku_Draw icon.png'	
+    icon = 'ASaku_Draw icon.png'
 },
 ['Varzkitt'] = {
-    icon = 'Varzkitt twitter pfp.jpg'	
+    icon = 'Varzkitt twitter pfp.jpg'
 },
 
 -- Other --
 ['Speed Boost Pad'] = {
-    link = 'BATTLE_Mode#Stat_Pads',
     icon = 'Speed Boost Pad render.png',
+    link = 'BATTLE_Mode#Stat_Pads',
     color = false
 },
 ['Health Pad'] = {
-    link = 'BATTLE_Mode#Stat_Pads',
     icon = 'Health Pad render.png',
+    link = 'BATTLE_Mode#Stat_Pads',
     color = false
 },
 ['Star Shield Pad'] = {
-    link = 'BATTLE_Mode#Stat_Pads',
     icon = 'Star Shield Pad render.png',
+    link = 'BATTLE_Mode#Stat_Pads',
     color = false
 },
 ['Invincibility Pad'] = {
-    link = 'BATTLE_Mode#Stat_Pads',
     icon = 'Invincibility Pad render.png',
+    link = 'BATTLE_Mode#Stat_Pads',
     color = false
 },
 

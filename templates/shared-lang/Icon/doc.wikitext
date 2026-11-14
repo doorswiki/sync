@@ -6,7 +6,7 @@
 :[[Module:Object]]
 
 ;Description
-:Displays an icon/image for a given object. Primarily used within other templates and modules as a shorthand for linking to image files stored in [[Module:ObjectData]].
+:Displays an image (icon) for a valid [[Module:ObjectData]] object.
 
 ;Syntax
 :<code><nowiki>{{ i | <1> | <2> | <3> }}</nowiki></code>
