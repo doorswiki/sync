@@ -2,20 +2,19 @@
 window.menuIconConfig = {
     popoutData: [
 		{
-			heading: '', // optional
-			icon: ``, // optional
+			heading: 'Affiliated wikis',
 			items: [
-				{
-					name: 'Chinese DOORS Wiki',
-					desc: '', // optional
-					icon: 'https://static.wikitide.net/zhdoorswiki/c/c5/DOORS_Wiki.png', // optional
-					url: 'https://zh.doorsgame.wiki',
-				},
 				{
 					name: 'DOORS Ideas Wiki',
 					desc: '', // optional
 					icon: 'https://static.wikitide.net/doorswiki/6/69/DOORS_Ideas_Wiki_Site-logo.png', // optional
 					url: 'https://doors-ideas.fandom.com/wiki/',
+				},
+				{
+					name: 'Chinese DOORS Wiki',
+					desc: '', // optional
+					icon: 'https://static.wikitide.net/zhdoorswiki/c/c5/DOORS_Wiki.png', // optional
+					url: 'https://zh.doorsgame.wiki',
 				}
 			]
 		}

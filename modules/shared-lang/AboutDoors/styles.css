@@ -43,6 +43,11 @@
 	text-shadow: 0 0 5px rgba(0, 0, 0, 0.8), 0 0 5px rgba(0, 0, 0, 0.8);
 }
 
+html.skin-theme-clientpref-day .doorswiki-spotlight__slide,
+html.skin-theme-clientpref-day .doorswiki-spotlight__slide:visited {
+	text-shadow: 0 0 5px rgba(255, 255, 255, 0.8), 0 0 5px rgba(255, 255, 255, 0.8);
+}
+
 .doorswiki-spotlight__slide:hover,
 .doorswiki-spotlight__slide:visited:hover {
 	text-decoration: none;

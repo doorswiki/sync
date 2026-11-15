@@ -141,38 +141,38 @@ return {
 	color = false
 },
 ['Green Herb Effect'] = {
-	icon = 'Green Herb Effect icon.png',
+	icon = 'Green Herb icon.svg',
 	color = false
 },
 ['Herb of Viridis Effect'] = {
-	icon = 'Green Herb Effect icon.png',
+	icon = 'Green Herb icon.svg',
 	link = false,
 	color = false,
 },
 ['Herb of Viridis (effect)'] = {
-	icon = 'Green Herb Effect icon.png',
+	icon = 'Green Herb icon.svg',
 	link = 'Status Effects',
 	text = 'Herb of Viridis',
 	color = false,
 },
 ['HerbGreenEffect'] = {
-	icon = 'Green Herb Effect icon.png',
+	icon = 'Green Herb icon.svg',
 	link = false,
 	text = 'Herb of Viridis',
 	color = false,
 },
 ['Red Herb'] = {
-	icon = 'Red Herb icon.png',
+	icon = 'Pink Herb icon.svg',
 	link = 'Status Effects',
 	color = false
 },
 ['Pink Herb'] = {
-	icon = 'Red Herb icon.png',
+	icon = 'Pink Herb icon.svg',
 	link = 'Status Effects',
 	color = false
 },
 ['HerbRedEffect'] = {
-	icon = 'Red Herb icon.png',
+	icon = 'Pink Herb icon.svg',
 	link = false,
 	color = false
 },

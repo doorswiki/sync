@@ -906,6 +906,24 @@ details[open]::details-content {
 }
 
 /* minor adjustments */
+.citizen-popout summary {
+	position: relative;
+	
+	img {
+		display: none;
+	}
+	
+	&::before {
+		content: '';
+		position: absolute;
+		width: 24px;
+		height: 24px;
+		background: var(--color-base);
+		mask-image: url(https://static.wikitide.net/doorswiki/c/c1/References_icon.png);
+		mask-size: contain;
+	}
+}
+
 .wikitable {
 	background: var(--color-surface-3);
 }
