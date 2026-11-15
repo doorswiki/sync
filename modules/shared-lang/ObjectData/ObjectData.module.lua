@@ -817,10 +817,6 @@ return {
 	link = false,
 	color = false
 },
-['Impacts'] = {
-	icon = 'Push icon.svg',
-	color = false
-},
 ['Push'] = {
 	icon = 'Push icon.svg',
 	link = false,
@@ -3554,12 +3550,12 @@ return {
 	color = false
 },
 ['Red Striped Candy'] = {
-	icon = 'Red Striped Candy.png',
+	icon = 'RedStripedCandyNEW.png',
 	link = 'Candy',
 	color = false
 },
 ['Green Striped Candy'] = {
-	icon = 'Green Striped Candy.png',
+	icon = 'GreenStripedCandyNEW.png',
 	link = 'Candy',
 	color = false
 },
@@ -3594,12 +3590,12 @@ return {
 	color = false
 },
 ['Red Gummy Bear'] = {
-	icon = 'Red Gummy Bear.png',
+	icon = 'Pink Gummy Bear.png',
 	link = 'Candy',
 	color = false
 },
 ['Moonlight Candy'] = {
-	icon = 'Moonlight Candy.png',
+	icon = 'Guiding Light Candy.png',
 	link = 'Candy',
 	color = false
 },
@@ -3609,7 +3605,7 @@ return {
 	color = false
 },
 ['Red Light Candy'] = {
-	icon = 'Red Light Candy.png',
+	icon = 'Modifiers Candy.png',
 	link = 'Candy',
 	color = false
 },
@@ -3619,7 +3615,7 @@ return {
 	color = false
 },
 ['Red Licorice'] = {
-	icon = 'Red Licorice.png',
+	icon = 'Licorice.png',
 	link = 'Candy',
 	color = false
 },
