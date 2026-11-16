@@ -395,6 +395,10 @@ return {
 	icon = 'Codes icon.png',
 	color = false
 },
+['Confusion monochrome'] = {
+	icon = 'Confusion monochrome icon.png',
+	color = false
+},
 ['Coins'] = {
 	icon = 'Coins icon.png',
 	link = false,
@@ -742,6 +746,10 @@ return {
 	icon = 'Moonlight icon.svg',
 	color = false
 },
+['Moonlight monochrome'] = {
+	icon = 'Moonlight monochrome icon.svg',
+	color = false
+},
 ['Negative'] = {
 	icon = 'Negative icon.png',
 	link = false,
@@ -910,6 +918,10 @@ return {
 ['Skip'] = {
 	icon = 'Skip icon.png',
 	link = false,
+	color = false
+},
+['Starlight monochrome'] = {
+	icon = 'Starlight monochrome icon.svg',
 	color = false
 },
 ['Behavior'] = {
