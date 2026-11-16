@@ -5,7 +5,7 @@
 {{#seo:
 | title = Official DOORS Wiki
 | image = DOORS_2025_Thumbnail_6.png
-| keywords = DOORS, doors, doors wiki, doors wiki, doors roblox, doors roblox, ROBLOX, wiki, Fandom, Miraheze, Wikia, MediaWiki, Roblox, doors codes roblox, doors roblox, doors plushie, all badges in doors, doors ost, doors ost, doors wiki, doors ost, doors soundtracks, doors soundtracks, doors tracks, doors tracks, doors music, doors music, doors recode, doors recode, doors wiki, doors roblox ost, silvagunner doors, doors silvagunner, doors sound, doors sound, doors fandom, doors fandom
+| keywords = DOORS, doors wiki, doors roblox, Roblox, LSPLASH, RediblesQW, doors entities, doors monsters, doors items, doors floors, The Hotel, The Mines, The Rooms, The Backdoor, doors modifiers, doors codes, doors badges, doors achievements, doors ost, doors soundtrack, doors music, doors lore, doors guide, doors walkthrough, doors plushie, doors fandom, Miraheze, wiki, official doors wiki
 | description = The official wiki for DOORS, the Roblox horror game by LSPLASH and RediblesQW.
 }}
 <div style="display: none">

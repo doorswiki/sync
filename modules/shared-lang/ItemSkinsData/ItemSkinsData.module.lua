@@ -611,7 +611,7 @@ local data = {
 		designer = nil,
 		added = nil,
 		chroma = {
-			stardust = 0,
+			stardust = 20,
 			variants = {
 				{
 					name = 'Evil',
