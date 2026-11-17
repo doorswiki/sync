@@ -1,0 +1,98 @@
+{{documentation|git=true}}
+
+Renders a [https://doc.wikimedia.org/codex/latest/components/demos/button.html Codex] button as a link: a fake-button <code><nowiki><span></nowiki></code> wrapping a wikilink or external link, with optional icon, action, weight, and size variants.
+
+Required by [[Module:CardLua]], [[Module:Mainpage/Community]], [[Module:Mainpage/Editing]], [[Module:Entity/Infobox]], [[Module:Company]], and [[Module:Documentation]]; not invoked from templates.
+
+== For module editors ==
+
+=== API ===
+
+<code><nowiki>p.render(props)</nowiki></code> returns an HTML string with <code><nowiki><templatestyles></nowiki></code> for [[Module:ButtonLua/styles.css]] included.
+
+{| class="wikitable"
+|-
+! Field
+! Type
+! Required
+! Default
+! Description
+|-
+| <code><nowiki>label</nowiki></code>
+| <code><nowiki>string</nowiki></code>
+| Yes
+|
+| Button text; becomes the <code><nowiki>aria-label</nowiki></code> when <code><nowiki>iconOnly</nowiki></code> is set.
+|-
+| <code><nowiki>link</nowiki></code>
+| <code><nowiki>string</nowiki></code>
+| one of <code><nowiki>link</nowiki></code>/<code><nowiki>url</nowiki></code>
+|
+| Wiki page, rendered as <code><nowiki>[[link|…]]</nowiki></code>.
+|-
+| <code><nowiki>url</nowiki></code>
+| <code><nowiki>string</nowiki></code>
+| one of <code><nowiki>link</nowiki></code>/<code><nowiki>url</nowiki></code>
+|
+| External URL, rendered as <code><nowiki>[url …]</nowiki></code>.
+|-
+| <code><nowiki>action</nowiki></code>
+| <code><nowiki>string</nowiki></code>
+| No
+| <code><nowiki>default</nowiki></code>
+| <code><nowiki>default</nowiki></code>, <code><nowiki>progressive</nowiki></code>, or <code><nowiki>destructive</nowiki></code>.
+|-
+| <code><nowiki>weight</nowiki></code>
+| <code><nowiki>string</nowiki></code>
+| No
+| <code><nowiki>normal</nowiki></code>
+| <code><nowiki>normal</nowiki></code>, <code><nowiki>primary</nowiki></code>, or <code><nowiki>quiet</nowiki></code> (no fill until hover).
+|-
+| <code><nowiki>size</nowiki></code>
+| <code><nowiki>string</nowiki></code>
+| No
+| <code><nowiki>medium</nowiki></code>
+| <code><nowiki>small</nowiki></code>, <code><nowiki>medium</nowiki></code>, or <code><nowiki>large</nowiki></code>.
+|-
+| <code><nowiki>icon</nowiki></code>
+| <code><nowiki>string</nowiki></code>
+| No
+|
+| Icon file name. MediaWiki disallows <code><nowiki><img></nowiki></code> inside <code><nowiki><a></nowiki></code>, so it renders as a <code><nowiki>currentColor</nowiki></code> mask instead of an <code><nowiki><img></nowiki></code>.
+|-
+| <code><nowiki>iconOnly</nowiki></code>
+| <code><nowiki>boolean</nowiki></code>
+| No
+| <code><nowiki>false</nowiki></code>
+| Hide the label; requires <code><nowiki>icon</nowiki></code>.
+|-
+| <code><nowiki>disabled</nowiki></code>
+| <code><nowiki>boolean</nowiki></code>
+| No
+| <code><nowiki>false</nowiki></code>
+| Disabled visual style.
+|-
+| <code><nowiki>class</nowiki></code>
+| <code><nowiki>string</nowiki></code>
+| No
+|
+| Extra CSS class(es) on the button.
+|-
+| <code><nowiki>style</nowiki></code>
+| <code><nowiki>string</nowiki></code>
+| No
+| 
+| Additional inline CSS declarations applied directly to the button.
+|}
+
+<code><nowiki>p.main(frame)</nowiki></code> is the <code><nowiki>#invoke</nowiki></code> entry point, reading arguments via [[Module:Arguments]].
+
+=== Gotchas ===
+
+* <code><nowiki>render</nowiki></code> errors only when both <code><nowiki>link</nowiki></code> and <code><nowiki>url</nowiki></code> are absent; passing both is not rejected and renders two separate links (wikilink then external link) concatenated in the same span.
+* Codex exposes only small and medium icon sizes: a <code><nowiki>size = 'large'</nowiki></code> button still gets a medium icon.
+* The icon is a CSS mask stashed as a custom property (<code><nowiki>--t-button-icon-url</nowiki></code>) and consumed bare in <code><nowiki>styles.css</nowiki></code>, because the sanitizer rejects <code><nowiki>url(var())</nowiki></code> inline but allows <code><nowiki>image-set()</nowiki></code> and a bare <code><nowiki>var()</nowiki></code>.
+
+=== Styles ===
+
+A brand button opts in with <code><nowiki>class = 't-button--branded t-button--<brand>'</nowiki></code>; the brand block sets <code><nowiki>--t-button-ground</nowiki></code> (and <code><nowiki>color</nowiki></code>), and hover/active shades derive from it via <code><nowiki>color-mix</nowiki></code>. [[Module:ButtonLua/styles.css]] declares <code><nowiki>wiki-api</nowiki></code>, <code><nowiki>rsi</nowiki></code>, <code><nowiki>galactapedia</nowiki></code>/<code><nowiki>starmap</nowiki></code> (shared, same mark), <code><nowiki>verseguide</nowiki></code>, <code><nowiki>scmdb</nowiki></code>, <code><nowiki>patreon</nowiki></code>, <code><nowiki>kofi</nowiki></code>, and <code><nowiki>discord</nowiki></code>; a consumer can declare its own brand block in its own stylesheet instead of adding one here.
