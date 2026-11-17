@@ -1,0 +1,5 @@
+<includeonly>{{#invoke:Choose|main}}<!--
+Insert tracking category on Dev to properly inject js gadget.
+-->{{#ifeq:{{SITENAME}}|Miraheze Developers Wiki|[[Category:Pages with choose]]}}</includeonly><noinclude>
+{{Documentation}}
+</noinclude>

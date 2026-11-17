@@ -1,0 +1,6 @@
+{{Documentation subpage}}
+<blockquote>
+This template aims to replace [[mw:Extension:RandomSelection|Extension:RandomSelection]], which either serves the same result on all page views (when cached) or incurs a heavy performance penalty (when uncached).
+</blockquote>
+
+This template is imported from the Miraheze Developers Wiki's [[mh:dev:Template:Choose|Template:Choose]]. For the latest documentation, please visit their article.
