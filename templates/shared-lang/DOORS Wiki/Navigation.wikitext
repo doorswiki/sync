@@ -22,7 +22,7 @@
 * {{Icon|Ladder|25|Mechanics}} [[Mechanics]]
 * {{Icon|Trolley|25|Shops}} [[Shops]]
 * {{Icon|Headphones|25|Soundtracks}} [[Soundtracks]]
-* {{Icon|Interact|25|Looting}} [[Looting]]
+* {{Icon|Eye|25|Visions}} [[Visions]]
 * {{Icon|Admin Panel|25|Admin Panel}} [[Admin Panel]]
 </div>
 

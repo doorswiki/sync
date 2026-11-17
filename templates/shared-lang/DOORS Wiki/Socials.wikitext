@@ -75,7 +75,7 @@
 -->{{#invoke:ButtonLua|main
 | label = Chinese DOORS Wiki
 | url   = https://zh.doorsgame.wiki
-| icon  = Doors monochrome icon.png}}<!--
+| icon  = DOORS_Wiki_ZH_site_logo.png}}<!--
 --></div>
 </div>
 }}<noinclude><templatestyles src="DOORS Wiki/styles.css"/>
