@@ -1,44 +1,14 @@
-{{#vardefine: doorsfeatured-article | {{Choose
-| 1= The Hotel
-| 2= The Mines
-| 3= Entities
-| 4= Containers
-| 5= LSPLASH
-| 6= Soundtrack
-| 7= Items
-| 8= Crucifix
-| 9= Meld 
-| 10= The Basements
-| 11= Lore
-| 12= Paintings
-|format=userformat
-|userformat=<nowiki>{{#vardefine: actualthing | %s}}</nowiki>
-}} }}<!--
-
--->{{#vardefine: doorsfeatured-image | {{#switch: {{#var: actualthing}}
-| The Hotel = Hotel Image1.png
-| The Mines = TheMinesFeaturedArticles.png
-| Entities = Entities icon.png
-| Containers = Dresser.png
-| LSPLASH = LSPLASH Icon.png
-| Soundtrack = Doors Soundtrack.jpg
-| Items = Items icon.svg
-| Crucifix = Crucifix icon.png
-| Meld = Meld_growing_inside_of_a_Hotel_room_using_the_admin_panel..png
-| The Basements = The_Basements_location,_bottom_floor.png
-| Lore = Asset_painting_room60_spacetime.png
-| Paintings = TallPaintingBro.png
-| #default = {{#var: actualthing}}
-}} }}<!--
-
--->{{#vardefine: doorsfeatured-link | {{#switch: {{#var: actualthing}}
-| #default = {{#var: actualthing}}
-}} }}<!--
-
---><div class="home-container doors-featured" style="position: relative; min-height: 200px">
-<div class="imagecard">[[File:{{#var:doorsfeatured-image}}|600px|link={{#var:doorsfeatured-link}}|class=featuredimg|alt=Featured image]]</div>
-<div style="position: absolute; top: 15px; text-align: left">
-<div class="home-card__label">Reader's pick</div>
-<div class="home-card__header">{{#var:doorsfeatured-link}}</div>
-</div>
-</div><noinclude><templatestyles src="DOORS Wiki/styles.css"/></noinclude>
+<div class="home-container doors-featured" style="position: relative; min-height: 200px">{{Choose
+| {{DOORS Wiki/Featured card|The Hotel}}
+| {{DOORS Wiki/Featured card|The Mines}}
+| {{DOORS Wiki/Featured card|Entities}}
+| {{DOORS Wiki/Featured card|Containers}}
+| {{DOORS Wiki/Featured card|LSPLASH}}
+| {{DOORS Wiki/Featured card|Soundtrack}}
+| {{DOORS Wiki/Featured card|Items}}
+| {{DOORS Wiki/Featured card|Crucifix}}
+| {{DOORS Wiki/Featured card|Meld}}
+| {{DOORS Wiki/Featured card|The Basements}}
+| {{DOORS Wiki/Featured card|Lore}}
+| {{DOORS Wiki/Featured card|Paintings}}
+}}</div><noinclude><templatestyles src="DOORS Wiki/styles.css"/></noinclude>

@@ -1,7 +1,7 @@
 {{DOORS Wiki/Container|title=<span>DOORS Network</span>|body=
 <div class="doorswiki-nov26-socials-container">
 <div class="doorswiki-nov26-socials">
-<div class="doorswiki-nov26-socials-subheading">LSPLASH</div><!--
+<div class="home-card__label">LSPLASH</div><!--
 
 -->{{#invoke:ButtonLua|main
 | label = LSPLASH Discord
@@ -36,7 +36,7 @@
 
 
 --><div class="doorswiki-nov26-socials">
-<div class="doorswiki-nov26-socials-subheading">DOORS Wiki</div><!--
+<div class="home-card__label">DOORS Wiki</div><!--
 
 -->{{#invoke:ButtonLua|main
 | label = Wiki Discord
@@ -65,7 +65,7 @@
 
 
 --><div class="doorswiki-nov26-socials">
-<div class="doorswiki-nov26-socials-subheading">Affiliated sites</div><!--
+<div class="home-card__label">Affiliated sites</div><!--
 
 -->{{#invoke:ButtonLua|main
 | label = DOORS Ideas Wiki

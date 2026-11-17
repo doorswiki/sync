@@ -1,6 +1,6 @@
 <div class="home-container doors-nov26-navigation">
 <div class="doors-nov26-navigation-section">
-<div class="doorswiki-nov26-socials-subheading">Gameplay</div>
+<div class="home-card__label">Gameplay</div>
 * {{Icon|Doors monochrome|25|DOORS}} [[DOORS]]
 * {{Icon|Entities|25|Entities}} [[Entities]]
 * {{Icon|Hazards|25|Hazards}} [[Hazards]]
@@ -8,7 +8,7 @@
 </div>
 
 <div class="doors-nov26-navigation-section">
-<div class="doorswiki-nov26-socials-subheading">Progression</div>
+<div class="home-card__label">Progression</div>
 * {{Icon|Floors|25|Floors}} [[Floors]]
 * {{Icon|Modifiers|25|Modifiers}} [[Modifiers]]
 * {{Icon|Enter|25|Locations}} [[Locations]]
@@ -16,7 +16,7 @@
 </div>
 
 <div class="doors-nov26-navigation-section">
-<div class="doorswiki-nov26-socials-subheading">Extras</div>
+<div class="home-card__label">Extras</div>
 * {{Icon|Ladder|25|Mechanics}} [[Mechanics]]
 * {{Icon|Journal|25|Journal}} [[Journal]]
 * {{Icon|Trolley|25|Shops}} [[Shops]]
@@ -24,7 +24,7 @@
 </div>
 
 <div class="doors-nov26-navigation-section">
-<div class="doorswiki-nov26-socials-subheading">Meta</div>
+<div class="home-card__label">Meta</div>
 * {{Icon|Events|25|Events}} [[Events]]
 * {{Icon|Codes|25|Codes}} [[Codes]]
 * {{Icon|Development|25|Update Logs}} [[Update Logs]]
