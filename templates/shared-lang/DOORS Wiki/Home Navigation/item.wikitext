@@ -1,3 +1,1 @@
-<includeonly><div class="doors-navigation--item">
-{{Hoverimg|[[File:{{{image}}}|40px|class=invertinvert|link={{{link}}}]]}}'''{{{label}}}'''<!--<div class="doors-navigation--item--link">[[{{{link|}}}|<span class="doors-navigation-item--link-span"></span>]]</div>-->
-</div></includeonly>
+#REDIRECT [[Template:DOORS Wiki/Navigation/item]]

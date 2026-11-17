@@ -8,6 +8,9 @@
 | 7= Items
 | 8= Crucifix
 | 9= Meld 
+| 10= The Basements
+| 11= Lore
+| 12= Paintings
 |format=userformat
 |userformat=<nowiki>{{#vardefine: actualthing | %s}}</nowiki>
 }} }}<!--
@@ -22,6 +25,9 @@
 | Items = Items icon.svg
 | Crucifix = Crucifix icon.png
 | Meld = Meld_growing_inside_of_a_Hotel_room_using_the_admin_panel..png
+| The Basements = The_Basements_location,_bottom_floor.png
+| Lore = Asset_painting_room60_spacetime.png
+| Paintings = TallPaintingBro.png
 | #default = {{#var: actualthing}}
 }} }}<!--
 

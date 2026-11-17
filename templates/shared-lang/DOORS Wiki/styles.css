@@ -257,40 +257,29 @@ html.skin-theme-clientpref-day .doorswiki-start-image {
     }
 }
 
-.doorswiki-socials-container {
-    display: flex; 
-    flex-direction: column;
-    gap: 2rem;
+.doorswiki-nov26-socials-container {
+	display: flex;
+	justify-content: center;
+	gap: var(--space-md);
+	flex-wrap: wrap;
+	text-align: left;
+	padding: var(--space-sm) var(--space-md) 0;
 }
 
-@media screen and (max-width: 800px) {
-    .doorswiki-socials-container {
-        justify-content: center;
-        gap: 3rem;
-    }
-    
-    .doorswiki-socials {
-        justify-content: center;
-    }
-    
-    .doorswiki-socials-heading {
-        width: 100%;
-        display: flex;
-        justify-content: center;
-    }
+.doorswiki-nov26-socials {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-xxs);
 }
 
-.doorswiki-socials {
-    display: flex; 
-    flex-wrap: wrap; 
-    align-items: center;
-    gap: 1rem;
+.doorswiki-nov26-socials .t-button {
+	width: 100%;
+	justify-content: start;
 }
 
-@media screen and (min-width: 800px) {
-    .doorswiki-socials-heading {
-        width: calc(20% + var(--space-lg));
-    }
+.doorswiki-nov26-socials-subheading {
+	color: var(--color-subtle);
+	font-weight: 500;
 }
 
 @media screen and (max-width: 800px) {
@@ -558,34 +547,65 @@ html.skin-theme-clientpref-day .doorswiki-start-image {
 	gap: .5rem;
 }
 
-.doors-navigation {
-    display: grid!important;
+.doors-nov26-navigation {
+	text-align: left!important;
+	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
-    gap: 2rem 1rem!important;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    gap: var(--space-md);
 }
 
-.doors-navigation--item {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    /* background: var(--color-surface-2);
-    padding: var(--space-xs);
-    border: var(--border-base);
-    border-radius: var(--border-radius-medium); */
-    position: relative;
+.doors-nov26-navigation-section {
+	flex: 1;
 }
 
-.doors-navigation--item a {
-    color: var(--color-emphasized);
+.doors-nov26-navigation ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-xxs);
+	margin-top: var(--space-sm);
 }
 
-.doors-navigation--item--link a {
-    display: block;
-    position: absolute;
-    inset: 0;
-    z-index: 0;
+.doors-nov26-navigation li {
+	display: flex;
+	gap: var(--space-xs)
+}
+
+@media screen and (max-width: 800px) {
+	.doors-nov26-navigation li {
+		gap: var(--space-xxxs)!important;
+	}
+	
+	.doors-nov26-navigation li img {
+		margin-right: -5px;
+		mask: linear-gradient(to right, black 5%, transparent);
+	}
+}
+
+.doors-nov26-navigation a {
+	display: inline-block;
+	flex: 1;
+}
+
+.doors-nov26-navigation img {
+	opacity: .2;
+	transition: .25s transform, .25s opacity;
+}
+
+html.skin-theme-clientpref-day .doors-nov26-navigation img {
+	filter: invert(1) hue-rotate(180deg);
+}
+
+.doors-nov26-navigation li:hover a {
+	font-weight: bold;
+	color: var(--color-emphasized);
+}
+
+.doors-nov26-navigation li:hover img {
+	opacity: var(--opacity-icon-base);
+	transform: scale(1.25);
 }
 
 .doorswiki-quote-container {

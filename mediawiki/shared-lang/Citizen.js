@@ -2,7 +2,7 @@
 window.menuIconConfig = {
     popoutData: [
 		{
-			heading: 'Affiliated wikis',
+			heading: 'Affiliated sites',
 			items: [
 				{
 					name: 'DOORS Ideas Wiki',
