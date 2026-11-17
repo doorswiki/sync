@@ -87,6 +87,7 @@
   "Module:BadgeRenderer": "modules/shared-lang/BadgeRenderer/BadgeRenderer.module.lua",
   "Module:ButtonLua": "modules/shared-lang/ButtonLua/ButtonLua.module.lua",
   "Module:ButtonLua/doc": "modules/shared-lang/ButtonLua/doc.wikitext",
+  "Module:ButtonLua/styles.css": "modules/shared-lang/ButtonLua/styles.css",
   "Module:Choose": "modules/shared-lang/Choose/Choose.module.lua",
   "Module:Color": "modules/shared-lang/Color/Color.module.lua",
   "Module:Image": "modules/shared-lang/Image/Image.module.lua",

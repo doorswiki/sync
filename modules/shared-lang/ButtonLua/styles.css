@@ -1,0 +1,140 @@
+.t-button .cdx-icon {
+	/*
+	 * Render the icon as a CSS mask filled with the button's text color
+	 * (currentColor), so it matches the label and follows theme/hover. Use a
+	 * mask rather than filter so any color works, not just black/white.
+	 *
+	 * HACK: stash the image-set in a custom property and consume it bare — the
+	 * sanitizer rejects url(var()) inline but allows image-set() and bare var().
+	 *
+	 * This no longer needs a version pin. TemplateStylesExtender 3.0.0
+	 * (3fe4835, 2026-08-24) lifted the a9043c4 custom-property
+	 * external-resource ban, so image-set(var()) is supported rather than
+	 * tolerated. The wiki's enforced CSP default-src remains the guard on what
+	 * those URLs may fetch. History:
+	 * https://github.com/octfx/mediawiki-extensions-TemplateStylesExtender/issues/45
+	 */
+	--t-button-icon-mask: var(--t-button-icon-url);
+	mask-image: var(--t-button-icon-mask);
+	-webkit-mask-image: var(--t-button-icon-mask);
+	mask-size: contain;
+	mask-repeat: no-repeat;
+	mask-position: center;
+	background-color: currentColor;
+}
+
+.t-button > a {
+	/* Disable link underline for button */
+	text-decoration: none !important;
+}
+
+/* Fix Citizen incorrect CSS override */
+.t-button.cdx-button .cdx-icon {
+	padding: 0;
+}
+
+.t-button.cdx-button .cdx-icon.cdx-icon--small {
+	min-width: 14px;
+	min-height: 14px;
+	width: 1rem;
+	height: 1rem;
+}
+
+.t-button.cdx-button .cdx-icon.cdx-icon--medium {
+	min-width: 20px;
+	min-height: 20px;
+	width: 1.25rem;
+	height: 1.25rem;
+}
+
+html:not(.skin-theme-clientpref-day) .t-button--icon-dark-invert > .cdx-icon {
+	filter: invert(1);
+}
+
+.t-button--icon-always-invert > .cdx-icon {
+    filter: invert(1);
+}
+
+/*
+ * Branded buttons: an opt-in for buttons carrying an external site's
+ * identity. Pass class="t-button--branded t-button--<brand>": the brand
+ * block declares its ground and content color, and the base, hover and
+ * active grounds all derive from --t-button-ground via color-mix in oklch,
+ * so every brand dims by the same perceptual step and per-brand shades
+ * cannot drift. The mask icon above follows `color`, so it picks up the
+ * brand content color for free. The compound selectors outweigh Codex's
+ * .cdx-button defaults.
+ *
+ * The sanitizer rejects color-mix() as a direct property value; the
+ * derivations ride custom properties, which TemplateStylesExtender passes
+ * through and the browser resolves.
+ *
+ * A brand ground is a fixed color in both themes, so it is declared as a
+ * literal rather than a light-dark() token — the content color beside it is
+ * chosen to clear WCAG AA against that one ground.
+ */
+.t-button--branded.cdx-button {
+	--t-button-ground-hover: color-mix(in oklch, var(--t-button-ground) 88%, #000);
+	--t-button-ground-active: color-mix(in oklch, var(--t-button-ground) 78%, #000);
+	background-color: var(--t-button-ground);
+}
+
+.t-button--branded.cdx-button:hover {
+	background-color: var(--t-button-ground-hover);
+}
+
+.t-button--branded.cdx-button:active {
+	background-color: var(--t-button-ground-active);
+}
+
+/* Star Citizen Wiki API. */
+.t-button--wiki-api.cdx-button {
+	--t-button-ground: oklch(19.314% 0.037 265.754);
+	color: oklch(84.153% 0.007 265.754);
+}
+
+/* Roberts Space Industries: the site's filled call-to-action button. */
+.t-button--rsi.cdx-button {
+	--t-button-ground: #54adf7;
+	color: #000;
+}
+
+/* Galactapedia, shared by the Starmap button (the mark is the Starmap's
+ * logo, so both RSI map properties share it). */
+.t-button--galactapedia.cdx-button,
+.t-button--starmap.cdx-button {
+	--t-button-ground: #162535;
+	color: #bae4f2;
+}
+
+/* VerseGuide. */
+.t-button--verseguide.cdx-button {
+	--t-button-ground: #206484;
+	color: #fff;
+}
+
+/* SCMDB: the site's own near-black ground and cyan accent. */
+.t-button--scmdb.cdx-button {
+	--t-button-ground: #0f1318;
+	color: #00d4ff;
+}
+
+/* Patreon. */
+.t-button--patreon.cdx-button {
+	--t-button-ground: #ff424d;
+	color: #fff;
+}
+
+/* Ko-fi. Their blue rather than their coral: the wiki's own asset is
+ * File:Kofi Logo Blue.png, and the coral would sit a hair from Patreon's red
+ * on a page that offers both side by side. */
+.t-button--kofi.cdx-button {
+	--t-button-ground: #29abe0;
+	color: #fff;
+}
+
+/* Discord. */
+.t-button--discord.cdx-button {
+	--t-button-ground: #5865f2;
+	color: #fff;
+}
