@@ -10,6 +10,7 @@ import { map_repo_path, parse_shared_path_segment, type mapped_path } from './pa
 import { mw_page_error, mw_session, type existence_hint } from './mediawiki';
 import { parse_site_credentials } from './site_credentials';
 import { is_title_excluded, load_excluded_pages } from './excluded';
+import { count_divs } from './divs';
 import { merge_preserving_wiki_edits, transform_interwiki_tags } from './diff';
 
 // Remove Lua comments and string literals so structural checks (brace balance,
@@ -827,6 +828,19 @@ async function run() : Promise<void> {
                     sync_log(`${job.mapped.title} on ${job.site_cfg.id} is already up to date`);
                     completed += 1;
                     continue;
+                };
+
+                // Pushing wikitext with unbalanced <div> tags breaks the page's
+                // markup on the wiki and leaks the rest of the layout into the
+                // enclosing container, so refuse to write it.
+                if (job.mapped.content_model === 'wikitext') {
+                    const { open, close } = count_divs(text);
+                    if (open !== close) {
+                        sync_log(`skipping ${job.mapped.title} on ${job.site_cfg.id}: unbalanced <div> tags (${open} opened, ${close} closed)`);
+                        core.warning(`WikiWire: ${job.file} on ${job.site_cfg.id} has unbalanced <div> tags and was not synced`);
+                        completed += 1;
+                        continue;
+                    };
                 };
 
                 // Skip editing if the module fails Lua syntax validation

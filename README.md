@@ -479,6 +479,15 @@ Optional file at the repository root (override with `excluded_pages_path`). It l
 
 Exclusion only affects deployment: `scripts/sync-upstream.mjs` still imports the page into the repository, so it keeps syncing to sites that do not exclude it.
 
+## Content validation
+
+WikiWire validates pages before pushing them to a wiki:
+
+- **Scribunto modules** must look like a well-formed Lua module (matching braces and a final `return`); otherwise the module is skipped.
+- **Wikitext pages** must have every literal `<div>` closed. HTML comments and `<nowiki>`/`<pre>`/`<code>`/`<syntaxhighlight>` blocks are ignored, so commented-out snippets and code examples do not trip the check. JavaScript gadgets and other non-wikitext content models are not checked.
+
+If the merged result fails validation, the page is skipped with a warning in the Actions log instead of being pushed broken. A page that is already up to date is not re-written. Existing content on the wiki is never repaired automatically; WikiWire only avoids spreading unbalanced markup.
+
 ## GitHub Action inputs
 
 | Input | Required | Default | Description |
