@@ -243,7 +243,7 @@ html.skin-theme-clientpref-day .doorswiki-start-image {
 .doorswiki-editors .doorswiki-editors-links {
     display: flex;
     flex-wrap: wrap;
-    gap: 0 2rem;
+    gap: var(--space-xs) var(--space-xs);
     text-align: center;
     justify-content: center;
     width: 100%;
@@ -275,11 +275,6 @@ html.skin-theme-clientpref-day .doorswiki-start-image {
 .doorswiki-nov26-socials .t-button {
 	width: 100%;
 	justify-content: start;
-}
-
-.doorswiki-nov26-socials-subheading {
-	color: var(--color-subtle);
-	font-weight: 500;
 }
 
 @media screen and (max-width: 800px) {
@@ -552,6 +547,7 @@ html.skin-theme-clientpref-day .doorswiki-start-image {
 	display: grid;
     grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
     gap: var(--space-md);
+    padding-bottom: var(--space-lg);
 }
 
 .doors-nov26-navigation-section {
@@ -565,7 +561,7 @@ html.skin-theme-clientpref-day .doorswiki-start-image {
 	display: flex;
 	flex-direction: column;
 	gap: var(--space-xxs);
-	margin-top: var(--space-sm);
+	margin-top: var(--space-xs);
 }
 
 .doors-nov26-navigation li {
@@ -590,7 +586,7 @@ html.skin-theme-clientpref-day .doorswiki-start-image {
 }
 
 .doors-nov26-navigation img {
-	opacity: .2;
+	opacity: .3;
 	transition: .25s transform, .25s opacity;
 }
 
@@ -639,6 +635,17 @@ html.skin-theme-clientpref-day .doors-nov26-navigation img {
 
 .doorswiki-quote-author {
 	color: var(--color-subtle);
+}
+
+.doors-funfacts {
+	text-align: left;
+	display: flow-root;
+}
+
+.doors-funfacts::after {
+	content: "";
+  	display: table;
+  	clear: both;
 }
 
 /*** irwa styling ***/
