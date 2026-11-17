@@ -11,41 +11,89 @@ import { mw_page_error, mw_session, type existence_hint } from './mediawiki';
 import { parse_site_credentials } from './site_credentials';
 import { merge_preserving_wiki_edits, transform_interwiki_tags } from './diff';
 
-// Validate that a Lua module file has correct syntax:
-// - Pattern 1: data-table style (starts with "return {" and ends with "}")
-// - Pattern 2: procedural style (starts with "local p = {}" and has balanced braces)
+// Remove Lua comments and string literals so structural checks (brace balance,
+// final statement) are not confused by braces or keywords inside strings.
+function strip_lua_noise(text : string) : string {
+    let out = '';
+    let i = 0;
+    const n = text.length;
+
+    while (i < n) {
+        const ch = text[i];
+
+        // Comment: -- line, or --[[ ... ]] / --[=[ ... ]=] block
+        if (ch === '-' && text[i + 1] === '-') {
+            const block = /^--\[(=*)\[/.exec(text.slice(i));
+            if (block) {
+                const close = `]${block[1]}]`;
+                const end = text.indexOf(close, i + block[0].length);
+                i = end === -1 ? n : end + close.length;
+                out += ' ';
+                continue;
+            };
+            const newline = text.indexOf('\n', i);
+            i = newline === -1 ? n : newline;
+            continue;
+        };
+
+        // Quoted string: '...' or "..."
+        if (ch === '"' || ch === "'") {
+            const quote = ch;
+            i += 1;
+            while (i < n) {
+                if (text[i] === '\\') { i += 2; continue };
+                if (text[i] === quote) { i += 1; break };
+                i += 1;
+            };
+            out += '""';
+            continue;
+        };
+
+        // Long string: [[ ... ]] / [=[ ... ]=]
+        if (ch === '[') {
+            const long = /^\[(=*)\[/.exec(text.slice(i));
+            if (long) {
+                const close = `]${long[1]}]`;
+                const end = text.indexOf(close, i + long[0].length);
+                i = end === -1 ? n : end + close.length;
+                out += '""';
+                continue;
+            };
+        };
+
+        out += ch;
+        i += 1;
+    };
+
+    return out;
+};
+
+// Validate that a Lua module file is plausibly well-formed before it is pushed:
+// - braces must balance, so a truncated or mangled file is never deployed
+// - the last statement must return a value (data-table modules close with "}")
+// - every module that defines a function must also contain "end"
 export function isValidLuaModule(text : string) : boolean {
-    const trimmed = text.trim();
-    // Pattern 1: data-table style
-    if (trimmed.startsWith('return {')) {
-        if (!trimmed.endsWith('}')) return false;
-        // Count braces - opening and closing must be equal
-        let open = 0;
-        let close = 0;
-        for (const ch of text) {
-            if (ch === '{') open++;
-            if (ch === '}') close++;
-        }
-        if (open !== close) return false;
-        if (!text.includes('[')) return false;
-        return true;
+    const code = strip_lua_noise(text).trim();
+    if (code.length === 0) return false;
+
+    // Count braces - opening and closing must be equal
+    let open = 0;
+    let close = 0;
+    for (const ch of code) {
+        if (ch === '{') open++;
+        if (ch === '}') close++;
     }
-    // Pattern 2: procedural style
-    if (trimmed.startsWith('local p = {}')) {
-        // Must have balanced braces for the function body
-        let open = 0;
-        let close = 0;
-        for (const ch of text) {
-            if (ch === '{') open++;
-            if (ch === '}') close++;
-        }
-        if (open !== close) return false;
-        // Must have at least one function definition
-        if (!text.includes('function')) return false;
-        return true;
-    }
-    // Unknown pattern
-    return false;
+    if (open !== close) return false;
+
+    const lines = code.split('\n').map(line => line.trim()).filter(line => line.length > 0);
+    const last = lines[lines.length - 1] ?? '';
+    const returns_value = /^return\b/.test(last) || (code.startsWith('return {') && last === '}');
+    if (!returns_value) return false;
+
+    // Guard against truncated files: a function body needs its closing "end"
+    if (code.includes('function') && !/\bend\b/.test(code)) return false;
+
+    return true;
 };
 
 import type { Ignore } from 'ignore';
