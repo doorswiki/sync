@@ -9,6 +9,7 @@ import { load_config, type site_config } from './config';
 import { map_repo_path, parse_shared_path_segment, type mapped_path } from './paths';
 import { mw_page_error, mw_session, type existence_hint } from './mediawiki';
 import { parse_site_credentials } from './site_credentials';
+import { is_title_excluded, load_excluded_pages } from './excluded';
 import { merge_preserving_wiki_edits, transform_interwiki_tags } from './diff';
 
 // Remove Lua comments and string literals so structural checks (brace balance,
@@ -517,6 +518,7 @@ async function run() : Promise<void> {
     const site_creds_map = parse_site_credentials(core.getInput('site_credentials') || '');
     const config_path = core.getInput('config_path') || 'wikiwire.toml';
     const ignore_path = core.getInput('ignore_path') || '.wikiwireignore';
+    const excluded_pages_path = core.getInput('excluded_pages_path') || 'excluded-pages.json';
     const input_dry = core.getInput('dry_run') === 'true';
     const input_delete_removed = core.getInput('delete_removed') === 'true';
     const sync_all = core.getInput('sync_all') === 'override';
@@ -633,6 +635,21 @@ async function run() : Promise<void> {
 
     for (const job of jobs) {
         job.mapped.title = rewrite_doc_subpage(job.mapped.title, site_languages.get(job.site_cfg.id) ?? null);
+    };
+
+    // Pages listed in excluded-pages.json are never written to or deleted from
+    // their wiki. Filter on the final title so the same rules apply to `/doc`
+    // and its localized aliases.
+    const excluded = load_excluded_pages(path.join(workspace, excluded_pages_path), new Set(sites.keys()));
+    if (excluded.size > 0) {
+        const kept = jobs.filter((job) => {
+            if (!is_title_excluded(excluded, job.site_cfg.id, job.mapped.title)) return true;
+
+            core.info(`WikiWire: excluded ${job.mapped.title} on ${job.site_cfg.id} (${excluded_pages_path})`);
+            return false;
+        });
+
+        jobs.splice(0, jobs.length, ...kept);
     };
 
     if (jobs.length === 0) { core.info('WikiWire: nothing to sync'); return };

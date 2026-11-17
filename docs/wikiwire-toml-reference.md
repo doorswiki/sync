@@ -126,6 +126,31 @@ On Polish wikis (`lang = "pl"`), a page title whose final subpage is `/doc` is s
 
 No configuration is required. If the language cannot be determined, the title is left unchanged.
 
+## Excluding pages per site: `excluded-pages.json`
+
+An optional `excluded-pages.json` at the repository root lists page titles that must never be synced to a given site. Excluded pages are skipped entirely: WikiWire does not write them, delete them, or read them.
+
+```json
+{
+  "zh": [
+    "Main Page",
+    "Template:DOORS Wiki",
+    "Template:DOORS Wiki/*"
+  ]
+}
+```
+
+- Keys are site ids from `wikiwire.toml`. `"*"` applies the entries to every site.
+- A trailing `/*` matches that page and all of its subpages, at any depth.
+- Other entries are exact titles. As on MediaWiki, the first letter is case-insensitive and the rest is case-sensitive.
+- Rules are matched against the final wiki title, so `/doc` and its localized aliases (such as `/opis`) are covered.
+- Excluding a page leaves any copy that already exists on the wiki untouched; it is not deleted.
+- An unknown site id or malformed JSON fails the run instead of being ignored.
+
+The file only affects deployment. Upstream imports (`scripts/sync-upstream.mjs`) still copy the page into the repository, so it keeps syncing to the sites that do not exclude it.
+
+Use the `excluded_pages_path` action input to read the rules from a different path.
+
 ## mediawiki/ layout
 
 Most `MediaWiki:` pages are flat files directly under `mediawiki/<host|id>/`. Use a subdirectory only when a page has subpages.

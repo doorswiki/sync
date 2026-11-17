@@ -25,6 +25,10 @@ inputs:
     description: Path to .wikiwireignore relative to the repository root (optional file)
     required: false
     default: .wikiwireignore
+  excluded_pages_path:
+    description: Path to excluded-pages.json relative to the repository root (optional file). Lists page titles that must never be synced to a given site.
+    required: false
+    default: excluded-pages.json
   dry_run:
     description: If true, log edits/deletes only and do not call the MediaWiki API
     required: false

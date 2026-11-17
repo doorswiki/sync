@@ -456,6 +456,29 @@ modules/obbywiki.com/ObbyGameInfobox/ObbyGameInfoboxLegacy.template.wikitext
 
 Please note that WikiWire is currently a BETA and this shouldn't be required in the future. Be advised that WikiWire doesn't support markdown or txt files, so syncing them will likely result in an error with-in your CI.
 
+## `excluded-pages.json`
+
+Optional file at the repository root (override with `excluded_pages_path`). It lists **wiki page titles** that must never be synced to a given site, unlike `.wikiwireignore` which works on repository paths.
+
+```json
+{
+  "zh": [
+    "Main Page",
+    "Template:DOORS Wiki",
+    "Template:DOORS Wiki/*"
+  ]
+}
+```
+
+- Keys are site `id` values from `wikiwire.toml`. `"*"` applies the entries to every site.
+- A trailing `/*` matches that page and all of its subpages, at any depth.
+- Other entries are exact titles; as on MediaWiki, the first letter is case-insensitive and the rest is case-sensitive.
+- Rules match the final wiki title, so localized `/doc` subpages (such as `/opis` on Polish wikis) are covered too.
+- Excluded pages are skipped completely: no write, no delete, and no read. A copy that already exists on the wiki is left untouched.
+- An unknown site id or malformed JSON fails the run instead of being silently ignored.
+
+Exclusion only affects deployment: `scripts/sync-upstream.mjs` still imports the page into the repository, so it keeps syncing to sites that do not exclude it.
+
 ## GitHub Action inputs
 
 | Input | Required | Default | Description |
@@ -465,6 +488,7 @@ Please note that WikiWire is currently a BETA and this shouldn't be required in 
 | `site_credentials` | no | `""` | JSON object whose keys are site `id` values from `wikiwire.toml` (not `host`). Each value must be `{"username":"…","password":"…"}`. Overrides the global `username` / `password` for that site. Keys that do not match any configured site produce a workflow warning. |
 | `config_path` | no | `wikiwire.toml` | Path to the TOML config. |
 | `ignore_path` | no | `.wikiwireignore` | Path to the ignore file (may be missing). |
+| `excluded_pages_path` | no | `excluded-pages.json` | Path to the per-site page exclusion file (may be missing). |
 | `dry_run` | no | `false` | If `true`, no edits or deletes are sent (site-level `dry_run` in TOML still applies per site). |
 | `delete_removed` | no | `false` | If `true`, delete on-wiki pages when repo files are removed (also enabled by `delete_removed` in `wikiwire.toml`). Entire-folder removals are skipped. Requires special permissions. |
 | `sync_all` | no | `false` | If set to `'override'`, every file under `modules/`, `templates/`, `mediawiki/`, `pages/`, `users/`, and `user_talk/` in the workspace is checked and synced instead of only the files changed per commit. Requires a prior checkout of the repo. Pair with `base_sha` so the previous revision is still used as the three-way merge ancestor and deleted files are detected. Previously this parameter accepted `true`, but that was changed in v0.3.0. |

@@ -25,6 +25,7 @@ on:
       - 'src/**'
       - 'dist/**'
       - 'package.json'
+      - 'excluded-pages.json'
       - '.github/workflows/wikiwire.yml'
   workflow_dispatch:
     inputs:
