@@ -22,6 +22,9 @@ on:
       # Code/manifest changes should also run the sync so a pending or failed
       # deploy is retried immediately.
       - 'scripts/**'
+      - 'src/**'
+      - 'dist/**'
+      - 'package.json'
       - '.github/workflows/wikiwire.yml'
   workflow_dispatch:
     inputs:
