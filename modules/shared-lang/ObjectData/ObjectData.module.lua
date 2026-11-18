@@ -431,10 +431,6 @@ return {
 	link = false,
 	color = false
 },
-['Damage'] = {
-	icon = 'Damage icon.png',
-	color = false
-},
 ['Death'] = {
 	icon = 'Death icon.png',
 	link = false,
