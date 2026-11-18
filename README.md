@@ -259,6 +259,15 @@ WikiWire waits and retries on HTTP 429/502/503/504, network timeouts, and MediaW
 
 For additional details, see the specification here.
 
+## Page moves
+
+When a repo file only contains `#REDIRECT [[SomePage]]` — which is how the upstream import records a page that has been moved upstream — WikiWire mirrors the move on each target wiki instead of only writing the redirect:
+
+- If the fork still holds its own pre-move content at the old title, those local edits are three-way merged into the moved page (base = the old page at the deploy base), so the localization is not stranded or overwritten with upstream's text.
+- The old title is then pushed as a redirect, matching the upstream move.
+
+Safety fallbacks (all fall back to pushing the redirect only): old and new titles must be in the same namespace; both pages must be wikitext; the fork's old page must not already be a redirect; the new page must not contain fork-specific content (it is never overwritten); the merged result must pass the div balance check. Upstream merges remain best effort, like the rest of WikiWire's merges.
+
 ## Merging with on-wiki edits
 
 Many wikis accept edits made directly on the wiki by users, and those edits should not be undone by the next Git sync. WikiWire therefore never blindly overwrites a page: before uploading, it merges the repo content with the current on-wiki content.

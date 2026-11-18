@@ -11,7 +11,7 @@ import { mw_page_error, mw_session, type existence_hint } from './mediawiki';
 import { parse_site_credentials } from './site_credentials';
 import { is_title_excluded, load_excluded_pages } from './excluded';
 import { count_divs } from './divs';
-import { merge_preserving_wiki_edits, transform_interwiki_tags } from './diff';
+import { merge_preserving_wiki_edits, merge_three_way, transform_interwiki_tags } from './diff';
 
 // Remove Lua comments and string literals so structural checks (brace balance,
 // final statement) are not confused by braces or keywords inside strings.
@@ -120,6 +120,15 @@ type sync_job = {
     kind : 'edit' | 'delete';
     git_status : git_status;
     base_file ?: string;
+};
+
+const REDIRECT_LINE_RE = /^\s*#\s*redirect\s*\[\[([^\]]+)\]\]\s*$/i;
+
+function parse_redirect_target(text : string | null) : string | null {
+    if (!text) { return null };
+
+    const m = REDIRECT_LINE_RE.exec(text.trim());
+    return m?.[1]?.trim() ?? null;
 };
 
 type gh_file = {
@@ -653,6 +662,69 @@ async function run() : Promise<void> {
         jobs.splice(0, jobs.length, ...kept);
     };
 
+    // Upstream page moves are mirrored by the fork as redirect files: a repo
+    // file that is just `#REDIRECT [[SomePage]]` means the page was moved upstream.
+    // When the fork still holds the pre-move content at the old title, that
+    // localized page would be stranded once the redirect is pushed. Instead,
+    // fold its local edits into the moved page and redirect the old title.
+    const skip_move_jobs = new Set<sync_job>();
+
+    // MediaWiki namespaces: only merge a move when the old and new titles
+    // live in the same one, so User talk -> User never gets folded together.
+    const page_namespace = (title : string) : string => {
+        const i = title.indexOf(':');
+        return i === -1 ? '' : title.slice(0, i).trim().toLowerCase();
+    };
+
+    const moves : Array<{ a_job : sync_job; b_job : sync_job }> = [];
+
+    {
+        const jobs_by_key = new Map<string, sync_job>();
+        for (const job of jobs) {
+            if (job.kind === 'edit') jobs_by_key.set(`${job.site_cfg.id} ${job.mapped.title}`, job);
+        };
+
+        const redirect_entries : Array<{ a_job : sync_job; target_title : string }> = [];
+        const lang_sites = new Map<string, site_config>();
+
+        for (const job of jobs) {
+            if (job.kind !== 'edit') continue;
+
+            const full_file = path.join(workspace, job.file);
+            if (!fs.existsSync(full_file)) continue;
+
+            const target = parse_redirect_target(fs.readFileSync(full_file, 'utf8'));
+            if (!target) continue;
+
+            redirect_entries.push({ a_job: job, target_title: target });
+            if (!lang_sites.has(job.site_cfg.id)) lang_sites.set(job.site_cfg.id, job.site_cfg);
+        };
+
+        // Redirect targets carry upstream titles; apply the /doc localization.
+        const site_lang_cache = new Map<string, string | null>();
+        for (const [site_id, site_cfg] of lang_sites) {
+            site_lang_cache.set(site_id, await fetch_site_language(site_cfg));
+        };
+
+        for (const entry of redirect_entries) {
+            const lang = site_lang_cache.get(entry.a_job.site_cfg.id) ?? null;
+            entry.target_title = rewrite_doc_subpage(entry.target_title, lang);
+
+            const b_job = jobs_by_key.get(`${entry.a_job.site_cfg.id} ${entry.target_title}`);
+            if (!b_job) continue; // target not part of this run (e.g. excluded)
+            if (b_job.kind !== 'edit') continue;
+            if (page_namespace(entry.a_job.mapped.title) !== page_namespace(b_job.mapped.title)) continue;
+            if (entry.a_job.mapped.content_model !== 'wikitext') continue;
+            if (b_job.mapped.content_model !== 'wikitext') continue;
+
+            const b_file_full = path.join(workspace, b_job.file);
+            if (!fs.existsSync(b_file_full)) continue;
+            if (parse_redirect_target(fs.readFileSync(b_file_full, 'utf8')) !== null) continue; // chained move
+
+            moves.push({ a_job: entry.a_job, b_job });
+        };
+    };
+
     if (jobs.length === 0) { core.info('WikiWire: nothing to sync'); return };
 
     // The previous revision of each file is the common ancestor for the merge.
@@ -752,9 +824,104 @@ async function run() : Promise<void> {
 
     const all_site_keys = Array.from(sites.values()).flatMap((s) => [s.id, s.host.split('.')[0]]);
 
+    // Page moves: push the redirect to the old title and merge the fork's
+    // localized pre-move content into the new page. Handled here, before the
+    // per-file loop, so the new page is written before the old one is
+    // redirected and no job reads the fork after the pre-pass.
+    try {
+        for (const { a_job, b_job } of moves) {
+            const dry = input_dry || a_job.site_cfg.dry_run || b_job.site_cfg.dry_run;
+            const site_id = a_job.site_cfg.id;
+
+            try {
+                if (dry) {
+                    core.info(`WikiWire: [dry-run] would restore ${b_job.mapped.title} on ${site_id} by merging ${a_job.mapped.title} into it, then make ${a_job.mapped.title} <= ${a_job.file} a redirect`);
+                    skip_move_jobs.add(a_job);
+                    skip_move_jobs.add(b_job);
+                    completed += 1;
+                    continue;
+                };
+
+                sync_begin(`syncing page move ${a_job.mapped.title} -> ${b_job.mapped.title} on ${site_id}`);
+                const session = await get_session(site_id);
+
+                const a_remote = await session.get_page_content(a_job.mapped.title);
+
+                // No localized pre-move content to rescue: behave like today's flow.
+                if (!a_remote || parse_redirect_target(a_remote) !== null) {
+                    sync_log(`${a_job.mapped.title} on ${site_id} is already a redirect; nothing to restore to ${b_job.mapped.title}`);
+                    continue;
+                };
+
+                const b_text = transform_interwiki_tags(fs.readFileSync(path.join(workspace, b_job.file), 'utf8'), site_id, a_job.site_cfg.host, all_site_keys);
+                const b_remote = await session.get_page_content(b_job.mapped.title);
+
+                // If the fork already carries its own edits at the new title, it must
+                // not be overwritten; never push past them either.
+                if (b_remote !== null && b_remote.replace(/\r\n/g, '\n') !== b_text.replace(/\r\n/g, '\n') && b_remote.replace(/\r\n/g, '\n') !== fs.readFileSync(path.join(workspace, b_job.file), 'utf8').replace(/\r\n/g, '\n')) {
+                    sync_log(`${b_job.mapped.title} on ${site_id} has fork-specific content; not overwriting. Leaving ${a_job.mapped.title} alone.`);
+                    continue;
+                };
+
+                let merged = b_text;
+                const base_content = await read_base_content(a_job.base_file ?? a_job.file);
+                const base_text = base_content !== null ? transform_interwiki_tags(base_content, site_id, a_job.site_cfg.host, all_site_keys) : null;
+
+                if (base_text !== null) {
+                    merged = merge_three_way(base_text, b_text, a_remote);
+                } else {
+                    merged = merge_preserving_wiki_edits(b_text, a_remote);
+                };
+
+                const { open, close } = count_divs(merged);
+                if (open !== close) {
+                    sync_log(`skipping page move ${a_job.mapped.title} -> ${b_job.mapped.title} on ${site_id}: merged page has unbalanced <div> tags (${open} opened, ${close} closed)`);
+                    core.warning(`WikiWire: skipped page move ${a_job.mapped.title} -> ${b_job.mapped.title} on ${site_id}; resolve manually`);
+                    continue;
+                };
+
+                // Push the restored page into the new title.
+                if (b_remote === null || merged.replace(/\r\n/g, '\n') !== b_remote.replace(/\r\n/g, '\n')) {
+                    const b_existence = b_remote !== null ? 'assume_exists' : existence_hint_for(b_job.git_status, infer_page_existence);
+                    await session.edit(b_job.mapped.title, merged, change_summary('edit', b_job.file, attribution), 'wikitext', b_existence);
+                    sync_log(`restored ${b_job.mapped.title} on ${site_id} from ${a_job.mapped.title}`);
+                } else {
+                    sync_log(`${b_job.mapped.title} on ${site_id} is already up to date`);
+                };
+
+                // Make the old title a redirect like upstream.
+                const redirect_text = fs.readFileSync(path.join(workspace, a_job.file), 'utf8');
+                if (a_remote.replace(/\r\n/g, '\n') !== redirect_text.replace(/\r\n/g, '\n')) {
+                    await session.edit(a_job.mapped.title, redirect_text, change_summary('edit', a_job.file, attribution), 'wikitext', 'assume_exists');
+                    sync_log(`made ${a_job.mapped.title} on ${site_id} a redirect to ${b_job.mapped.title}`);
+                };
+
+                skip_move_jobs.add(a_job);
+                skip_move_jobs.add(b_job);
+                completed += 1;
+            } catch (err : unknown) {
+                const msg = err instanceof Error ? err.message : String(err);
+                core.error(`WikiWire: ${msg} on ${site_id}; page move skipped`);
+                if (err instanceof mw_page_error) {
+                    page_failures.push({ error: err, site_id });
+                } else {
+                    page_failures.push({
+                        error: new mw_page_error(msg, { code: 'error', title: a_job.mapped.title, action: 'edit' }),
+                        site_id,
+                    });
+                };
+            };
+        };
+    } catch (err : unknown) {
+        const msg = err instanceof Error ? err.message : String(err);
+        core.error(`WikiWire: ${msg}`);
+    };
+
     try {
         for (let job_index = 0; job_index < jobs.length; job_index++) {
             const job = jobs[job_index];
+
+            if (skip_move_jobs.has(job)) { continue };
             const dry = input_dry || job.site_cfg.dry_run;
             const existence = existence_hint_for(job.git_status, infer_page_existence);
 
