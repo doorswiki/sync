@@ -1,0 +1,81 @@
+{{DOORS Wiki/Container|title=<span>DOORS Network</span>|body=
+<div class="doorswiki-nov26-socials-container">
+<div class="doorswiki-nov26-socials">
+<div class="home-card__label">LSPLASH</div><!--
+
+-->{{#invoke:ButtonLua|main
+| label = LSPLASH Discord
+| url   = https://discord.gg/lsplash
+| icon  = Discord - Simple Icons.svg
+| class = t-button--icon-always-invert}}<!--
+
+-->{{#invoke:ButtonLua|main
+| label = @DoorsRoblox
+| url   = https://twitter.com/@DoorsRoblox
+| icon  = Twitter - Simple Icons.svg
+| class = t-button--icon-dark-invert}}<!--
+
+-->{{#invoke:ButtonLua|main
+| label = @LSPLASH
+| url   = https://www.youtube.com/@LSPLASH
+| icon  = YouTube - Simple Icons.svg
+| class = t-button--icon-always-invert}}<!--
+
+-->{{#invoke:ButtonLua|main
+| label = LSPLASH Group
+| url = https://www.roblox.com/games/6516141723/DOORS
+| icon = Roblox - Simple Icons.svg
+| class = t-button--icon-dark-invert}}<!--
+
+-->{{#invoke:ButtonLua|main
+| label = Official site
+| url   = https://www.lsplash.com/
+}}
+</div><!--
+
+
+
+--><div class="doorswiki-nov26-socials">
+<div class="home-card__label">DOORS Wiki</div><!--
+
+-->{{#invoke:ButtonLua|main
+| label = Wiki Discord
+| url   = https://discord.gg/SpKAgJDuVn
+| icon  = Discord - Simple Icons.svg
+| class = t-button--icon-always-invert}}<!--
+
+-->{{#invoke:ButtonLua|main
+| label = @DoorsWiki
+| url   = https://twitter.com/@DoorsWiki
+| icon  = Twitter - Simple Icons.svg
+| class = t-button--icon-dark-invert}}<!--
+
+-->{{#invoke:ButtonLua|main
+| label = @RobloxDoorsWiki
+| url   = https://www.youtube.com/@RobloxDoorsWiki
+| icon  = YouTube - Simple Icons.svg
+| class = t-button--icon-always-invert}}<!--
+
+-->{{#invoke:ButtonLua|main
+| label = Wiki GitHub
+| url   = https://github.com/doorswiki
+| icon  = GitHub - Simple Icons.svg
+| class = t-button--icon-dark-invert}}<!--
+--></div><!--
+
+
+--><div class="doorswiki-nov26-socials">
+<div class="home-card__label">Affiliated sites</div><!--
+
+-->{{#invoke:ButtonLua|main
+| label = DOORS Ideas Wiki
+| link  = fandom:doors-ideas
+| icon  = DOORS Ideas Wiki Site-logo.png}}<!--
+
+-->{{#invoke:ButtonLua|main
+| label = Chinese DOORS Wiki
+| url   = https://zh.doorsgame.wiki
+| icon  = DOORS_Wiki_ZH_site_logo.png}}<!--
+--></div>
+</div>
+}}<noinclude><templatestyles src="DOORS Wiki/styles.css"/>
