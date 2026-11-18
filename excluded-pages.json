@@ -2,6 +2,11 @@
   "zh": [
     "Main Page",
     "Template:DOORS Wiki",
-    "Template:DOORS Wiki/*"
+    "Template:DOORS Wiki/*",
+    "Module:ObjectData"
+  ],
+  "en": [
+    "Template:DOORS Wiki/Socials",
+    "Template:DOORS Wiki/styles.css"
   ]
 }
