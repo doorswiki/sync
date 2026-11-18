@@ -855,14 +855,6 @@ async function run() : Promise<void> {
 
                 const b_text = transform_interwiki_tags(fs.readFileSync(path.join(workspace, b_job.file), 'utf8'), site_id, a_job.site_cfg.host, all_site_keys);
                 const b_remote = await session.get_page_content(b_job.mapped.title);
-
-                // If the fork already carries its own edits at the new title, it must
-                // not be overwritten; never push past them either.
-                if (b_remote !== null && b_remote.replace(/\r\n/g, '\n') !== b_text.replace(/\r\n/g, '\n') && b_remote.replace(/\r\n/g, '\n') !== fs.readFileSync(path.join(workspace, b_job.file), 'utf8').replace(/\r\n/g, '\n')) {
-                    sync_log(`${b_job.mapped.title} on ${site_id} has fork-specific content; not overwriting. Leaving ${a_job.mapped.title} alone.`);
-                    continue;
-                };
-
                 let merged = b_text;
                 const base_content = await read_base_content(a_job.base_file ?? a_job.file);
                 const base_text = base_content !== null ? transform_interwiki_tags(base_content, site_id, a_job.site_cfg.host, all_site_keys) : null;

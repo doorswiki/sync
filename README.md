@@ -266,7 +266,7 @@ When a repo file only contains `#REDIRECT [[SomePage]]` — which is how the ups
 - If the fork still holds its own pre-move content at the old title, those local edits are three-way merged into the moved page (base = the old page at the deploy base), so the localization is not stranded or overwritten with upstream's text.
 - The old title is then pushed as a redirect, matching the upstream move.
 
-Safety fallbacks (all fall back to pushing the redirect only): old and new titles must be in the same namespace; both pages must be wikitext; the fork's old page must not already be a redirect; the new page must not contain fork-specific content (it is never overwritten); the merged result must pass the div balance check. Upstream merges remain best effort, like the rest of WikiWire's merges.
+Safety fallbacks (all fall back to pushing the redirect only): old and new titles must be in the same namespace; both pages must be wikitext; the fork's old page must not already be a redirect; the merged result must pass the div balance check. When the fork carries local edits at the new title, the three-way merge keeps them (same behaviour as ordinary syncs). Upstream merges remain best effort, like the rest of WikiWire's merges.
 
 ## Merging with on-wiki edits
 
