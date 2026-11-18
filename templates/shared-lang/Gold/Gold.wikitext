@@ -1,0 +1,1 @@
+<includeonly>[[File:Gold icon.png|frameless|24x24px|link=Gold|Gold]]{{{1}}}</includeonly><noinclude>{{Documentation}}</noinclude>

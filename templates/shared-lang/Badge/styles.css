@@ -1,0 +1,321 @@
+
+
+.badge-list-totals {
+	display: flex;
+	gap: 10px;
+	font-size: 1.3em;
+	justify-content: center;
+}
+
+.badge-list-wrapper {
+	position: relative;
+	display: flex;
+	justify-content: center;
+}
+.badge-list-wrapper p {
+	margin: 0;
+}
+.badge-list-wrapper .tabber__tabs {
+	align-items: center;
+	justify-content: center;
+}
+
+.badge-list {
+	position: relative;
+	width: 100%;
+	max-width: 1000px;
+    background: oklch(from var(--color-surface-2) l c h / 50%);
+    backdrop-filter: unset!important;
+    border-radius: var(--border-radius-medium)!important;
+    border: var(--border-base)!important;
+	overflow: hidden;
+}
+
+.badge-list-page-actions {
+	position: absolute;
+	right: 5px;
+	top: 0;
+	font-weight: 500;
+}
+
+.badge-list-header {
+	text-align: center;
+	padding-top: 0.6em;
+}
+
+.badge-list-header-title {
+	font-weight: bold;
+	font-size: 1.7em;
+}
+
+.badge-list-badges-title {
+	padding: 5px 10px;
+	line-height: 1;
+	font-size: 1.5em;
+	font-weight: 600;
+	font-family: Oswald;
+	color: var(--accent-color-base);
+	background: linear-gradient(90deg, rgba(0,0,0,0.25), rgba(0,0,0,0));
+}
+
+.badge-list-badges-wrapper {
+	height: 700px;
+	overflow-y: auto;
+	resize: vertical;
+}
+.badge-list-badges-wrapper.badge-list-badges-wrapper-auto {
+	height: fit-content;
+	max-height: 475px;
+}
+
+.badge-list-badges-type {
+	display: flex;
+	flex-direction: column;
+}
+.badge {
+	display: flex;
+	flex-wrap: wrap;
+    padding: var(--space-lg);
+	position: relative;
+	min-width: 600px;
+	align-items: center;
+}
+.badge::before {
+	content: '';
+	background-image: linear-gradient(90deg, #0000, #0000, var(--color-surface-2));
+	position: absolute;
+	height: 2px;
+	inset: 0;
+}
+.badge:hover {
+	background: var(--color-surface-3);
+}
+
+.badge-image {
+	display: flex;
+	align-items: center;
+	flex-shrink: 0;
+	position: relative;
+	margin: 0 10px 0 5px;
+	height: 100px;
+	width: 100px;
+}
+.badge-image img {
+	border-radius: 50%;
+	width: 100%;
+	height: 100%;
+}
+
+.badge-border {
+	position: absolute;
+	inset: -8px;
+	background-color: currentColor;
+	background-image: var(--gradient);
+	mask: url("https://static.wikitide.net/doorswiki/8/81/BadgeBorder.svg") no-repeat center / contain;
+	pointer-events: none;
+}
+.badge-border-secret {
+	mask: url("https://static.wikitide.net/doorswiki/6/62/SecretBadgeBorder.svg") no-repeat center / contain;
+}
+
+.badge-content {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	font-family: "Oswald", sans-serif;
+}
+
+.badge-top-row {
+	display: flex;
+	align-items: flex-start;
+}
+.badge-bottom-row {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.badge-owners {
+    font-size: 1.2em;
+    font-weight: bold;
+    background: rgba(0,0,0,0.2);
+    padding: 0 10px;
+    border-radius: 8px;
+    line-height: 1.2;
+}
+
+.badge-title {
+	line-height: 1;
+	font-size: 2em;
+	font-weight: 500;
+	margin-right: 10px;
+	background-image: var(--gradient);
+	color: var(--color, transparent);
+}
+
+.badge-right {
+	margin-left: auto;
+	display: flex;
+	align-items: center;
+}
+
+.badge-rewards {
+    margin-left: auto;
+	margin-bottom: auto;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    white-space: nowrap;
+    flex-shrink: 0;
+	padding-bottom: 30px;
+	padding-right: 5px;
+}
+
+.badge-rewards-item {
+	height: fit-content;
+	font-weight: bold;
+	font-size: 1em;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+.badge-rewards-item::before {
+	content: '';
+	position: absolute;
+	inset: 0;
+	background: var(--color-surface-3);
+	height: 70%;
+	transform: translate(20%, 20%);
+	width: 90%;
+	border-radius: 20px;
+	z-index: -1;
+}
+.badge-rewards img {
+	height: 40px;
+	width: 40px;
+}
+
+.badge-details {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.5em;
+	line-height: 1;
+	width: fit-content;
+	font-weight: 400;
+	gap: 5px;
+}
+
+.badge-tags {
+	color: #8B6261;
+	line-height: 1;
+	font-size: 1em;
+}
+
+.badge-directions {
+	color: light-dark(#756554, #FFDEBD);
+	margin-right: 80px;
+}
+
+.badge-buttons {
+	position: relative;
+	width: 100%;
+}
+
+.badge-button {
+	position: absolute;
+	bottom: 100%;
+	right: 0;
+	cursor: help;
+}
+
+.badge-button img {
+	width: 30px;
+	height: 30px;
+}
+
+html.skin-theme-clientpref-day .badge-button img {
+    filter: invert(1) hue-rotate(180deg);
+}
+
+.badge-tutorial-button ~ .badge-references-button,
+.badge-tutorial-button ~ .badge-oldversions-button,
+.badge-references-button ~ .badge-oldversions-button,
+.badge-oldversions-button ~ .badge-references-button {
+    right: 2em;
+}
+
+.badge-tutorial-button ~ .badge-references-button ~ .badge-oldversions-button {
+    right: 4em;
+}
+
+.badge-button-container {
+	height: 0;
+	overflow: hidden;
+}
+
+.badge-tutorial-button:hover + .badge-tutorial-container,
+.badge-tutorial-container:hover,
+.badge-oldversions-button:hover + .badge-oldversions-container,
+.badge-oldversions-container:hover,
+.badge-references-button:hover + .badge-references-container,
+.badge-references-container:hover {
+	height: auto;
+}
+
+.badge-info-box {
+	width: 100%;
+	border-radius: var(--border-radius-medium);
+    border: unset!important;
+    background: var(--color-surface-2);
+    padding: var(--space-md)!important;
+    margin: var(--space-lg) 0 0!important;
+}
+
+.badge-info-box .badge {
+	min-width: unset;
+}
+
+.badge-info-title {
+	/*font-family: Oswald, sans-serif;*/
+	font-size: var(--font-size-large);
+	text-align: center;
+	line-height: 1;
+}
+
+@media (max-width: 800px) {
+	.badge-list-wrapper .tabber__tabs {
+		justify-content: unset;
+	}
+	.badge-list-badges-title {
+		font-size: 1em;
+	}
+	.badge-list-badges-wrapper {
+		height: 500px;
+	}
+	.badge {
+		min-width: 500px;
+    	padding: var(--space-xs);
+	}
+	.badge-image {
+		height: 80px;
+		width: 80px;
+	}
+	.badge-title {
+		font-size: 1.5em;
+		line-height: 1
+	}
+	.badge-details {
+		line-height: 1.2;
+		font-size: 1.2em;
+	}
+	.badge-owners {
+		font-size: 1em;
+	}
+	.badge-rewards {
+		font-size: 0.7em;
+	}
+	.badge-rewards img {
+		width: 30px;
+		height: 30px;
+	}
+}

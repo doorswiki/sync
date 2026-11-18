@@ -1,0 +1,210 @@
+/*
+FOR DOCUMENTATION SEE [[Template:Color/styles.css/doc]]
+Objects at [[Module:ObjectData]]
+color - text color
+--gradient - text gradient
+--stroke - text outline color 
+--gradient2 - text outline gradient 
+*/
+
+/* General */
+.color-template_gold {
+	--gradient: linear-gradient(180deg, #f7e5b4, #e8da32);
+}
+.color-template_knob {
+	--gradient: linear-gradient(180deg, #fefcf2, #f1b99d, #ad6483);
+}
+.color-template_knobs-boost {
+	--gradient: linear-gradient(180deg, #f8f1c7, #f2e296, #e7b086);
+}
+.color-template_stardust {
+	--gradient: linear-gradient(180deg, #fdfce9, #f1e380, #e49b87, #cd7792);
+	--stroke: #72354b;
+}
+.color-template_revive {
+	--gradient: linear-gradient(180deg, #fef5ed, #d55161);
+}
+.color-template_robux {
+	color: #fff;
+}
+
+/* Badge Colors */
+.color-template_battle {
+    --gradient: linear-gradient(180deg, #dde6ff 0%, #cbf6ff 24.9%, #ffffff 52.8%, #e6beff 77%, #553cba 100%);
+}
+.color-template_battlecool {
+    --gradient: linear-gradient(180deg, #dde6ff 0%, #ffffff 16.1%, #70ffff 31.8%, #ffec58 46.9%, #ff93dd 68.3%, #553cba 100%);
+}
+.color-template_crucifix {
+    --gradient: linear-gradient(180deg, #ffd7b7 0%, #a6b9e3 20.2%, #b2eaff 60%, #c89b8d 87.7%, #ffd7b7 100%);
+}
+.color-template_crucifixrare {
+    --gradient: linear-gradient(180deg, #ffd7b7 0%, #a9f4ff 25.4%, #8eacff 61.4%, #f4b8ff 79.2%, #f4ca71 89.1%, #8d645a 100%);
+}
+.color-template_crucifixscary {
+    --gradient: linear-gradient(180deg, #ffd7b7 0%, #a6b9e3 24.6%, #b2eaff 46%, #fdcaff 63%, #e28a8a 82.7%, #ffd7b7 100%);
+}
+.color-template_default {
+    color: #b49a80;
+}
+.color-template_escape {
+    --gradient: linear-gradient(180deg, #e5ffff, #87cbff);
+}
+.color-template_escapeblue {
+    --gradient: linear-gradient(180deg, #b2c3ff 0%, #7494ff 60.9%, #5670e5 100%);
+}
+.color-template_escapeinsane {
+    --gradient: linear-gradient(180deg, #66e3ff 0%, #7b61ff 16.3%, #db6790 37.4%, #fbe572 56.9%, #42ffb7 81.3%, #81beff 100%);
+}
+.color-template_escapeunique {
+    --gradient: linear-gradient(180deg, #fff36f 0%, #dba3a6 58.8%, #b3a4ff 80.4%, #81beff 100%);
+}
+.color-template_glitch {
+    --gradient: linear-gradient(180deg, #ff00fb 0%, #ff00fb 58.8%, #fff700 59.3%, #ffe90e 72.7%, #00f2ff 73.4%, #1cd8ff 86.7%, #e21cfb 87.5%, #ff00fb 100%);
+}
+.color-template_glitchpurple {
+    --gradient: linear-gradient(180deg, #b264b9 0%, #ff8fff 27%, #943aa6 74.9%, #903f9e 100%);
+}
+.color-template_groupmember {
+    --gradient: linear-gradient(180deg, #f4ffa9 0%, #eec37e 44.1%, #7caeff 100%);
+}
+.color-template_holiday {
+    --gradient: linear-gradient(180deg, #ffa4a6 0%, #fffed3 38.8%, #b7eeff 68.5%, #b7eeff 87%, #b9ffa4 100%);
+}
+.color-template_holidaycool {
+    --gradient: linear-gradient(180deg, #ffc5c6 0%, #db6790 19.6%, #e9b8f3 40.8%, #b7eeff 55.5%, #42ffb7 71.6%, #b9ffa4 100%);
+}
+.color-template_ranked {
+    --gradient: linear-gradient(180deg, #dde6ff 0%, #a2c3ff 26.5%, #ffffff 52.8%, #ffd5f4 61.1%, #feffcd 75.8%, #ebccff 89.4%, #553cba 100%);
+}
+.color-template_rareencounter {
+    --gradient: linear-gradient(180deg, #ff989a, #bb6aec);
+}
+.color-template_redyellow {
+    --gradient: linear-gradient(180deg, #ffa2a2, #ffda85);
+}
+.color-template_rush {
+    --gradient: linear-gradient(180deg, #7d97c7, #836efe);
+}
+.color-template_scary {
+    --gradient: linear-gradient(180deg, #ffedab 0%, #ffb580 39.3%, #c46de1 85.3%, #9876ba 100%);
+}
+.color-template_scary2 {
+    --gradient: linear-gradient(180deg, #ffe761 0%, #ff7530 40.8%, #d149e1 83.4%, #553cba 100%);
+}
+.color-template_shinyred {
+    --gradient: linear-gradient(180deg, #ffffff 0%, #ffd6d6 42%, #ff6868 57.4%, #ff4141 100%);
+}
+.color-template_special {
+    --gradient: linear-gradient(180deg, #f4ffa9 0%, #f1c5ff 30.4%, #b6eaf5 60.9%, #ff4e9e 100%);
+}
+.color-template_survive {
+    --gradient: linear-gradient(180deg, #c7837a, #c76868);
+}
+.color-template_surviverare {
+    --gradient: linear-gradient(180deg, #be97c7, #fe5d5d);
+}
+.color-template_thadventure {
+    --gradient: linear-gradient(180deg, #fece92, #fe8c25);
+}
+.color-template_thhard {
+    --gradient: linear-gradient(180deg, #ef7d69, #ef735d);
+}
+.color-template_thquest {
+    --gradient: linear-gradient(180deg, #ffa6ea, #d0d3ff);
+}
+.color-template_thvoid {
+    --gradient: linear-gradient(180deg, #fefefe, #4b4b4b);
+}
+.color-template_utg {
+    --gradient: linear-gradient(180deg, #ffffff 0%, #f3feff 28.5%, #a5f6ff 49.1%, #8299ff 62.8%, #ed888e 81.3%, #ff6c6c 100%);
+}
+.color-template_unique {
+    --gradient: linear-gradient(180deg, #f4ffa9, #ff8f63);
+}
+.color-template_vision {
+    color: #32f84f;
+}
+.color-template_archives {
+    --gradient: linear-gradient(135deg, #99b1ff 0%, #98d5cc 16.9%, #96ff90 26.3%, #89c7e3 35.4%, #85b4ff 51.5%, #8adac2 68.4%, #8eff86 74.8%, #8eff86 87.7%, #8396ff 100%);
+}
+.color-template_stairwell {
+    --gradient: linear-gradient(135deg, #4b4b54 0%, #313136 4.15%, #545457 30.4%, #1d1d1d 69.1%, #afafaf 100%);
+}
+.color-template_escapehollow {
+    --gradient: linear-gradient(180deg, #ff3131 0%, #8243ff 60.9%, #384994 100%);
+}
+
+/* modifier colors */
+.color-template_defaultm { color: #ffdebd; }
+.color-template_player   { color: #ffdebd; }
+.color-template_helpful1 { color: #f9ffb8; }
+.color-template_helpful2 { color: #c0ffa9; }
+.color-template_helpful3 { color: #abffd5; }
+.color-template_helpful4 { color: #aae6ff; }
+.color-template_danger0  { color: #ffbb93; }
+.color-template_danger1  { color: #ffa093; }
+.color-template_danger2  { color: #ff9294; }
+.color-template_danger3  { color: #ff7386; }
+.color-template_danger4  { color: #ff566f; }
+.color-template_danger5  { color: #ff4b4e; }
+.color-template_danger6  { color: #ff272b; }
+.color-template_hide     { color: #ffa08f; }
+.color-template_seek     { color: #ff6c6c; }
+.color-template_figure   { color: #eb8472; }
+.color-template_dupe     { color: #ffa0b8; }
+.color-template_rushm    { color: #bfbbd4; }
+.color-template_ambush   { color: #abf1c2; }
+.color-template_eyes     { color: #c7bcff; }
+.color-template_screech  { color: #bdc4d3; }
+.color-template_timothy  { color: #9db394; }
+.color-template_snare    { color: #a5b371; }
+.color-template_halt     { color: #50ffd9; }
+.color-template_giggle   { color: #bcb0aa; }
+.color-template_curious  { color: #ffdc4f; }
+.color-template_white    { color: #ffffff; }
+.color-template_pink     { color: #ff86d9; }
+.color-template_cool     { color: #ffb9f8; }
+.color-template_purple   { color: #aa83ff; }
+
+/* People */
+.color-template_lightning_splash {
+	--gradient: linear-gradient(135deg,rgba(255, 251, 0, 1) 0%, rgba(255, 251, 0, 1) 50%, rgba(0, 255, 255, 1) 50%, rgba(0, 255, 255, 1) 100%);
+}
+.color-template_rediblesqw {
+	--gradient: linear-gradient(175deg,rgba(255, 237, 181, 1) 0%, rgba(250, 50, 50, 1) 65%, rgba(252, 50, 50, 1) 100%);
+}
+.color-template_jasper_creations {
+	color: #fff;
+	--gradient2: repeating-linear-gradient(90deg, #2c2c2d 0 10px, #000 10px 20px);
+}
+.color-template_verticoz {
+	color: #fff;
+	--stroke: #000;
+}
+.color-template_asaku_draw {
+	color: #677eeb
+}
+.color-template_varzkitt {
+	--stroke: #633cee;
+	color: #211635
+}
+.color-template_jackco_speed25 {
+	color: #fff;
+	--stroke: #000;
+}
+.color-template_itsthump {
+	--gradient: linear-gradient(170deg, #976d6d, #b9a375, #7292b3)
+}
+
+/* Misc */
+.color-template_lua {
+	color: #00007d;
+	--stroke: #fff;
+}
+.color-template_css {
+	color: #398fc6;
+}
+.color-template_js {
+	color: #f0db4f;
+}

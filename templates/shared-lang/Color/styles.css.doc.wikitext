@@ -1,0 +1,25 @@
+== Explanation ==
+* Before adding a new CSS class at [[Template:Color/styles.css]], first add the item entry with its full original unmodified name in [[Module:ObjectData]]
+* Then modify the original name following these steps '''in order''':
+*# Convert all uppercase letters to lowercase.
+*# Replace any character from this set with a single hyphen <code>-</code>:
+*#: <code>%s # ( ) = * + ` @ $ % & ! . : ; , ' \ / < > ? [ ] { } | ~</code>
+*#: (Note: <code>%s</code> represents a space character)
+*# Collapse any sequence of two or more hyphens into a single hyphen.
+*# Prefix the result with <code>color-template_</code>.
+
+* '''Example:'''
+*: Object name: <code>!Abyssal.(Stone) 2!</code>
+*: After lowercase: <code>!abyssal.(stone) 2!</code>
+*: After replacements: <code>-abyssal--stone-2-</code>
+*: After collapsing hyphens: <code>-abyssal-stone-2-</code>
+*: After prefix: <code>color-template_-abyssal-stone-2-</code>
+
+* All of this is required to make a css-safe class name
+*: Colors can be used via [[Template:Color]]
+*: Works under [[Module:Color]]
+
+* '''Technical notes:'''
+*: <code>background-clip</code> along with <code>-webkit-text-fill-color</code> and <code>-webkit-text-stroke</code> cannot be used directly on pages outside the MediaWiki namespace due to MediaWiki's outdated sanitizer. 
+*: To bypass this restriction, [[Module:Color]] wraps the text in a default set of classes and relies on CSS <code>@container style()</code> queries inside [[MediaWiki:Common.css]] to detect the presence of the <code>--gradient</code> and <code>--gradient2</code> variables.
+*: Gradients and stroke are stored in variable to allow for reuse in other styling by just appending the required class inline. Text <code>color</code> doesn't need a variable as it can be reused via <code>currentColor</code>.

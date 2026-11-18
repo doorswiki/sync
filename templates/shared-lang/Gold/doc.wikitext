@@ -1,0 +1,7 @@
+<noinclude>{{Documentation subpage}}</noinclude>
+;Description
+:This template is used to show an icon on pages next to an amount for one of the in-game [[Currency|currencies]], [[Gold]].
+;Syntax
+:Type <code>{{T|Gold}}</code> on the corresponding page.
+
+<includeonly>[[Category:Infoicon templates]]</includeonly>

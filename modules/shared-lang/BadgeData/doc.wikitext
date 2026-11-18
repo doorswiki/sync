@@ -1,0 +1,82 @@
+<div style="border:1px solid; border-radius: 5px; padding: 0 5px;">
+<div style="line-height: 1; border-bottom:1px solid #5556">
+<span style="font-size:1.5em">[[File:Documentation_icon.svg|70px|link=|alt=|class=nomobile]] '''Module Documentation'''</span>
+<span style="float:right">&#x5b;[[Module:BadgeData/doc|view]] &#124; [[Module talk:BadgeData/doc|talk]] &#124; [[Special:EditPage/Module:BadgeData/doc|edit]] &#124; [[Special:PageHistory/Module:BadgeData/doc|history]] &#124; [[Special:Purge/Module:BadgeData/doc|purge]]&#x5d;</span>
+</div>
+<div style="padding:.5em; margin:0">
+:This is the documentation for [[Module:BadgeData]].
+:For current badge versions, color and image data is managed at [[Module:ObjectData]].
+'''Data Structure and Fields'''
+<syntaxhighlight lang=lua style="margin: 0">
+General = { -- Badges section start
+	
+{ -- Badge entry start
+
+	-- Exact ingame title
+	title = 'Welcome', 
+	
+	-- Exact ingame text below the title
+	text = 'Enjoy your stay!',
+	
+	-- Exact ingame directions text
+	directions = 'Join for the first time.',
+	
+	-- Extra tutorial for the wiki if needed
+	tutorial = 'To get this, go there, do this.', -- or nil
+	
+	-- If the badge's ingame text, directions, title or image reference anything, add data about it
+	references = 'References the hit title "1984" by George Orwell...', -- or nil
+
+	-- List all rewards given upon completing the achievement
+	rewards = { -- if there are no rewards, just put nil
+		Knob = 100, -- Key = Value
+		Stardust = 123,
+		Revive = 30,
+		'EpicSkin.png|link=items' -- Any images of skins can be added
+	},
+	
+	-- If achievement doesn't count towards progression
+	secret = false, -- or true
+	
+	-- If achievement doesn't show up in the index on a fresh account
+	hidden = false, -- or true
+	
+	-- If achievement is currently obtainable through any means besides being given by developers directly
+	obtainable = true, -- or false
+	
+	-- Exact ID string of the achievement's Roblox badge ID
+	id = '2127715318', -- or nil if there is no actual badge
+
+	-- Old achievement versions entries (include if title, text, image or directions were changed)
+	-- If the achievement got an entire new badge ID, it is not an old version
+	-- Do not add this parameter at all if there are no old versions
+	oldVersions = {
+	
+		{ -- start of old version entry
+		
+			... -- Contains exact same data as regular entry, minus the oldVersions itself & id
+			
+			-- Use game files color name, badge color names can be found at [[Achievements/Gradients]]
+			color = 'Default v1',
+			image = "Epic Badge v1.png"
+			
+		},  -- end of old version entry
+		
+		... -- continue adding all old versions
+	},
+	
+}, -- Badge entry end
+
+... -- Continue adding badges falling under this section using exact same entry structure
+
+},  -- Badges section end
+
+... -- continue badge sections
+</syntaxhighlight>
+
+</div>
+
+<div class="article-table documentation" style="padding:.5em; border-top:1px solid #5556">The above data is used by [[Module:BadgeList]] to generate badge/achievements lists and related information.
+</div>
+
+</div>
