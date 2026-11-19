@@ -47,11 +47,16 @@
 	height: 1.25rem;
 }
 
-html:not(.skin-theme-clientpref-day) .t-button--icon-dark-invert > .cdx-icon {
+html.skin-theme-clientpref-day .t-button--icon-light-invert > .cdx-icon {
 	filter: invert(1);
 }
 
-.t-button--icon-always-invert > .cdx-icon {
+html.skin-theme-clientpref-night .t-button--icon-dark-invert > .cdx-icon,
+html.skin-theme-clientpref-black .t-button--icon-dark-invert > .cdx-icon {
+	filter: invert(1);
+}
+
+.t-button--icon-invert > .cdx-icon {
     filter: invert(1);
 }
 

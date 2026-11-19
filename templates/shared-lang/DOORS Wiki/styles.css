@@ -639,13 +639,19 @@ html.skin-theme-clientpref-day .doors-nov26-navigation img {
 
 .doors-funfacts {
 	text-align: left;
-	display: flow-root;
+	display: flex;
+	flex-direction: column;
 }
 
 .doors-funfacts::after {
 	content: "";
   	display: table;
   	clear: both;
+}
+
+.doors-funfacts .t-button {
+	margin-top: var(--space-md);
+	width: max-content;
 }
 
 /*** irwa styling ***/

@@ -6,4 +6,3 @@
 * AudioPlayer[ResourceLoader|default|hidden|type=general]|AudioPlayer.css
 == visual ==
 * NoEditSections[ResourceLoader|type=styles]|NoEditSections.css
-* RecentChangesModern[ResourceLoader|type=styles]|RecentChangesModern.css

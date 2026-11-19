@@ -145,5 +145,7 @@ Before getting their '''official name''', Visions used to be listed in a floor c
 | 37= <div class="home-card__header">[[The Archives Update]]</div>
 [[File:The Archives Update Icon.png|200px|thumb|link=The Archives Update|class=notpageimage]]
 The [[The Archives Update|Archives update]] was the first [[Update Logs|update]] to remove a [[Floors|subfloor]]. Additionally, it was also the first one to add two subfloors.
-}}
+}}<!--
+
+-->{{#html:Fun facts refresh}}
 </div><noinclude><templatestyles src="DOORS Wiki/styles.css"/>[[Category:Main page templates]]</noinclude>

@@ -2,6 +2,7 @@
 mw.loader.using([ 'mediawiki.api', 'mediawiki.util' ], function () {
     const scriptPath = mw.config.get('wgScriptPath');
     const skin = mw.config.get('skin');
+    const REFRESH_INTERVAL = 180000; // 3 minutes
 
     function articleUrl(title) {
         return mw.util.getUrl(title);
@@ -17,7 +18,6 @@ mw.loader.using([ 'mediawiki.api', 'mediawiki.util' ], function () {
 
     function message(key, fallback) {
         const msg = mw.message(key);
-
         return msg.exists() ? msg.text() : fallback;
     }
 
@@ -28,6 +28,7 @@ mw.loader.using([ 'mediawiki.api', 'mediawiki.util' ], function () {
         if (timeDelta >= 3600000) {
             timeString = Math.round(timeDelta / 3600000) + 'h';
         }
+
         if (timeDelta >= 86400000) {
             timeString = Math.round(timeDelta / 86400000) + 'd';
         }
@@ -38,6 +39,7 @@ mw.loader.using([ 'mediawiki.api', 'mediawiki.util' ], function () {
     function recentChangeItem(entry) {
         const user = entry.user;
         const userText = entry.anon === '' ? message('anonymous', 'anonymous') : user;
+
         const $timeLink = $('<a>', {
             href: scriptPath + `?diff=${entry.revid}`
         }).append(
@@ -59,13 +61,13 @@ mw.loader.using([ 'mediawiki.api', 'mediawiki.util' ], function () {
             $('<p>', {
                 class: 'rc-sidebar-user'
             }).append(
-			    $('<a>', {
-			        href: contributionsUrl(user),
-			        text: userText
-			    }),
-			    document.createTextNode(' • '),
-			    $timeLink
-			)
+                $('<a>', {
+                    href: contributionsUrl(user),
+                    text: userText
+                }),
+                document.createTextNode(' • '),
+                $timeLink
+            )
         );
     }
 
@@ -95,6 +97,12 @@ mw.loader.using([ 'mediawiki.api', 'mediawiki.util' ], function () {
     }
 
     function populateRecentChanges($showMore, changes) {
+        // Remove the previous entries to prevent duplicates.
+        $showMore
+            .closest('ul')
+            .children('.rc-sidebar-item')
+            .remove();
+
         $showMore
             .children('a')
             .children('span')
@@ -106,21 +114,21 @@ mw.loader.using([ 'mediawiki.api', 'mediawiki.util' ], function () {
         }));
     }
 
-    // At this point the DOM might not be ready, so we don't know if we need
-    // RC sidebar yet. We can still send an API request early since it's cached.
-    const rcPromise = new mw.Api().get({
-        action: 'query',
-        list: 'recentchanges',
-        rcprop: 'title|timestamp|user|ids',
-        rcnamespace: '0',
-        rclimit: '4',
-        rctype: 'edit|new',
-        rcshow: '!bot',
-        rctoponly: '1',
-        format: 'json',
-        maxage: '120',
-        smaxage: '120'
-    });
+    function fetchRecentChanges() {
+        return new mw.Api().get({
+            action: 'query',
+            list: 'recentchanges',
+            rcprop: 'title|timestamp|user|ids',
+            rcnamespace: '0',
+            rclimit: '4',
+            rctype: 'edit|new',
+            rcshow: '!bot',
+            rctoponly: '1',
+            format: 'json',
+            maxage: '120',
+            smaxage: '120'
+        });
+    }
 
     function showRecentChanges($showMore) {
         if (!$showMore.length) {
@@ -128,21 +136,30 @@ mw.loader.using([ 'mediawiki.api', 'mediawiki.util' ], function () {
         }
 
         function handleError(msg) {
-            console.error(msg);
+            console.error('Failed to load recent changes:', msg);
         }
 
-        rcPromise.done(function (data) {
-            const changes = data.query && data.query.recentchanges ? data.query.recentchanges : [];
+        function refresh() {
+            fetchRecentChanges()
+                .done(function (data) {
+                    const changes = data.query && data.query.recentchanges
+                        ? data.query.recentchanges
+                        : [];
 
-            if (changes.length === 0) {
-                handleError("No recent change(s) found.");
-                return;
-            }
+                    if (changes.length === 0) {
+                        return;
+                    }
 
-            populateRecentChanges($showMore, changes);
-        }).fail(function (msg) {
-            handleError(msg);
-        });
+                    populateRecentChanges($showMore, changes);
+                })
+                .fail(handleError);
+        }
+
+        // Initial fetch
+        refresh();
+
+        // Refresh automatically every 3 minutes
+        setInterval(refresh, REFRESH_INTERVAL);
     }
 
     if (skin === 'citizen') {
@@ -158,6 +175,7 @@ mw.loader.using([ 'mediawiki.api', 'mediawiki.util' ], function () {
                 showRecentChanges(citizenShowMoreItem(body));
             }
         });
+
         return;
     }
 
@@ -167,37 +185,12 @@ mw.loader.using([ 'mediawiki.api', 'mediawiki.util' ], function () {
     });
 });
 
-// In Citizen main menu sidebar
+// Citizen main menu Recent Changes
 mw.loader.using('mediawiki.api', function () {
-    function createRecentChangesMenu(changes) {
-        const $items = changes.map(function (entry) {
-            return $('<li>', { class: 'mw-list-item' }).append(
-                $('<a>', { href: mw.util.getUrl(entry.title) }).append(
-                    $('<span>', { text: entry.title })
-                )
-            );
-        });
+    const REFRESH_INTERVAL = 180000; // 3 minutes
 
-        const $menu = $('<nav>', {
-            id: 'p-RCMenu',
-            class: 'citizen-menu mw-portlet mw-portlet-RCMenu',
-            'aria-label': 'Recent changes'
-        }).append(
-            $('<div>', { class: 'citizen-menu__heading', text: 'Recent changes' }),
-            $('<div>', { class: 'citizen-menu__content' }).append(
-                $('<ul>', { class: 'citizen-menu__content-list' }).append($items)
-            )
-        );
-
-        $('.citizen-main-menu.citizen-drawer__menu #p-External').before($menu);
-    }
-
-    $(function () {
-        if (!$('.citizen-main-menu.citizen-drawer__menu').length) {
-            return;
-        }
-
-        new mw.Api().get({
+    function fetchRecentChanges() {
+        return new mw.Api().get({
             action: 'query',
             list: 'recentchanges',
             rcprop: 'title|ids',
@@ -209,16 +202,96 @@ mw.loader.using('mediawiki.api', function () {
             format: 'json',
             maxage: '120',
             smaxage: '120'
-        }).done(function (data) {
-            const changes = data.query && data.query.recentchanges;
-
-            if (!changes || !changes.length) {
-                return;
-            }
-
-            createRecentChangesMenu(changes);
-        }).fail(function (error) {
-            console.error('failed to load recent changes:', error);
         });
+    }
+
+    function updateRecentChangesMenu($menu, changes) {
+        const $list = $menu.find('.citizen-menu__content-list');
+
+        $list.empty().append(changes.map(function (entry) {
+            return $('<li>', {
+                class: 'mw-list-item'
+            }).append(
+                $('<a>', {
+                    href: mw.util.getUrl(entry.title)
+                }).append(
+                    $('<span>', {
+                        text: entry.title
+                    })
+                )
+            );
+        }));
+    }
+
+    function createRecentChangesMenu(changes) {
+        const $items = changes.map(function (entry) {
+            return $('<li>', {
+                class: 'mw-list-item'
+            }).append(
+                $('<a>', {
+                    href: mw.util.getUrl(entry.title)
+                }).append(
+                    $('<span>', {
+                        text: entry.title
+                    })
+                )
+            );
+        });
+
+        const $menu = $('<nav>', {
+            id: 'p-RCMenu',
+            class: 'citizen-menu mw-portlet mw-portlet-RCMenu',
+            'aria-label': 'Recent changes'
+        }).append(
+            $('<div>', {
+                class: 'citizen-menu__heading',
+                text: 'Recent changes'
+            }),
+            $('<div>', {
+                class: 'citizen-menu__content'
+            }).append(
+                $('<ul>', {
+                    class: 'citizen-menu__content-list'
+                }).append($items)
+            )
+        );
+
+        $('.citizen-main-menu.citizen-drawer__menu #p-External').before($menu);
+
+        return $menu;
+    }
+
+    $(function () {
+        if (!$('.citizen-main-menu.citizen-drawer__menu').length) {
+            return;
+        }
+
+        function refreshMenu() {
+            fetchRecentChanges()
+                .done(function (data) {
+                    const changes = data.query && data.query.recentchanges;
+
+                    if (!changes || !changes.length) {
+                        return;
+                    }
+
+                    let $menu = $('#p-RCMenu');
+
+                    if ($menu.length) {
+                        updateRecentChangesMenu($menu, changes);
+                    } else {
+                        createRecentChangesMenu(changes);
+                    }
+                })
+                .fail(function (error) {
+                    console.error('Failed to load recent changes menu:', error);
+                });
+        }
+
+        // Initial fetch
+        refreshMenu();
+
+        // Refresh automatically every 3 minutes
+        setInterval(refreshMenu, REFRESH_INTERVAL);
     });
 });

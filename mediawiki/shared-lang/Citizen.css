@@ -1,37 +1,30 @@
 /* All CSS here will be loaded for users of the Citizen skin */
 :root {
-    --font-family-citizen-base: "Rubik";
+    --font-family-citizen-base:  "Rubik";
     --font-family-citizen-serif: "Work Sans", "Rubik";
 
-	--color-primary: var(--color-progressive);
+	--color-primary:              var(--color-progressive);
 	--color-progressive-oklch__h: var(--color-primary-oklch__h);
-	--color-neutral-1000: var(--color-primary-1000);
-	--border-color-base: oklch(from var(--color-base) l c h / 10%);
-	--border-color-emphasized: oklch(from var(--color-base) l c h / 30%);
-	--border-color-subtle: var(--border-color-base);
-	--border-color-interactive: var(--border-color-base);
-	--border-color-notice: var(--border-color-subtle);
+	--color-neutral-1000:         var(--color-primary-1000);
+	--border-color-base:          oklch(from var(--color-base) l c h / 10%);
+	--border-color-emphasized:    oklch(from var(--color-base) l c h / 30%);
+	--border-color-subtle:        var(--border-color-base);
+	--border-color-interactive:   var(--border-color-base);
+	--border-color-notice:        var(--border-color-subtle);
 	
-    --doorswiki-surface-1: light-dark(
-        rgb(231, 219, 200),
-        rgb(47, 27, 21)
-    );
+    --doorswiki-surface-1: light-dark(rgb(231, 219, 200),       rgb(47, 27, 21));
+    --doorswiki-surface-2: light-dark(rgb(234, 226, 214),       rgb(73, 50, 43));
+    --doorswiki-surface-3: light-dark(rgba(255, 255, 255, 0.3), rgba(0, 0, 0, 0.7));
+	--doorswiki-surface-4: light-dark(rgba(231, 219, 200, 0.3), rgba(47, 27, 21, 0.5));
 
-    --doorswiki-surface-2: light-dark(
-        rgb(234, 226, 214),
-        rgb(73, 50, 43)
-    );
+    --doorswiki-container-color-original: light-dark(rgba(246, 238, 225, 0.9), rgba(46, 27, 21, 0.8));
 
-    --doorswiki-surface-3: light-dark(
-        rgba(255, 255, 255, 0.3),
-        rgba(0, 0, 0, 0.7)
-    );
-
-    --doorswiki-surface-4: light-dark(
-        rgba(231, 219, 200, 0.3),
-        rgba(47, 27, 21, 0.5)
-    );
-
+    --light-bg: url("https://static.wikitide.net/doorswiki/8/80/Main_theme_light_mode_background.webp"); /* [[File:Main_theme_light_mode_background.webp]] */
+    --dark-bg:  url("https://static.wikitide.net/doorswiki/a/a0/Main_theme_dark_mode_background.webp");  /* [[File:Main_theme_dark_mode_background.webp]]  */
+    --black-bg: url("https://static.wikitide.net/doorswiki/b/b8/Main_theme_black_mode_background.webp"); /* [[File:Main_theme_black_mode_background.webp]] */
+    --bg: light-dark(var(--temp-light-bg, var(--light-bg)), var(--temp-dark-bg, var(--dark-bg)));
+    
+    
     --color-surface-1: var(--doorswiki-surface-1);
     --color-surface-2: var(--doorswiki-surface-2);
     --color-surface-3: var(--doorswiki-surface-3);
@@ -46,23 +39,25 @@
     --doors-dark-background-2: var(--color-surface-2);
     --doors-dark-background-3: var(--color-surface-3);
     --doors-dark-background-4: var(--color-surface-4);
-
-    --doorswiki-container-color-original: light-dark(
-        rgba(246, 238, 225, 0.9),
-        rgba(46, 27, 21, 0.8)
-    );
-
-    --doorswiki-container-color: var(--doorswiki-container-color-original);
     
-    --light-bg: url("https://static.wikitide.net/doorswiki/8/80/Main_theme_light_mode_background.webp"); /* [[File:Main_theme_light_mode_background.webp]] */
-    --dark-bg: url("https://static.wikitide.net/doorswiki/a/a0/Main_theme_dark_mode_background.webp");   /* [[File:Main_theme_dark_mode_background.webp]]  */
-    --black-bg: url("https://static.wikitide.net/doorswiki/b/b8/Main_theme_black_mode_background.webp"); /* [[File:Main_theme_black_mode_background.webp]] */
+    --doorswiki-container-color: var(--doorswiki-container-color-original);
+}
 
-    /* Background image */
-    --bg: light-dark(
-        var(--temp-light-bg, var(--light-bg)),
-        var(--temp-dark-bg, var(--dark-bg))
-    );
+:root {
+	--doorswiki-blog-icon:          url(https://static.wikitide.net/doorswiki/e/e6/Site-logo.png);
+	--doorswiki-talk-icon:          url(https://static.wikitide.net/stackdwiki/5/55/ezgif-6614f64cdeb42c58.png);
+	--doorswiki-eye-icon:           url(https://static.wikitide.net/doorswiki/e/ed/Eye_icon.png);
+	--doorswiki-help-icon:          url(https://static.wikitide.net/doorswiki/d/d0/Question_icon.png);
+	--doorswiki-logout-icon:        url(https://static.wikitide.net/doorswiki/f/f1/Hiding_icon.png);
+	--doorswiki-home-icon:          url(https://static.wikitide.net/doorswiki/8/89/DoorsWikiUI_Home.svg);
+	--doorswiki-recentchanges-icon: url(https://static.wikitide.net/doorswiki/8/8a/DoorsWikiUI_Recent.svg);
+	--doorswiki-dice-icon:          url(https://static.wikitide.net/doorswiki/4/43/DoorsWikiUI_Random.svg);
+	--doorswiki-upload-icon:        url(https://static.wikitide.net/doorswiki/1/10/DoorsWikiUI_Upload.svg);
+	--doorswiki-article-icon:       url(https://static.wikitide.net/doorswiki/6/61/DoorsWikiUI_Article.svg);
+	--doorswiki-image-icon:         url(https://static.wikitide.net/doorswiki/6/6b/DoorsWikiUI_Media.svg);
+	--doorswiki-bell-icon:          url(https://static.wikitide.net/doorswiki/c/cb/Bell_icon.svg);
+	--doorswiki-preferences-icon:   url(https://static.wikitide.net/doorswiki/6/60/DoorsWikiUI_Preferences.svg);
+	--doorswiki-appearance-icon:    url(https://static.wikitide.net/doorswiki/f/fb/Paintbrush_monochrome_icon.svg);
 }
 
 /* Day theme */
@@ -121,16 +116,10 @@
     order: -1;
 }
 
-html:not(.doorswiki-mood-clientpref-0) {
-	/* body::before {
-    	filter: blur(6px);
-	} */
-    
-    &.skin-theme-clientpref-black {
-    	.mw-logo-icon {
-    		filter: grayscale(1);
-    	}
-    }
+html:not(.doorswiki-mood-clientpref-0).skin-theme-clientpref-black {
+	.mw-logo-icon {
+		filter: grayscale(1);
+	}
 }
 
 :root:not(.doorswiki-mood-clientpref-0)[class*="skin-theme-clientpref-"] {
@@ -350,76 +339,66 @@ kbd {
     }
 }
 
-/* who added this!?!? */
-/*.mw-collapsible {*/
-/*    border-top: 3px solid ;*/
-/*    border-left: 3px solid ;*/
-/*    border-right: 3px solid ;*/
-/*    border-bottom: 3px solid;*/
-/*    background: #a52a2a36;*/
-/*}*/
-
 .page-actions .mw-list-item:not(#ca-edit) {
     background-color: rgba(246,238,225,.9);
-    border-radius:10px
+    border-radius: 10px
 } 
 
-.citizen-ui-icon.mw-ui-icon-speechBubbles::before,
-.citizen-ui-icon.mw-ui-icon-userTalk::before {
-    mask-image: url(https://static.wikitide.net/stackdwiki/5/55/ezgif-6614f64cdeb42c58.png);
-}
+.citizen-ui-icon {
+	&.mw-ui-icon-speechBubbles::before,
+	&.mw-ui-icon-userTalk::before {
+	    mask-image: var(--doorswiki-talk-icon);
+	}
 
-.citizen-ui-icon.mw-ui-icon-eye::before {
-    mask-image: url(https://static.wikitide.net/doorswiki/e/ed/Eye_icon.png);
+	&.mw-ui-icon-eye::before {
+	    mask-image: var(--doorswiki-eye-icon);
+	}
+	
+	&.mw-ui-icon-logOut::before {
+	    mask-image: var(--doorswiki-logout-icon);
+	}
+
+	&.mw-ui-icon-home::before {
+		mask-image: var(--doorswiki-home-icon);
+	}
+
+	&.mw-ui-icon-recentChanges::before {
+		mask-image: var(--doorswiki-recentchanges-icon);
+	}
+
+	&.mw-ui-icon-die::before {
+		mask-image: var(--doorswiki-dice-icon);
+	}
+
+	&.mw-ui-icon-upload::before {
+		mask-image: var(--doorswiki-upload-icon);
+	}
+
+	&.mw-ui-icon-article::before {
+		mask-image: var(--doorswiki-article-icon);
+	}
+	
+	&.mw-ui-icon-image::before {
+		mask-image: var(--doorswiki-image-icon);
+	}
+	
+	&.mw-ui-icon-wikimedia-bell::before {
+		mask-image: var(--doorswiki-bell-icon);
+	}
+	
+	&.mw-ui-icon-wikimedia-configure::before,
+	&.mw-ui-icon-wikimedia-settings::before {
+		mask-image: var(--doorswiki-preferences-icon);
+	}
 }
 
 #mw-indicator-mw-helplink a .mw-helplink-icon,
 .citizen-ui-icon.mw-ui-icon-help::before {
-    mask-image: url(https://static.wikitide.net/doorswiki/d/d0/Question_icon.png);
-}
-
-.citizen-ui-icon.mw-ui-icon-logOut::before {
-    mask-image: url(https://static.wikitide.net/doorswiki/f/f1/Hiding_icon.png);
-}
-
-/*.citizen-ui-icon.mw-ui-icon-wikimedia-userAvatar::before {*/
-/*    mask-image: url(https://static.wikitide.net/stackdwiki/9/99/PLAYER_%281%29.png);*/
-/*}*/
-
-.citizen-ui-icon.mw-ui-icon-home::before {
-	mask-image: url(https://static.wikitide.net/doorswiki/8/89/DoorsWikiUI_Home.svg);
-}
-
-.citizen-ui-icon.mw-ui-icon-recentChanges::before {
-	mask-image: url(https://static.wikitide.net/doorswiki/8/8a/DoorsWikiUI_Recent.svg);
-}
-
-.citizen-ui-icon.mw-ui-icon-die::before {
-	mask-image: url(https://static.wikitide.net/doorswiki/4/43/DoorsWikiUI_Random.svg);
-}
-
-.citizen-ui-icon.mw-ui-icon-upload::before {
-	mask-image: url(https://static.wikitide.net/doorswiki/1/10/DoorsWikiUI_Upload.svg);
-}
-
-.citizen-ui-icon.mw-ui-icon-article::before {
-	mask-image: url(https://static.wikitide.net/doorswiki/6/61/DoorsWikiUI_Article.svg);
-}
-
-.citizen-ui-icon.mw-ui-icon-image::before {
-	mask-image: url(https://static.wikitide.net/doorswiki/6/6b/DoorsWikiUI_Media.svg);
-}
-
-.citizen-ui-icon.mw-ui-icon-wikimedia-bell::before {
-	mask-image: url(https://static.wikitide.net/doorswiki/5/51/DoorsWikiUI_Bell.svg);
-}
-
-.citizen-ui-icon.mw-ui-icon-wikimedia-configure::before {
-	mask-image: url(https://static.wikitide.net/doorswiki/6/60/DoorsWikiUI_Preferences.svg);
+    mask-image: var(--doorswiki-help-icon);
 }
 
 .citizen-preferences-dropdown summary .citizen-ui-icon::before {
-    mask-image: url(https://static.wikitide.net/doorswiki/b/b7/DoorsWikiUI_Paintbrush.svg);
+    mask-image: var(--doorswiki-appearance-icon);
 	mask-size: 100%;
 }
 
@@ -482,6 +461,10 @@ kbd {
 .citizen-footer {
 	background-color: color-mix(in oklch,var(--color-surface-1) calc(var(--opacity-glass) * 100%),transparent);
 	backdrop-filter: var(--backdrop-filter-frosted-glass);
+}
+
+.skin-theme-clientpref-day .mw-logo-icon {
+	filter: invert(1) hue-rotate(180deg);
 }
 
 /* wooden texture */
@@ -941,7 +924,7 @@ details[open]::details-content {
 			height: var(--size-icon);
 			content: '';
 			background-color: currentcolor;
-			mask-image: url(https://static.wikitide.net/doorswiki/6/68/Journal_icon.svg);
+			mask-image: var(--doorswiki-blog-icon);
 			mask-size: contain;
 		}
 	}

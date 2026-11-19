@@ -29,8 +29,6 @@
   "MediaWiki:Gadget-InteractiveModifiers.js": "mediawiki/shared-lang/Gadget-InteractiveModifiers.js",
   "MediaWiki:Gadget-NoEditSections": "mediawiki/shared-lang/Gadget-NoEditSections",
   "MediaWiki:Gadget-NoEditSections.css": "mediawiki/shared-lang/Gadget-NoEditSections.css",
-  "MediaWiki:Gadget-RecentChangesModern": "mediawiki/shared-lang/Gadget-RecentChangesModern",
-  "MediaWiki:Gadget-RecentChangesModern.css": "mediawiki/shared-lang/Gadget-RecentChangesModern.css",
   "MediaWiki:Gadget-RecentChangesSidebar.css": "mediawiki/shared-lang/Gadget-RecentChangesSidebar.css",
   "MediaWiki:Gadget-RecentChangesSidebar.js": "mediawiki/shared-lang/Gadget-RecentChangesSidebar.js",
   "MediaWiki:Gadget-RefRevision": "mediawiki/shared-lang/Gadget-RefRevision",

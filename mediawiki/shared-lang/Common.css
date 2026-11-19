@@ -905,10 +905,25 @@ Requires a "data-text" attribute containing the element's text. */
 
 .infobox__carousel-prev {
     left: 8px;
+    --arrow-img: url(https://static.wikitide.net/doorswiki/3/33/Left_arrow_icon.png);
 }
 
 .infobox__carousel-next {
     right: 8px;
+    --arrow-img: url(https://static.wikitide.net/doorswiki/3/34/Right_arrow_icon.png);
+}
+
+.infobox__carousel-prev,
+.infobox__carousel-next {
+	&::before {
+		content: '';
+		position: absolute;
+		inset: 0;
+		z-index: 1;
+		pointer-events: none;
+		background: var(--color-base);
+		mask: var(--arrow-img) center / 1.5rem no-repeat;
+	}
 }
 
 .infobox__carousel-indicators {
