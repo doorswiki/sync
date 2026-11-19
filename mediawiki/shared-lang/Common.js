@@ -272,14 +272,14 @@ mw.hook('wikipage.content').add(function ($content) {
 		// Previous button
 		const $prevBtn = $(
 			'<button class="infobox__carousel-btn infobox__carousel-prev" type="button" aria-label="Previous slide">' +
-				'\u276E' +
+				
 				'</button>'
 		);
 
 		// Next button
 		const $nextBtn = $(
 			'<button class="infobox__carousel-btn infobox__carousel-next" type="button" aria-label="Next slide">' +
-				'\u276F' +
+				
 				'</button>'
 		);
 

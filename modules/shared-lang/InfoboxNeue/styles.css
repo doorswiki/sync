@@ -802,11 +802,11 @@
 }
 
 .infobox__item.infobox__prev::before {
-	mask-image: url(https://upload.wikimedia.org/wikipedia/commons/8/84/Codex_icon_previous.svg);
+	mask-image: url(https://static.wikitide.net/doorswiki/3/33/Left_arrow_icon.png);
 }
 
 .infobox__item.infobox__next::before {
-	mask-image: url(https://upload.wikimedia.org/wikipedia/commons/b/b2/Codex_icon_next.svg);
+	mask-image: url(https://static.wikitide.net/doorswiki/3/34/Right_arrow_icon.png);
 	right: 0;
 	left: unset;
 }
