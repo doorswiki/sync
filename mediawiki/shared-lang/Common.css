@@ -511,27 +511,6 @@ table.diff [class*="mw-diff-inline-"] {
 	color: #E6E6E6;
 }
 
-/* Template:Notice CSS */
-.notice-template {
-	border-radius: var(--border-radius-medium);
-	box-shadow: 0 4px 6px rgba(0,0,0,.4);
-	margin: 10px 0 15px 0; 
-	text-align: center;
-	padding: var(--space-xs, 5px);
-	color: var(--color-emphasized);
-}
-
-.notice-compact-template {
-    background-color: rgba(106,33,33,0.3); 
-    border:3px solid #7F644B; 
-    border-radius: .7em!important; 
-    width: fit-content; 
-    padding: 5px 8px!important; 
-    font-size: 80%;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .wds-button:not(:has(> a)), 
 .wds-button:has(> a) > a,
 .doors-button:not(:has(> a)), 

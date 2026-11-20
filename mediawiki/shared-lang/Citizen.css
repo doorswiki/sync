@@ -49,15 +49,21 @@
 	--doorswiki-eye-icon:           url(https://static.wikitide.net/doorswiki/e/ed/Eye_icon.png);
 	--doorswiki-help-icon:          url(https://static.wikitide.net/doorswiki/d/d0/Question_icon.png);
 	--doorswiki-logout-icon:        url(https://static.wikitide.net/doorswiki/f/f1/Hiding_icon.png);
-	--doorswiki-home-icon:          url(https://static.wikitide.net/doorswiki/8/89/DoorsWikiUI_Home.svg);
-	--doorswiki-recentchanges-icon: url(https://static.wikitide.net/doorswiki/8/8a/DoorsWikiUI_Recent.svg);
-	--doorswiki-dice-icon:          url(https://static.wikitide.net/doorswiki/4/43/DoorsWikiUI_Random.svg);
+	--doorswiki-home-icon:          url(https://static.wikitide.net/doorswiki/f/fc/Home_icon.svg);
+	--doorswiki-dice-icon:          url(https://static.wikitide.net/doorswiki/a/aa/Dice_icon.svg);
 	--doorswiki-upload-icon:        url(https://static.wikitide.net/doorswiki/1/10/DoorsWikiUI_Upload.svg);
 	--doorswiki-article-icon:       url(https://static.wikitide.net/doorswiki/6/61/DoorsWikiUI_Article.svg);
 	--doorswiki-image-icon:         url(https://static.wikitide.net/doorswiki/6/6b/DoorsWikiUI_Media.svg);
 	--doorswiki-bell-icon:          url(https://static.wikitide.net/doorswiki/c/cb/Bell_icon.svg);
-	--doorswiki-preferences-icon:   url(https://static.wikitide.net/doorswiki/6/60/DoorsWikiUI_Preferences.svg);
+	--doorswiki-preferences-icon:   url(https://static.wikitide.net/doorswiki/d/d0/Levers_icon.svg);
 	--doorswiki-appearance-icon:    url(https://static.wikitide.net/doorswiki/f/fb/Paintbrush_monochrome_icon.svg);
+	--doorswiki-user-icon:          url(https://static.wikitide.net/doorswiki/7/77/Player_icon.svg);
+	--doorswiki-pencil-icon:        url(https://static.wikitide.net/doorswiki/0/04/Pencil_icon.svg);
+	--doorswiki-lock-icon:          url(https://static.wikitide.net/doorswiki/6/68/Lock_icon.svg);
+	--doorswiki-trash-icon:         url(https://static.wikitide.net/doorswiki/d/dd/Trashcan_icon.png);
+	--doorswiki-link-icon:          url(https://static.wikitide.net/doorswiki/6/69/Link_icon.png);
+	--doorswiki-specialpages-icon:  url(https://static.wikitide.net/doorswiki/2/2f/Special_Pages_icon.svg);
+	--doorswiki-history-icon:       url(https://static.wikitide.net/doorswiki/f/f9/Clock_icon.svg);
 }
 
 /* Day theme */
@@ -362,10 +368,6 @@ kbd {
 		mask-image: var(--doorswiki-home-icon);
 	}
 
-	&.mw-ui-icon-recentChanges::before {
-		mask-image: var(--doorswiki-recentchanges-icon);
-	}
-
 	&.mw-ui-icon-die::before {
 		mask-image: var(--doorswiki-dice-icon);
 	}
@@ -389,6 +391,34 @@ kbd {
 	&.mw-ui-icon-wikimedia-configure::before,
 	&.mw-ui-icon-wikimedia-settings::before {
 		mask-image: var(--doorswiki-preferences-icon);
+	}
+	
+	&.mw-ui-icon-userAvatar::before {
+		mask-image: var(--doorswiki-user-icon);
+	}
+	
+	&.mw-ui-icon-edit::before {
+		mask-image: var(--doorswiki-pencil-icon);
+	}
+	
+	&.mw-ui-icon-lock::before {
+		mask-image: var(--doorswiki-lock-icon);
+	}
+	
+	&.mw-ui-icon-trash::before {
+		mask-image: var(--doorswiki-trash-icon);
+	}
+	
+	&.mw-ui-icon-link::before {
+		mask-image: var(--doorswiki-link-icon);
+	}
+	
+	&.mw-ui-icon-specialPages::before {
+		mask-image: var(--doorswiki-specialpages-icon);
+	}
+	
+	&.mw-ui-icon-wikimedia-history::before {
+		mask-image: var(--doorswiki-history-icon);
 	}
 }
 
