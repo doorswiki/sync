@@ -220,21 +220,21 @@ return {
 	color = false
 },
 ['Movement Speed'] = {
-	icon = 'Speed Boost icon.png',
+	icon = 'Speed Boost icon.svg',
 	color = false
 },
 ['Speed'] = {
-	icon = 'Speed Boost icon.png',
+	icon = 'Speed Boost icon.svg',
 	link = false,
 	color = false
 },
 ['Speed Boost'] = {
-	icon = 'Speed Boost icon.png',
+	icon = 'Speed Boost icon.svg',
 	link = 'Status Effects',
 	color = false
 },
 ['SpeedBoost'] = {
-	icon = 'Speed Boost icon.png',
+	icon = 'Speed Boost icon.svg',
 	link = false,
 	color = false
 },
@@ -386,12 +386,12 @@ return {
 	color = false
 },
 ['Close'] = {
-	icon = 'Close icon.png',
+	icon = 'Close icon.svg',
 	link = false,
 	color = false
 },
 ['X'] = {
-	icon = 'Close icon.png',
+	icon = 'Close icon.svg',
 	link = false,
 	color = false
 },
@@ -608,7 +608,7 @@ return {
 	color = false
 },
 ['Hiding'] = {
-	icon = 'Hiding icon.png',
+	icon = 'Hiding icon.svg',
 	color = false
 },
 ['Hourglass'] = {
@@ -743,7 +743,7 @@ return {
 	color = false
 },
 ['Microphone'] = {
-	icon = 'Microphone icon.png',
+	icon = 'Microphone icon.svg',
 	link = false,
 	color = false
 },
@@ -869,7 +869,7 @@ return {
 	color = false
 },
 ['References'] = {
-	icon = 'References icon.png',
+	icon = 'References icon.svg',
 	link = false,
 	color = false
 },
