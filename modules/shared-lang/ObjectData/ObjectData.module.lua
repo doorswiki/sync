@@ -127,16 +127,16 @@ return {
 
 -- Status Effects (no monochrome variants) --
 ['Status Effects'] = {
-	icon = 'Invincibility icon.png',
+	icon = 'Invincibility icon.svg',
 	color = false
 },
 ['Invincibility'] = {
-	icon = 'Invincibility icon.png',
+	icon = 'Invincibility icon.svg',
 	link = false,
 	color = false
 },
 ['God Mode'] = {
-	icon = 'Invincibility icon.png',
+	icon = 'Invincibility icon.svg',
 	link = 'Status Effects',
 	color = false
 },
@@ -177,7 +177,7 @@ return {
 	color = false
 },
 ['Confusion'] = {
-	icon = 'Confusion icon.png',
+	icon = 'Confusion icon.svg',
 	link = 'Status Effects',
 	color = false
 },
@@ -239,82 +239,82 @@ return {
 	color = false
 },
 ['Wet'] = {
-	icon = 'Wet icon.png',
+	icon = 'Wet icon.svg',
 	link = 'Status Effects',
 	color = false
 },
 ['Fire'] = {
-	icon = 'Fire icon.png',
+	icon = 'Fire icon.svg',
 	link = false,
 	color = false
 },
 ['Burning'] = {
-	icon = 'Fire icon.png',
+	icon = 'Fire icon.svg',
 	link = 'Status Effects',
 	color = false
 },
 ['Firedamp'] = {
-	icon = 'Firedamp icon.png',
+	icon = 'Firedamp effect icon.svg',
 	link = false,
 	color = false
 },
 ['In Firedamp'] = {
-	icon = 'Firedamp icon.png',
+	icon = 'Firedamp effect icon.svg',
 	link = 'Status Effects',
 	color = false
 },
 ['InFiredamp'] = {
-	icon = 'Firedamp icon.png',
+	icon = 'Firedamp effect icon.svg',
 	link = false,
 	color = false
 },
 ['Portrait'] = {
-	icon = 'Portrait icon.png',
+	icon = 'Portrait effect icon.svg',
 	link = false,
 	color = false
 },
 ['Portrait Presence'] = {
-	icon = 'Portrait icon.png',
+	icon = 'Portrait effect icon.svg',
 	link = 'Status Effects',
 	color = false
 },
 ['Portrait Cracked'] = {
-	icon = 'Portrait Cracked icon.png',
+	icon = 'Portrait Cracked effect icon.svg',
 	link = false,
 	color = false
 },
 ['Portrait Presence (Cracked)'] = {
-	icon = 'Portrait Cracked icon.png',
+	icon = 'Portrait Cracked effect icon.svg',
 	link = 'Status Effects',
 	color = false
 },
 ['Grave'] = {
-	icon = 'RIP icon.png',
+	icon = 'RIP icon.svg',
 	link = false,
 	color = false
 },
 ['RIP'] = {
-	icon = 'RIP icon.png',
+	icon = 'RIP icon.svg',
 	link = false,
 	color = false
 },
 ['Invoked Spirit'] = {
-	icon = 'RIP icon.png',
+	icon = 'RIP icon.svg',
 	link = 'Status Effects',
 	color = false
 },
 ['Crouching'] = {
-	icon = 'Crouching icon.png',
+	icon = 'Crouching icon.svg',
 	link = 'Status Effects',
 	color = false
 },
 ['Sitting'] = {
-	icon = 'Sitting icon.png',
+	icon = 'Sitting icon.svg',
 	link = 'Status Effects',
 	color = false
 },
 ['Sprinting'] = {
-	icon = 'Sprinting icon.png',
+	icon = 'Sprinting icon.svg',
 	link = 'Status Effects',
 	color = false
 },
@@ -331,6 +331,10 @@ return {
 },
 ['Admin Panel'] = {
 	icon = 'Admin Panel icon.svg',
+	color = false
+},
+['Asterisk'] = {
+	icon = 'Asterisk icon.svg',
 	color = false
 },
 ['Backpack'] = {
@@ -392,11 +396,11 @@ return {
 	color = false
 },
 ['Codes'] = {
-	icon = 'Codes icon.png',
+	icon = 'Codes icon.svg',
 	color = false
 },
 ['Confusion monochrome'] = {
-	icon = 'Confusion monochrome icon.png',
+	icon = 'Confusion monochrome icon.svg',
 	color = false
 },
 ['Coins'] = {
@@ -470,21 +474,21 @@ return {
 	color = false
 },
 ['Door'] = {
-	icon = 'Doors no tilt icon.png',
+	icon = 'Door icon.svg',
 	link = false,
 	color = false
 },
 ['Doors (feature)'] = {
-	icon = 'Doors no tilt icon.png',
+	icon = 'Door icon.svg',
 	color = false
 },
 ['Bell'] = {
-	icon = 'DoorsWikiUI Bell.svg',
+	icon = 'Bell icon.svg',
 	link = false,
 	color = false
 },
 ['Options'] = {
-	icon = 'DoorsWikiUI Preferences.svg',
+	icon = 'Levers icon.svg',
 	link = false,
 	color = false
 },
@@ -523,7 +527,7 @@ return {
 	color = false
 },
 ['Events'] = {
-	icon = 'Events icon.png',
+	icon = 'Events icon.svg',
 	link = false,
 	color = false
 },
@@ -538,7 +542,7 @@ return {
 	color = false
 },
 ['Fire monochrome'] = {
-	icon = 'Fire monochrome icon.png',
+	icon = 'Fire monochrome icon.svg',
 	link = false,
 	color = false
 },
@@ -553,7 +557,7 @@ return {
 	color = false
 },
 ['Gift'] = {
-	icon = 'Gift icon.png',
+	icon = 'Gift icon.svg',
 	link = false,
 	color = false
 },
@@ -562,7 +566,7 @@ return {
 	color = false
 },
 ['Hazards'] = {
-	icon = 'Hazards icon.png',
+	icon = 'Firedamp effect monochrome icon.svg',
 	color = false
 },
 ['Headphones'] = {
@@ -628,7 +632,7 @@ return {
 	color = false
 },
 ['Invincibility monochrome'] = {
-	icon = 'Invincibility monochrome icon.png',
+	icon = 'Invincibility monochrome icon.svg',
 	link = false,
 	color = false
 },
@@ -680,7 +684,7 @@ return {
 	color = false
 },
 ['Usage'] = {
-	icon = 'Lighter icon.png',
+	icon = 'Lighter button icon.png',
 	link = false,
 	color = false
 },
@@ -729,13 +733,13 @@ return {
 	color = false
 },
 ['Modifiers red'] = {
-	icon = 'Modifiers icon.png',
+	icon = 'Modifier icon.svg',
 	link = 'Modifiers',
 	color = false,
 	text = 'Modifiers'
 },
 ['Modifiers'] = {
-	icon = 'Modifiers monochrome icon.png',
+	icon = 'Modifier monochrome icon.svg',
 	color = false
 },
 ['Moonlight'] = {
@@ -951,16 +955,16 @@ return {
 	color = false
 },
 ['Floor'] = {
-	icon = 'Stair icon.png',
+	icon = 'Stair icon.svg',
 	link = false,
 	color = false
 },
 ['Floors'] = {
-	icon = 'Stair icon.png',
+	icon = 'Stair icon.svg',
 	color = false
 },
 ['Stair'] = {
-	icon = 'Stair icon.png',
+	icon = 'Stair icon.svg',
 	link = false,
 	color = false
 },
@@ -1004,12 +1008,12 @@ return {
 	color = false
 },
 ['Trash'] = {
-	icon = 'Trashcan icon.png',
+	icon = 'Trashcan icon.svg',
 	link = false,
 	color = false
 },
 ['Trashcan'] = {
-	icon = 'Trashcan icon.png',
+	icon = 'Trashcan icon.svg',
 	link = false,
 	color = false
 },
@@ -1044,7 +1048,7 @@ return {
 	color = false
 },
 ['Waterdrops'] = {
-	icon = 'Wet monochrome icon.png',
+	icon = 'Wet monochrome icon.svg',
 	link = false,
 	color = false
 },
