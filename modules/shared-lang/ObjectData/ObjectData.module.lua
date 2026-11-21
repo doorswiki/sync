@@ -55,7 +55,7 @@ return {
 	color = false
 },
 ['Trick or Treat'] = {
-	icon = 'Entities icon v1.png',
+	icon = 'Entities icon v2.png',
 	color = false
 },
 ['Retro Mode'] = {
@@ -421,6 +421,16 @@ return {
 	link = false,
 	color = false
 },
+['Crouching monochrome'] = {
+	icon = 'Crouching monochrome icon.svg',
+	link = false,
+	color = false
+},
+['Crown'] = {
+	icon = 'Crown icon.svg',
+	link = false,
+	color = false
+},
 ['Crucifix monochrome'] = {
 	icon = 'Crucifix monochrome icon.png',
 	link = false,
@@ -468,8 +478,8 @@ return {
 	icon = 'Donate icon.png',
 	color = false
 },
-['Doors monochrome'] = {
-	icon = 'Doors monochrome icon.png',
+['Door tilted'] = {
+	icon = 'Door icon, tilted.svg',
 	link = false,
 	color = false
 },
@@ -587,8 +597,13 @@ return {
 	icon = 'Heartbeat Control Minigame icon.png',
 	color = false
 },
+['Heart'] = {
+	icon = 'Heart icon.svg',
+	link = false,
+	color = false
+},
 ['Herb'] = {
-	icon = 'Herb monochrome icon.png',
+	icon = 'Herb monochrome icon.svg',
 	link = false,
 	color = false
 },
@@ -650,7 +665,12 @@ return {
 	color = false
 },
 ['Jumping'] = {
-	icon = 'Jumping icon.png',
+	icon = 'Jumping icon.svg',
+	link = false,
+	color = false
+},
+['Jumping monochrome'] = {
+	icon = 'Jumping monochrome icon.svg',
 	link = false,
 	color = false
 },
@@ -674,7 +694,7 @@ return {
 	color = false
 },
 ['Lever'] = {
-	icon = 'Lever icon.png',
+	icon = 'Lever icon.svg',
 	link = false,
 	color = false
 },
@@ -915,6 +935,16 @@ return {
 	link = false,
 	color = false
 },
+['Sitting'] = {
+	icon = 'Sitting icon.svg',
+	link = false,
+	color = false
+},
+['Sitting monochrome'] = {
+	icon = 'Sitting monochrome icon.svg',
+	link = false,
+	color = false
+},
 ['Skip'] = {
 	icon = 'Skip icon.png',
 	link = false,
@@ -922,6 +952,12 @@ return {
 },
 ['Starlight monochrome'] = {
 	icon = 'Starlight monochrome icon.svg',
+    link = false,
+	color = false
+},
+['Sprinting monochrome'] = {
+	icon = 'Sprinting monochrome icon.svg',
+	link = false,
 	color = false
 },
 ['Behavior'] = {
@@ -969,7 +1005,12 @@ return {
 	color = false
 },
 ['Standing'] = {
-	icon = 'Standing icon.png',
+	icon = 'Standing icon.svg',
+	link = false,
+	color = false
+},
+['Standing monochrome'] = {
+	icon = 'Standing monochrome icon.svg',
 	link = false,
 	color = false
 },

@@ -1,7 +1,7 @@
 <div class="home-container doors-nov26-navigation">
 <div class="doors-nov26-navigation-section">
 <div class="home-card__label">Gameplay</div>
-* {{Icon|Doors monochrome|25|DOORS}} [[DOORS]]
+* {{Icon|Door tilted|25|DOORS}} [[DOORS]]
 * {{Icon|Entities|25|Entities}} [[Entities]]
 * {{Icon|Hazards|25|Hazards}} [[Hazards]]
 * {{Icon|Items|25|Items}} [[Items]]
