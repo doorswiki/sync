@@ -46,9 +46,9 @@
 :root {
 	--doorswiki-blog-icon:          url(https://static.wikitide.net/doorswiki/e/e6/Site-logo.png);
 	--doorswiki-talk-icon:          url(https://static.wikitide.net/stackdwiki/5/55/ezgif-6614f64cdeb42c58.png);
-	--doorswiki-eye-icon:           url(https://static.wikitide.net/doorswiki/e/ed/Eye_icon.png);
+	--doorswiki-eye-icon:           url(https://static.wikitide.net/doorswiki/2/23/Overview_icon.svg);
 	--doorswiki-help-icon:          url(https://static.wikitide.net/doorswiki/d/d0/Question_icon.png);
-	--doorswiki-logout-icon:        url(https://static.wikitide.net/doorswiki/f/f1/Hiding_icon.png);
+	--doorswiki-logout-icon:        url(https://static.wikitide.net/doorswiki/2/21/Hiding_icon.svg);
 	--doorswiki-home-icon:          url(https://static.wikitide.net/doorswiki/f/fc/Home_icon.svg);
 	--doorswiki-dice-icon:          url(https://static.wikitide.net/doorswiki/a/aa/Dice_icon.svg);
 	--doorswiki-upload-icon:        url(https://static.wikitide.net/doorswiki/1/10/DoorsWikiUI_Upload.svg);
@@ -60,10 +60,11 @@
 	--doorswiki-user-icon:          url(https://static.wikitide.net/doorswiki/7/77/Player_icon.svg);
 	--doorswiki-pencil-icon:        url(https://static.wikitide.net/doorswiki/0/04/Pencil_icon.svg);
 	--doorswiki-lock-icon:          url(https://static.wikitide.net/doorswiki/6/68/Lock_icon.svg);
-	--doorswiki-trash-icon:         url(https://static.wikitide.net/doorswiki/d/dd/Trashcan_icon.png);
+	--doorswiki-trash-icon:         url(https://static.wikitide.net/doorswiki/c/c9/Trashcan_icon.svg);
 	--doorswiki-link-icon:          url(https://static.wikitide.net/doorswiki/6/69/Link_icon.png);
 	--doorswiki-specialpages-icon:  url(https://static.wikitide.net/doorswiki/2/2f/Special_Pages_icon.svg);
 	--doorswiki-history-icon:       url(https://static.wikitide.net/doorswiki/f/f9/Clock_icon.svg);
+	--doorswiki-search-icon:        url(https://static.wikitide.net/doorswiki/d/d0/Magnifier_icon.svg);
 }
 
 /* Day theme */
@@ -456,7 +457,7 @@ kbd {
 			position: absolute;
 			inset: 0;
 			background: currentcolor;
-			mask-image: url(https://static.wikitide.net/doorswiki/9/9f/Magnifier_icon.png);
+			mask-image: var(--doorswiki-search-icon);
 			mask-size: 20px 20px;
 			mask-position: center;
 			mask-repeat: no-repeat;

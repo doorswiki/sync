@@ -530,68 +530,6 @@ table.diff [class*="mw-diff-inline-"] {
 	}
 }
 
-/*** convert mastoblox section to roblox users. that's fun ***/
-/* https://dev.miraheze.org/wiki/bloxshare */
-.profile-externalLinks {
-	> .ext-floatingui-reference {
-        position: relative;
-        display: inline-block;
-        aspect-ratio: 1;
-        height: 100%;
-        width: auto!important;
-		background: var(--color-base);
-		mask-size: 24px auto;
-		mask-position: center;
-		mask-repeat: no-repeat;
-	}
-	
-	> .externalLink-twitter {
-	    mask-image: url(https://static.wikitide.net/utgwiki/b/ba/Social_icon_Twitter.png)
-	}
-	
-	> .externalLink-roblox {
-	    mask-image: url(https://static.wikitide.net/utgwiki/c/c0/Social_icon_Roblox.svg)
-	}
-	
-	> .externalLink-discord {
-        mask-image: url(https://static.wikitide.net/utgwiki/7/72/Social_icon_Discord.svg)
-    }
-
-	svg,
-	> a[href^="https://mastodon.social"] {
-		visibility: hidden
-	}
-	
-	/* shifted to using FloatingUI */
-	a[data-username]::after,
-	.tooltip::after,
-	.ext-floatingui-content {
-    	content: none !important;
-    	display: none !important;
-	}
-}
-
-.profile-avatar-edit-button {
-    background: var(--background-color-progressive, #333)!important;
-	position: relative;
-	
-	&::before {
-		content: '';
-		position: absolute;
-		inset: 0;
-		mask-image: url(https://upload.wikimedia.org/wikipedia/commons/8/8a/OOjs_UI_icon_edit-ltr.svg);
-		background: var(--color-inverted-fixed, #fff);
-		mask-size: 50%;
-		mask-position: center;
-		mask-repeat: no-repeat;
-		
-	}
-	
-	svg {
-		display: none;
-	}
-}
-
 /* original idea from m6ga on discord. tabber styling */
 .tabber {
     .tabber__header {

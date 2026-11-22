@@ -479,25 +479,6 @@ html.skin-theme-clientpref-day .doorswiki-start-image {
 	mask-image: url(https://upload.wikimedia.org/wikipedia/commons/6/68/Codex_icon_speechBubbles.svg);
 }
 
-.doorswiki-recent-fade {
-	max-height: 300px; 
-	overflow: hidden auto; 
-	mask-image: linear-gradient(to bottom, black 80%, transparent); 
-	padding-bottom: 2rem;
-}
-
-@media screen and (max-width: 800px) {
-	.doorswiki-recent-fade {
-		max-height: unset!important;
-		padding-bottom: unset!important;
-		mask-image: unset!important;
-	}
-	
-	.doorswiki-recent-fade tbody tr:nth-child(n+6) {
-		display: none;
-	}
-}
-
 .imagecard {
 	mask-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0) 80%); 
 	position: absolute; 
