@@ -1,150 +1,726 @@
-<!-- Only make changes to this template if you know what you're doing! Also, for the sake of common sense (although this isn't an official rule, and you won't be punished for it) please don't add lore-based fun facts! --><div class="home-container doors-funfacts" style="flex: 3">
-<div class="home-card__label">Fun facts</div>
+<!-- Only make changes to this template if you know what you're doing! Also, for the sake of common sense (although this isn't an official rule, and you won't be punished for it) please don't add lore-based fun facts! -->
+<!-- Please leave the renders and images as is, this is a chance for other renders to have a shine, additionally, if every fact used the official render, it would get stale and boring fast. -->
+<!-- If you are going to upload a new version of an image in the Fun Facts list, please make sure your version fits the old versions dimensions, thanks. -->
+<!-- Amount of Facts Listed: 278 (when adding a fact, make sure to update this counter)-->
+<div class="home-container doors-funfacts" style="flex: 3; position: relative;">
+<div class="home-card__label">Fun Facts</div>
+<div style="text-align:center;">
 {{Choose
-| 1= <div class="home-card__header">[[Ambush]]</div>
-[[File:Ambush sprite.png|x150px|thumb|link=Ambush|class=notpageimage|Ambush]]
-[[Ambush]] is a very persistent [[List of Entities|entity]], unlike [[Rush]], if it encounters a room with a blocked/locked door it will phase through the door, nothing can stop the power of Ambush tripping up the [[player]], take care.
+| 1=
+<div style="display:table; margin-left:auto; margin-right:auto;">[[File:DOORS- THE ARCHIVES TEASER.mp4|600px]]</div> [https://youtu.be/nI4r0eOxLmU?si=D%20jd4NTUYB0NUGo- The Archives Teaser] is the only trailer where the official ''DOORS'' font is used the least.
+| 2=
+<div style="display:table; margin-left:auto; margin-right:auto;">[[File:DOORS HOTEL+ UPDATE TRAILER.mp4|600px]]</div> Nobody has noticed this tiny detail during the time of when [https://www.youtube.com/watch?v=IlVShjKur0I The Hotel+ Update Trailer] released, where [https://youtu.be/IlVShjKur0I?t=8 during The Greenhouse section of the trailer], a [[Shakelight]] can be seen being used due to the green light, which hinted at [[The Rooms]] subfloor.
 
-| 2= <div class="home-card__header">[[Timothy]]</div>
-[[File:Timothy render.png|x150px|thumb|link=Timothy|class=notpageimage|Timothy]]
-[[Timothy]] is one of the smallest [[List of Entities|entities]] in ''[[DOORS]]'', due to its size it is smaller than every furniture item within the game, which allows it to hide in [[containers]] among [[Gold]] and [[items]].
+This is reminiscent of [https://www.youtube.com/watch?v=nI4r0eOxLmU The Archives Teaser] and [https://www.youtube.com/watch?v=jCSv6L7fov8 Trailer], where [[Disc|CD's]] and [[Television Set|televisions]] were seen throughout them, which were actually used in [[The Stairwell]], foreshadowing the addition of the subfloor secretly.
+| 3=
+[[File:Credits icon.svg|frameless|center|400x300px|class=notpageimage|link=]] If you click @PuffoThePufferfish in the [[Lobby Menu|Lobby Credits]] screen, a pufferfish will spawn your screen, and clicking on that pufferfish will cause it to pop and despawn. Additionally, this also does the same with @Ectta, where clicking on it plays a random voiceline until it plays one of [[Abe|Abe’s]] voicelines stating the game is going to explode before cutting to black.
+| 4=
+[[File:117327678048049.png|frameless|center|400x300px|class=notpageimage|link=]] Most hostile [[entities]] in the game that HAVE a face are seen smiling most of the time, those being: [[Rush]], [[Screech]], [[Dupe]], [[Sally]], [[Jack]], [[Grumbles]], [[Queen Grumble]], [[Giggle]], [[Louie]], [[Haste]], [[Blitz]], [[SCJVEREECH]] and the [[Caws]].
 
-| 3= <div class="home-card__header">[[DOORS]]</div>
-[[File:DOORS Icon.png|x150px|thumb|link=DOORS|class=notpageimage|DOORS]]
-During the initial release of ''[[DOORS]]'' the game played an animation for [[Player|players]] crawling under furniture during [[Seek]]'s chase sequences, this was removed due to players with bad latency and terrible internet dying due to the animation failing to load or loading too late.
+However, there are certain entities that either have a neutral or sad expression, being: [[Ambush]], [[Halt]], [[Hide]], [[Timothy]], [[Dread]], the [[Gloombats]], [[Lookman]], [[Ransom]], the [[Groundskeeper]], [[Bramble]], [[Surge]], [[Mandrakes]], [[Grampy]], [[RNIUSHCg==]] and [[AR0xMBUSH]].
+| 5=
+[[File:Deathiconwhite.webp|frameless|center|400x300px|class=notpageimage|link=]] In ''DOORS'', certain [[entities]] have something called ‘death effects’, where they have own custom effects they apply to the [[player]] if they kill them, as: 
 
-| 4= <div class="home-card__header">[[Jack]]</div>
-[[File:Jacky.webp|x150px|thumb|link=Jack|class=notpageimage|Jack]]
-[[Jack]] can not only appear in the [[Hiding|closets]] scattered across various rooms in [[The Hotel]], it is also known to make an appearance behind recently opened doors. When this occurs, the room will receive a blood-red tone. This effect also applies to the rain if it is present outside.
+[[Figure]] decapitates the player’s head, 
+[[Seek]] causes the player’s body to be covered in Seek’s slime (doesn’t show, bugged), 
+[[Eyes]]/[[Alma]] cause the player play an animation of them trying to keep their head before it pops off, 
+[[Dupe]] takes the player with them if they die to it, and doesn’t show their corpse either, 
+[[Queen Grumble]] and [[Grumble]] split the player in half, 
+[[Gloombats]] lays eggs on the player’s body, 
+[[Forget-Me-Nots]] will cover them in their own blue flowers and vines, 
+[[Bash]] causes their body to have a burnt texture, 
+[[The Groundskeeper]] bags any player’s corpses into a bag, 
+[[Surge]] causes their body to have a scorched texture with sparks around it, 
+and finally, [[Noise]] makes their body black with a blue outline, with a ‘PAUSED’ text near the player.
+| 6=
+[[File:Entities_icon.png|frameless|center|400x300px|class=notpageimage|link=]] The developers of DOORS tend to use scrapped, unused and removed [[entities]] for different purposes in later updates, these entities include: [[Sally]], [[Dread]], [[Haste]], [[Lookman]], [[Alma]], [[Groundskeeper]] and [[Creak]].
+| 7=
+[[File:DAMAGE.png|frameless|center|400x300px|class=notpageimage|link=]] Old non-fatal [[entities]] leave you with 2 health (eg. [[Snare]], [[Timothy]]), while newer non-fatal entities leave you with 3 health instead.
+| 8=
+[[File:ComputerMode.png|frameless|center|400x300px|class=notpageimage|link=]] In ''DOORS'', some [[entities]] are client-sided, meaning each [[player]] encounters them independently. This allows one player to survive an entity while another dies to the same entity on their own screen.
 
-| 5= <div class="home-card__header">[[Seek]]</div>
-[[File:Old Seek.png|x150px|thumb|link=Seek|class=notpageimage]]
-[[Seek]] was the first [[List of Entities|entity]], being added in-game before the rest. It also had a very different design than what it is now, appearing much more limp and having a different facial structure.
+Player-exclusive entities only affect the player they spawn for, including [[Screech]], [[Timothy]], [[Void]], [[Glitch]], and [[Glitch Fragment|Glitch Fragment Entities]]. Remote-fired entities spawn for everyone at the same time, but each player can have a different outcome when dealing with them, including [[Halt]], [[Dread]], [[Haste]], and [[Ransom]].
+| 9=
+[[File:Player journal Image.png|frameless|center|400x300px|class=notpageimage|link=]] In ''DOORS'', certain [[entities]] like [[Halt]], [[Ransom]], and [[Glitch]] can manipulate [[Player|the player's]] mind. Ransom does this by forcing pop-ups into their head that occasionally flash lore clues, like lights or cryptic text, while Halt does this by flashing its rotation symbol into their head.
 
-| 6= <div class="home-card__header">[[Eyes]]</div>
-[[File:Eyeopt2.webp|x150px|thumb|link=Eyes|class=notpageimage]]
-The [[Eyes]] are known to be able to spawn in certain rooms that none of the other [[List of Entities|entities]] can. Such rooms can include [[The Courtyard]] and [[The Dining Room]]. However, that is not to say that entities are physically limited from The Courtyard, as [[Rush]] and [[Ambush]] can pass through if they happen to be activated in the succeeding area.
+Glitch, however, is far stronger, capable of trapping the player in full hallucinations and fictional visions. If the player dies to Ransom or [[Hijack]] in a vision, Glitch mocks Ransom as "wannabe" who want its own vessel, revealing that the player is Glitch’s vessel (just as [[Noise]] is Ransom's).
+| 10=
+[[File:FigureRenderOfficial.png|frameless|center|400x300px|class=notpageimage|link=]] Before [[The Mines Update]], [[Figure]] used to create a muffled growl before opening the door to [[The Library]], giving slight anticipation to the encounter.
+| 11=
+[[File:FigureWalkingSizeRevamp.gif|frameless|center|400x300px|class=notpageimage|link=]] [[The Figure|Figure’s]] hitbox is weird, as in it was programmed to not have any hitbox while aggro to a location sound, like the [[Alarm Clock]], which can easily be abused. This also applies to the final chase to the elevator in [[The Electrical Room]] after powering the [[Circuit Breaker]].
+| 12=
+[[File:Haltt.png|frameless|center|400x300px|class=notpageimage|link=]] If the room after [[The Bridges]] with [[Halt]] is a room of [[The Shafts]], most commonly [[The Shafts|The Festering Meat Cave]], then [[Figure]] won’t spawn in the room.
+| 13=
+[[File:FigureRunSizeRevamp.gif|frameless|center|400x300px|class=notpageimage|link=]] Making any slight sound, like opening a drawer, while [[Gloombats]] are around causes [[Figure]] to always get aggrovated.
 
-| 7= <div class="home-card__header">[[Screech]]</div>
-[[File:Screech render.png|x150px|thumb|link=Screech|class=notpageimage]]
-The 'Psst!' sound [[Screech]] vocalizes does not indicate its appearance in the room, but rather when it will attack a [[player]]. Also, some instances of this sound may be falsified, being played solely to startle the player. Pay attention to the volume, as the fake one is quieter.
+While when there aren’t any Gloombats, he just goes to investigate where the sound was made at.
+| 14=
+[[File:2MajorEntities2RecurringEntitiesIconic.png|frameless|center|400x300px|class=notpageimage|link=]] According to [[RediblesQW]], most [[entities]] got their names with a simple thought process: "[[Rush]] rushes through rooms. [[Ambush]] ambushes the [[player]]. [[Seek]] seeks for the player.” 
 
-| 8= <div class="home-card__header">[[Figure]]</div>
-[[File:OldyFiguor.png|x150px|thumb|link=Figure|class=notpageimage]]
-This was one of [[Figure]]'s earliest models, during the game's early development stages. Yes, the design has changed a lot! Another fact about Figure is that the name 'Figure' was actually the placeholder name for this entity during the game's development. Before release, the developers actually liked the name 'Figure', so they made it official.
+However for [[Figure]], it was a codename from an older project and they decided to stick with it.
+| 15=
+[[File:FesteringEyes.png|frameless|center|400x300px|class=notpageimage|link=]] In [[The Electrical Room]], if you go to the mining elevator on the second floor of the stairwell, you can actually find [[Seek Eyes|Seek’s Eyes]] plastered there, foreshadowing its bigger role [[The Mines|in the next floor]].
 
-| 9= <div class="home-card__header">[[Glitch]]</div>
-[[File:GLITCH11.png|x150px|thumb|link=Glitch|class=notpageimage]]
-[[Glitch]] is a canon [[List of Entities|entity]], meaning it has a role in the lore. During the initial release, it solely appeared to prey on stray wanderers that were too far from their group ahead. However, it currently exists as a failsafe for faulty room generation with the previously mentioned mechanic being given to [[Void]].
+This also applies to [[Figure]] as near the castle found in [[The Woods]], you can find Festering Meat, which is always a foreshadowing of Figure’s prescence.
+| 16=
+[[File:FaintChudX-FigureRenderWMoonlight.png|frameless|center|400x300px|class=notpageimage|link=]] Despite what [[Moonlight]] says, [[Figure]] CANNOT hear you, nor your heartbeat if you are simply near it. This used to be a feature, but was removed in [[The Hunt Update]], and Moonlight’s dialogue is outdated.
+| 17=
+[[File:M Render Figure V2.webp|frameless|center|400x300px|class=notpageimage|link=]] This was one of [[The Figure|Figure's]] earliest models, during the game's early development stages. Yes, the design has changed a lot! 
 
-| 10= <div class="home-card__header">[[El Goblino]]</div>
-[[File:El Goblino render.png|x150px|thumb|link=El Goblino|class=notpageimage]]
-[[El Goblino]] is the [[List of Entities|entity]] responsible for generating various ambient noises by thumping on walls and doors in [[The Hotel]]. It does this in order to scare humans for its own amusement, though it does not mean any harm as seen with its amiable behavior.
+Another fact about Figure is that the name 'Figure' was actually the placeholder name for this entity during the game's development. Before release, the developers actually liked the name 'Figure', so they made it official.
+| 18=
+[[File:FesteringMeat2.png|frameless|center|400x300px|class=notpageimage|link=]] It is heavily assumed that [[Figure]] sheds his skin as we can see his festering meat in every location he is present in, such as [[The Library]], [[The Electrical Room]], [[The Shafts]], etc. It is also hinted at in the [[Journal]].
+| 19=
+[[File:FigureRenderUpdatedv3.0.png|frameless|center|400x300px|class=notpageimage|link=]] For a long time of [[The Figure|Figure's]] early history, it actually wasn't detecting whether you were crouching, but rather how fast you were moving; in which, during [[The Modifiers Update]], Figure could hear you even when crouching using speed [[Modifiers]]. This was later removed in [[The Mines Update]], when Figure's AI was completely changed.
+| 20=
+[[File:Figure_Idle.png|frameless|center|400x300px|class=notpageimage|link=]] [[Figure]] gets very angry and aggrovated when using a [[Shakelight]] near it, which is unlike most light sources in the game.
+| 21=
+[[File:THFigureFire.png|frameless|center|400x300px|class=notpageimage|link=]] [[Figure]] is a very resilient entity, as not only did it follow the players from [[The Library]] to [[The Electrical Room]], get burned alive and crash through a window, climb up a window and break open a metal door to chase the player, but it also followed the player and crash their elevator into [[The Mines]].
+| 22=
+[[File:FigureRenderV3.png|frameless|center|400x300px|class=notpageimage|link=]] [[The Figure]] is a tall entity, being 7'11 (2.42 meters) tall.
+| 23=
+[[File:YAYYYFIGUREJOGNDOE.png|frameless|center|400x300px|class=notpageimage|link=]] During the development of [[Super Hard Mode|SUPER HARD MODE!!!]], [[Figure]] was planned to be replaced by Slenderman, but the developers ran out of time before they could implement it into the gamemode.
+| 24=
+[[File:NewOLDSEEK.png|frameless|center|400x300px|class=notpageimage|link=]] [[Seek]] was the first entity to being added in-game before the rest. It also had a very different design than what it is now, appearing much more limp and having a different facial structure.
+| 25=
+[[File:EyeRender.png|frameless|center|400x300px|class=notpageimage|link=]] <center>[[File:SeekPlaySound.mp3|500px]]</center> [[Seek Eyes|Seek’s Eyes]] make an ambient noise when near them and blink. The larger the eye, the louder the noise. They do not blink on low graphics.
+| 26=
+[[File:HoleJumpscare-Emote.png|frameless|center|400x300px|class=notpageimage|link=]] The [[Tower Heroes Collaboration (2023)#tabber-Hole|Hole]] entity from the [[Tower Heroes Collaboration (2023)|first Tower Heroes Collaboration]] actually foreshadowed the existence of the [[Seek Sludge]] found during the second phase of [[The Dam]].
+| 27=
+[[File:SeekJumpscareeye.png|frameless|center|400x300px|class=notpageimage|link=]] Before [[The Mines Update]], [[Seek]] used to turn the [[player|player’s]] camera towards it when jumpscaring the player. This was likely removed due to Seek being recoded in said update, and so as everything else in the game.
+| 28=
+[[File:SeekRender77.png|frameless|center|400x300px|class=notpageimage|link=]] [[Seek]] in real life would have a height of 1.96 meters or 7 studs tall, and [[Dam Seek]] is 44.105 studs tall or around 12 meters.
+| 29=
+[[File:Truedamseekrender.webp|frameless|center|400x300px|class=notpageimage|link=]] [[Dam Seek|Dam Seek's]] actual name is "True Seek" according to the game files, which also confirms that it is [[Seek|Seek's]] true form.
+| 30=
+[[File:Seek2.png|frameless|center|400x300px|class=notpageimage|link=]] Seek can shape into any form or object but shapes into a humanoid form because a human body is the perfect body to chase the player with.
+| 31=
+[[File:SeekEyestalkAwesomeRenders.png|frameless|center|400x300px|class=notpageimage|link=]] The way [[Seek]] and [[Eyestalk]] catch the [[player]] is not based on how they chase you, but rather on their hitboxes and detection. Seek’s hitbox is relatively small, meaning it doesn’t kill you if it touches you, but rather if you are a little bit near it. 
 
-| 11= <div class="home-card__header">[[The Rooms]]</div>
-[[File:The_Rooms_Fixed.PNG|x150px|thumb|link=The Rooms|class=notpageimage]]
-Before it was replaced by [[The Archives]], [[The Rooms]] was a modified [[Floors|floor]] that originated from one of the games that inspired ''[[DOORS]]''' creation, simply known as [https://r-rooms.fandom.com Rooms]. Its existence in ''DOORS'' was an official collaboration with its creator, [https://r-rooms.fandom.com/wiki/Nicorocks5555 nicorocks5555].
+Meanwhile, Eyestalk’s hitbox is very big, as it can get you from a long distance, which is mainly due to how it needs to catch the player from a while to trigger the jumpscare of it running from a distance. Additionally, both [[entities]] use similar code in the way on how if anyone is behind them, they will be killed once they reach the next or same room.
+| 32=
+[[File:QueenGrumbleCheddarRender.png|frameless|center|400x300px|class=notpageimage|link=]] Unlike regular [[Grumbles]], the [[Queen Grumble]] has extra advantages and enhancements. Her movement speed is faster than any other Grumble, making her difficult to outrun; she doesn’t laugh either, making it harder to sense if she is coming and she is slightly paler and larger than the other Grumbles. Additionally, she is more resilient and determined than the others, as she finds you at the end of [[The Caverns]], chases you once the bridge of [[The Nest]] has been powered, find you in [[The Sewage Pipes]] along with [[Seek]], and finally emerges from the ground in [[The Woods]], only for Seek to infect her in the end.
+| 33=
+[[File:Qgstun.gif|frameless|center|400x300px|class=notpageimage|link=]] After being stunned with a [[Crucifix]] during [[The Sewage Pipes]], the [[Queen Grumble|Queen Grumble's]] stun animation will override the idle animation, and play infinitely.
+| 34=
+[[File:GuidingLightRender2.0.png|frameless|center|400x300px|class=notpageimage|link=]] [[Moonlight]] is present throughout the majority of ''DOORS'', assisting the [[player]] in several different ways, however, in [[subfloors]], Moonlight is completely absent and her related items don't work, supposedly feeling "lighter" than usual when held.
+| 35=
+[[File:Guidance&Curiosity.png|frameless|center|400x300px|class=notpageimage|link=]] The official names found in-game for both [[The Three Architects|architects]] that speak in death screens are [[Moonlight]], for the blue light in main floors, and [[Starlight]] for the yellow light in subfloors. 
 
-| 12= <div class="home-card__header">[[Snare]]</div>
-[[File:Snareoutline3.png|x150px|thumb|link=Snare|class=notpageimage]]
-[[Snare]] is one of the only [[List of Entities|entities]] that is capable of harming [[Player|players]], but isn't capable of killing them on its own. The only other entities that does this is [[Timothy]] and [[Sally]].
+However, a majority of players, including the developers, call them ''Guiding Light'' and ''Curious Light'' due to their death screen soundtracks names.
+| 36=
+[[File:ModuleMoon.png|frameless|center|400x300px|class=notpageimage|link=]] When dying while holding any [[Scanner Module|Scanner Drive]], [[Moonlight]] mentions she used to have one, and lost it a long time ago.
+| 37=
+[[File:Crucifix_skin_Activated_Yellow_icon.png|frameless|center|400x300px|class=notpageimage|link=]] When dying in [[subfloors]] with the [[Crucifix]] equipped, [[Starlight]] will say “That wooden vessel is useless here, It’s uninhabited, …And don’t even ask, I have no interest in occupying that.” This implies that the Crucifix could work in subfloors, but Starlight chooses not to empower it.
+| 38=
+[[File:RushTowerNew2.png|frameless|center|400x300px|class=notpageimage|link=]] Many people think that [[Rush]] is guaranteed to spawn in a run, and while for the most part that is true, it isn’t technically correct. Rush actually has a '''one in quintillion''' chance not to spawn at all within a run without any [[Modifiers]] influencing spawn rates.
 
-| 13= <div class="home-card__header">[[Greed]]</div>
-[[File:GreedNDepth.png|x150px|thumb|link=Greed|class=notpageimage]]
-The ''[[DOORS]]'' community has made countless fanmade [[List of Entities|entities]], although only two have made a complete appearance in-game. These entities would be [[Greed]], which only appears in the [[2023 April Fools Event|SUPER HARD MODE!!]] as an entity that attacks [[Player|players]] who loot [[Gold]] too often, and [[2023 April Fools Event#Rush Clones|Depth]] who is just a reskin of [[Rush]].
+Just so we are on the same page, a quintillion is a 1 followed by eighteen 0s, or 10 to the power of 18, which both are: 1,000,000,000,000,000,000; an absolutely massive number.
+| 39=
+[[File:RushCrucifyRemasterSped.gif|frameless|center|400x300px|class=notpageimage|link=]] Using a [[Crucifix]] on [[Rush]] will cause the next door to open even without Rush even touching it at all.
+| 40=
+[[File:RushRender.png|frameless|center|400x300px|class=notpageimage|link=]] [[Rush]] is a tall entity in the game because of the aura it emits at 4.48 meters, or 16 studs.
+| 41=
+[[File:IconicNodesNext2Eachother.png|frameless|center|400x300px|class=notpageimage|link=]] [[Ambush]] was not the only entity capable of rebounding, [[Rush]] used to rebound when it entered a room with a blocked/locked door that caught most players off-guard, even now, it still has the rare chance to do this if its nodes aren’t functioning properly, so make sure to take care when exiting a hiding space around Rush.
+| 42=
+[[File:RushRender.png|frameless|center|400x300px|class=notpageimage|link=]] During [[The Greenhouse]] before [[The Mines Update]], there was a pretty common chance to encounter a [[Rush]] to spawn another, due to Rush always spawning on Door 97, this was removed after the update by making doors in The Greenhouse not be able to be opened by Rush.
+| 43=
+[[File:RushWithOldSeekEye.png|frameless|center|400x300px|class=notpageimage|link=]] If a node [[entity]] spawns, (eg. [[Rush]], [[A-60]], etc.) spawns right after the first [[The Grand Hallway|Seek Chase]] in [[The Hotel]], the entity will spawn miles away somewhere in the void. Because of this, if Rush spawns right after the chase, it can sometimes take ages for it to come, as well as having weird pathing.
+| 44=
+[[File:Ambush2.png|frameless|center|400x300px|class=notpageimage|link=]] [[Ambush]] is a very persistent entity, unlike [[Rush]], if it encounters a room with a blocked/locked door it will phase through the door, nothing can stop the power of Ambush tripping up the [[player]], take care.
+| 45=
+[[File:Ambush_animated.gif|frameless|center|400x300px|class=notpageimage|link=]] <center>[[File:JumpscareAmbushScream.mp3|500px]]</center> <center><small>Warning: '''LOUD!'''</small></center> [[Ambush]] is the only entity to have a unique jumpscare every time any [[player]] gets killed by it; the pitch of the jumpscare is completely random, leading to a large, unknown amount of possible sounds!
+| 46=
+[[File:AnticheatAmbushHatesM249.png|frameless|center|400x300px|class=notpageimage|link=]] [[Secrets#tabber-Anti-Cheat_Ambush|Anticheat Ambush]] is exclusive to [[SUPER HARD MODE!!!]], as it does not exist in either [[HOTEL-]] nor the main game.
+| 47=
+[[File:AmbushModifierRing.png|frameless|center|400x300px|class=notpageimage|link=]] While the ‘Afterimage’ [[modifier]] should only make [[Ambush]] faster, it also increases his spawnrate.
 
-| 14= <div class="home-card__header">Crucifix & Skeleton Key</div>[[File:Crucifix_&_Skeleton_Key_Icons.png|x150px|thumb|link=Items|class=notpageimage]]
-The [[Crucifix]] and [[Skeleton Key]] were both initially intended to be added in ''[[DOORS]]''' initial release, but were scrapped for unknown reasons. They were reimplemented in [[The Hotel+ Update]] as rare, but incredibly useful [[items]].
+This is intentional, as this is to prevent the modifier from being a free boost in the chance Ambush does not spawn at all in the run.
+| 48=
+[[File:AmbushDupeSewers.png|frameless|center|400x300px|class=notpageimage|link=]] Past Door 190 in [[The Mines]], [[Ambush]] loses its distant sound after the first rebound. Because of this, reacting to Ambush is harder when it comes back, especially when using the the 'Afterimage' [[modifier]]. 
 
-| 15= <div class="home-card__header">[[Green Herb]]</div>
-[[File:Green Herb icon.png|x150px|thumb|link=Green_Herb|class=notpageimage]]
-The [[Green Herb]] is the first object in the game to give [[Player|players]] a passive [[Status Effects|effect]] upon interacting with it. Previously, interacting with it and entering a sub-floor (at the time only [[The Rooms]]) would remove this effect, but it has since been patched.
+The same thing happens with [[Dupe]] who becomes really quiet past Door 190.
+| 49=
+[[File:Eyesrender2.png|frameless|center|400x300px|class=notpageimage|link=]] [[Eyes]] has been known to be able to spawn in certain rooms that none of the other entities can. Such rooms can include [[The Outdoors|The Outdoors’ entrances]] in [[The Greenhouse]] and previously [[The Meeting Room]]. 
 
-| 16= <div class="home-card__header">[[Bob]]</div>
-[[File:Bob hotel render.png|x150px|thumb|link=Bob|class=notpageimage]]
-It is heavily implied that [[Bob]] isn't alive, and is just a pile of bones. [[El Goblino]] has mentioned that Bob got in a fight with [[Rush]] after accidentally stepping on [[Snare]], which is implied to have lead to his death. El Goblino also implies that Bob has recently died of starvation, mentioning that he looks like a "...real bag of bones."
+However, that is not to say that [[entities]] are physically limited from said rooms as [[Rush]] and [[Ambush]] can pass through if they happen to be activated in the succeeding area.
+| 50=
+[[File:YoEyesIsStacked.png|frameless|center|400x300px|class=notpageimage|link=]] [[Eyes]] are much more active in [[BATTLE MODE]], as unlike regular modes, they do not despawn after opening one room, but rather three rooms.
+| 51=
+[[File:EyesNamer.png|frameless|center|400x300px|class=notpageimage|link=]] [[Lightning Splash (developer)|LSPLASH]] has stated that he regrets naming the [[Eyes]] [[entity]], "Eyes", stating that he wants to rename the entity to Stare instead, as it suits the entity better.{{Fact}}
+| 52=
+[[File:Eyemodifier.png|frameless|center|400x300px|class=notpageimage|link=]] [[Eyes]] has multiple [[modifiers]] to its name, but one was scrapped for a little while. This modifier was called "Sightseeing", and it simply gave Eyes the ability to teleport, providing more of a challenge. This modifier was scrapped, and Eyes' ability to teleport was added to its upgrade in [[The Mines]]; though eventually, this modifier was added to The Hotel as “Every Angle” in [[The Content Update]].
+| 53=
+[[File:4EyesCrucifix.png|frameless|center|400x300px|class=notpageimage|link=]] [[Modifiers]] used for [[Eyes]] that guarantee a certain quantity of them spawn in each room (eg. Always Watching, Four Eyes) can be crucified with the use of the [[Crucifix]], and upon doing so, Eyes will not spawn for the remainder of the run, completely negating the effects of the modifier.
+| 54=
+[[File:LookmanNEyesCrucy.png|frameless|center|400x300px|class=notpageimage|link=]] Using a [[Crucifix]] on [[Lookman]] will NOT cause it to despawn for the rest of the round, however using the Crucifix on [[Eyes]] will cause both Eyes and Lookman to not spawn for the rest of the round.
+| 55=
+[[File:GreenhouseDupeRender.png|frameless|center|400x300px|class=notpageimage|link=]] The range of [[Dupe|Dupe’s]] doors found in [[The Greenhouse]] are WAY too big, so big to the point of where [[hiding]] in a closet near one and exiting it can cause you to get hit by Dupe from the range.
+| 56=
+[[File:HotelDupeRender.png|frameless|center|400x300px|class=notpageimage|link=]] [[Dupe]] used to have a smaller hitbox than regular doors, so you could go to the side of the doors to see if they would open, and if they didn’t, it was a Dupe; which was proven useful in [[SHM!!!]] to avoid [[Subspace Tripmine]].
+| 57=
+[[File:Dupe_mines_render.png|frameless|center|400x300px|class=notpageimage|link=]] Before [[The Mines Update]], getting duped by [[Dupe]] would cause the door sign to fall off the door, but this was changed after the update to now simply scramble the door sign instead.
+| 58=
+[[File:Screech2.png|frameless|center|400x300px|class=notpageimage|link=]] <center>[[File:ScreechPssting.wav|500px]]</center> <center><small>Fakeout first, Sound Cue second.</small></center> The whispering sound of “Psst!” that [[Screech]] vocalizes, does not indicate its appearance in the room, but rather when it will attack a [[player]]. Also, some instances of this sound may be falsified, being played solely to startle the player. Pay attention to the volume, as the fake one is quieter.
+| 59=
+[[File:Screechattack-new.gif|frameless|center|400x300px|class=notpageimage|link=]] There is a significant difference between [[Screech]] in [[The Mines]] and the "I'm Everywhere" [[modifier]]. In The Mines, Screech spawns occasionally in nearly every room, excluding [[The Adit]], [[The Caverns]], [[The Sewage Pipes]], and [[The Dam]]. 
 
-| 17= <div class="home-card__header">[[Void]]</div>
-[[File:Void render.png|x150px|thumb|link=Void|class=notpageimage]]
-When [[The Hotel+ Update]] released, [[Void]] was used to replace [[Glitch]]'s function to teleport [[Player|players]] ahead when they were left behind in an unloading room and Glitch was changed to only be a failsafe, but in [[Floors#Subfloors|subfloors]] Glitch still carries its old function due to Void being absent.
+With the "I'm Everywhere" modifier, Screech spawns much more frequently in every room with no restrictions whatsoever, causing him to be a major threat.
+| 60=
+[[File:ScreechPileRender2.png|frameless|center|400x300px|class=notpageimage|link=]] It's heavily implied there are multiple [[Screech|Screeches]]. There's multiple dead Screech piles in [[The Nest]]. This doesn't mean that nearly the entire Screech species is gone, though, as [[El Goblino]] has stated multiple times that he's seen more than one Screech.
+| 61=
+[[File:REDIBLESTHEREISASCREECHBEHINDYOU.png|frameless|center|400x300px|class=notpageimage|link=]] [[Screech]] was inspired by a nightmare that one of the developers, [[RediblesQW]], had experienced just a week before the game's release! 
 
-| 18= <div class="home-card__header">[[Moonlight]]</div>
-[[File:Moonlight render.png|x150px|thumb|link=Guiding Light|class=notpageimage]]
-[[Moonlight]] is present throughout the majority of ''[[DOORS]]'', assisting the [[player]] in several different ways, however, in [[The Archives]], [[The Backdoor]], [[The Outdoors]] and the [[The Stairwell]], Moonlight is completely absent and its related [[items]] don't function, supposedly feeling "lighter" than usual when held. [[Starlight]] takes Moonlight's place in these subfloors, and is much less reliable than her.
+The only difference between the one in-game and the one in the nightmare was that the nightmare version had more arms.
+| 62=
+[[File:ScreechBurningIsGoodThing.png|frameless|center|400x300px|class=notpageimage|link=]] [[Screech]] is vulnerable to heat. [[Lightning Splash (developer)|LSPLASH]] confirmed that it would "probably die" if put into an oven for six minutes at 500° F (260° C).
+| 63=
+[[File:NotScreechItScreature.png|frameless|center|400x300px|class=notpageimage|link=]] [[Screech]] was originally going to be named "Screature", a possible portmanteau of ‘Screech’ and ‘Creature’.
+| 64=
+[[File:GiggleRenderNew.png|frameless|center|400x300px|class=notpageimage|link=]] There is a bug where if [[Giggle]] attacks a [[player]], and that Giggle despawns or the player gets voided, then Giggle will continue to be on the player’s face for a little longer without damaging them, before getting off their face and leaving them stuck in the animation.
 
-| 19= <div class="home-card__header">[[The Rooms]]</div>
-[[File:CuriousLightRender3.png|x150px|thumb|link=The Rooms|class=notpageimage]] [[File:The Rooms.mp3|x150px|thumb]]
-While it was still available, entering [[The Rooms]] would play a special sound effect that sounds like wind blowing. This is a reference to [https://r-rooms.fandom.com/wiki/Roblox_ROOMS_Wiki nicorocks' Rooms], in which [https://r-rooms.fandom.com/wiki/A-200 A-200's] despawn sound effect plays upon joining the game, which is a much louder sound of wind blowing.
+This had a few benefits, as no [[entity]] could kill you whatsoever, and Giggles would not drop on you if you walked under them. However, the game would not let you interact with anything, making this bug pointless.
+| 65=
+[[File:GiggleNewRender.png|frameless|center|400x300px|class=notpageimage|link=]] [[Giggles]] are able to be blinded with many light sources, including: the [[Bulklight]], [[Flashlight]], [[Shakelight]], and [[Laser Pointer]].
 
-| 20= <div class="home-card__header">[[A-60]]</div>
-[[File:A-60 sprite.png|x150px|thumb|link=A-60|class=notpageimage]]
-[[A-60]] was the first [[List of Entities|entity]] in ''[[DOORS]]'' to make an appearance before officially being implemented into the game, as during one of [https://www.youtube.com/c/KreekCraft KreekCraft's] streams before the [[Update Logs|Hotel+ Update]] released a variant of [[A-60]] was activated as a troll entity to mess with Kreek.
+Additionally, Giggles are able to be stunned by throwing certain items at them, which include: [[Glowsticks]], [[Flares]], [[Pocket Mirror|Pocket Mirrors]], [[Paper Planes]], [[Honey Pot|Honey Pots]], the [[Rift Jar]], [[Big Bomb|Big Bombs]], [[Bomb|Bombs]], [[Knockbomb|Knockbombs]], and [[Nanner Peel|Nanner Peels]].
 
-| 21= <div class="home-card__header">[[The Greenhouse]]</div>
-[[File:RushNSnareNew.png|x150px|thumb|link=List_of_Entities|class=notpageimage]]
-Sometimes, if a player is temporarily caught in a [[Snare]] trap in [[The Greenhouse]], there is a chance that [[Rush]] can also be coming through the room at the same time, this ends up becoming a combo kill against the player. These two [[List of Entities|entities]] do not work together to achieve this outcome, it is simply a coincidence. Players should take extra care in [[The Greenhouse]] to avoid this deadly combo when it arises.
+Finally, Giggles are able to be physically hit with: [[Gold Blaster|Golden Blasters]], [[Ransom's Stop Sign|Ransom’s Stop Sign]], [[Boxing Gloves]], and the [[Knockback Stick]].
+| 66=
+[[File:GiggleCrucifixRender1.png|frameless|center|400x300px|class=notpageimage|link=]] For some reason, [[Giggle]] has a hitbox while being [[Crucifix|crucified]], while other [[entities]], including 3D Modeled ones, don't.
+| 67=
+[[File:DecentGloombatRender.png|frameless|center|400x300px|class=notpageimage|link=]] [[Gloombats]] have [[Gloombat Eggs|eggs]], stepping on them causes another Gloombat to spawn, if a [[player]] dies to them, Gloombats will lay eggs on their body.
+| 68=
+[[File:NewGloom2.png|frameless|center|400x300px|class=notpageimage|link=]] [[Gloombats]] vary based on color, as they can spawn either: red, orange, yellow, green, blue, cyan, pink and white; with [[Gloombat Eggs|their eggs]] also representing the color of the Gloombat in them.
 
-| 22= <div class="home-card__header">[[Dread]]</div>
-[[File:Dread sprite.png|x150px|thumb|link=Dread|class=notpageimage]]
-[[Dread]] was previously a secret [[List of Entities|entity]] that could be encountered after one real-life hour had passed (at midnight in-game). Secondly, Door 13 had to be opened, whilst Door 14 remained unopened. When these requirements were met Dread would spawn, behaving as it does currently.
+However with these set of colors, there is still no way to determine how many colors a Gloombat can be. This is because Gloombats have an infinite set of colors that are randomized from 255 hues, not to mention decimals!
+| 69=
+[[File:SingleGloombat.png|frameless|center|400x300px|class=notpageimage|link=]] Prior to the release of [[The Mines]], [[Gloombats]] could’ve been seen in [https://www.youtube.com/watch?v=2BReqL3E5f4 The Mines Teaser Trailer], and many people have nicknamed them ‘Batmoths’, however in contrary, they were originally going to be titled ‘Gloomies’ and were just going to be 2D particles of black, red, and blue spots similar to the flies on [[Bob]] and festering meat, as stated by [[RediblesQW|Redibles]] [https://youtube.com/watch?v=XYk%20qHtnGOk&lc=UgwzLcd8oQgGcb2mMm94AaABAg in a comment].
+| 70=
+[[File:DreadAtMidnight.svg|frameless|center|400x300px|class=notpageimage|link=]] [[Dread]] was previously secret [[entity]] that could be encountered after one hour had passed (or reaching midnight in-game) and Door 13 was opened, whilst Door 14 remained unopened. When these requirements were met Dread would spawn behaving as it does currently.
+| 71=
+[[File:DreadAtMidnight.svg|frameless|center|400x300px|class=notpageimage|link=]] Compared to [[Dread|Dread's]] default appearance having 172 holes in his form, his [[Crucifix|crucified]] state is approximately, estimated to be at least 135 holes (give or take ~10).
+| 72=
+[[File:PRE-DEATH_DREAD.png|frameless|center|400x300px|class=notpageimage|link=]] [[Dread]] spawns exactly 64 studs behind where your camera is facing, on the exact same Y-level as you.
+| 73=
+[[File:HideOld.png|frameless|center|400x300px|class=notpageimage|link=]] [[Hide]] was originally not going to be added in ''DOORS'', instead having the [[player]] leave the hiding spot from claustrophobia (a fear of small spaces) for [[hiding]] too long. {{Fact}}
+| 74=
+[[File:HideRender.png|frameless|center|400x300px|class=notpageimage|link=]] [[Hide|Hide’s]] physical appearance does not appear in [[Hiding Spots]] that aren’t found in [[The Mines]], like Beds. Hide will still appear in Hiding Spots found in The Mines, such as Dumpsters.
+| 75=
+[[File:Littlejackspyinginyoclosetlolol.png|frameless|center|400x300px|class=notpageimage|link=]] [[Jack]] can not only appear in the closets scattered across various rooms in [[The Hotel]], it is also known to make an appearance behind recently opened doors. When this occurs, the room will receive a blood-red tone. This effect also applies to the rain if it is present outside, with the only difference being that the window will continue to stay red even after the red-tone fades out.
+| 76=
+[[File:Littlejackspyinginyoclosetlolol.png|frameless|center|400x300px|class=notpageimage|link=]] [[Jack]] has changed when jumpscaring [[players]] from a closet. Before [[The Mines Update]], if Jack were to spawn in a closet, it would jumpscare the player and prevent players from entering while it is still in there. However, now when Jack jumpscares in a closet, the player can hide in the closet and will be automatically forced out of the closet.
+| 77=
+[[File:Jack sprite.png|frameless|center|400x300px|class=notpageimage|link=]] [[Jack]] surprisingly has a small deactivation period when [[Rush]] or [[Ambush]] spawn, meaning that Jack cannot block the [[player]] from [[hiding]] in the same room they spawn. However, opening the next door will reactivate Jack, which could allow him to get a cheap death out of you from Rush or Ambush. Take care.
+| 78=
+[[File:JackWeirdo.png|frameless|center|400x300px|class=notpageimage|link=]] [[Weirdo]] (previously referred to as Shadow) has an ESTIMATED 1 in 300,000 spawn chance (per door) according to seed tracking data, with [[Jack]] being between a 1 in 10,000-20,000 chance to spawn behind a door.
 
-| 23= <div class="home-card__header">[[Lookman]]</div>
-[[File:Lookman sprite.png|x150px|thumb|link=The_Backdoor#The_Lookman|class=notpageimage]]
-[[Lookman]] is similar to [[Eyes]] in several ways, as not only does it hurt the player when looked at, but its name is the previous name of Eyes, along with aspects of its design, such as its glowing eyes, resembling Eyes' old design!
+Additionally, encountering [[Jack]] along with [[Weirdo]] in the same room is extremely rare, estimated to be between a 1 in 3-6 Billion chance! There [http://youTube.com/shorts/BsI3IxDFkNY has only been one recorded case of this happening], being during [[April Fools 2023]] in [[Super Hard Mode]].
+| 79=
+[[File:Weirdo render?.png|frameless|center|400x300px|class=notpageimage|link=]] [[Weirdo]] is the most unknown [[entity]] in ''DOORS''. Unlike other entities, it cannot be spawned through the [[Admin Panel]] and doesn't have any death message from the [[The Three Architects|architects]]. The only information known about it is its appearance and that it jumpscares the [[player]] whenever it appears, as well as sharing similarities with [[Lookman]] that the player states in their [[Journal]].
+| 80=
+[[File:2DSally.webp|frameless|center|400x300px|class=notpageimage|link=]] [[Sally]] isn’t entirely a hostile [[entity]], as she can increase your max [[health]] if your max health is very low, like when using the Last Breath [[modifier]].
 
-| 24= <div class="home-card__header">[[Haste]]</div>
-[[File:Haste1.png|x150px|thumb|link=The Backdoor#Haste|class=notpageimage]]
-[[Haste]] is a direct reference to [https://spookys-jump-scare-mansion.fandom.com/wiki/Specimen_9 Specimen 9] from [https://spookys-jump-scare-mansion.fandom.com Spooky's Jumpscare Mansion], both having similar appearances and death screens with repeating mantras, Haste's being "NO TIME LEFT" and Specimen 9's being "TO TAKE THE DEAD".
+For example, Sally can set your max health to 50 when she attacks you with the Last Breath modifier.
+| 81=
+[[File:TimothyRender2.0.png|frameless|center|400x300px|class=notpageimage|link=]] [[Timothy]] is the smallest entity within ''DOORS'', due to its size it is smaller than every furniture item within the game, which allows it to hide in containers among [[Gold]] and [[items]].
+| 82=
+[[File:TimothyDamp.png|frameless|center|400x300px|class=notpageimage|link=]] Realistically, spiders cannot cannot survive in areas full of gas or smoke as it can poison or kill them. If [[Timothy]] was canonically a real-life spider in the game, it realistically wouldn't be able to spawn in a [[Firedamp]] room.
+| 83=
+[[File:Snushing.png|frameless|center|400x300px|class=notpageimage|link=]] In [[The Greenhouse]], if a [[player]] is temporarily trapped in a [[Snare]], there is a chance that [[Rush]] is also coming through at the same time, causing a deadly combo guaranteed to kill the player. Contrary to popular belief however, these entities do not work together and never have, and is simply a coincidence that they attacked together.
+| 84=
+[[File:Snare & rush.png|frameless|center|400x300px|class=notpageimage|link=]] [[Snare]] can be quite a pickle in [[The Greenhouse]], as not only does it stun the [[player]] and causing them to lose [[damage]], but they can serve as a deadly combo if [[Rush]] is oncoming. To combat this, playing on lower graphics can help with viewing the Snares easily, and always staying near a closet upon opening a door can allow Rush to fly by, in which getting trapped in a Snare isn’t as deadly as before. Take care.
+| 85=
+[[File:Skare.png|frameless|center|400x300px|class=notpageimage|link=]] [[Snare]] is one of the only [[entities]] that is capable of harming [[players]], but isn't capable of killing them on its own. The only other entities that do this is [[Timothy]] and [[Sally]].
+| 86=
+[[File:Haltt.png|frameless|center|400x300px|class=notpageimage|link=]] Before [[The Hotel+ Update]], you were unable to go to the side of the hallway and wait for him to pass by, but then in [[The Hotel+ Update]], you could go to the side before being fixed in [[The Modifiers Update]] due to the ‘Roundabout’ [[modifier]] being an easy modifier, before eventually getting reworked in [[The Mines Update]].
+| 87=
+[[File:Hotel Lamp.png|frameless|center|400x300px|class=notpageimage|link=]] Prior to [[The Hotel+ Update]] (still apparent in [[Hotel-]]), [[Ambush]] used to flicker lights to warn [[players]] that it was going to spawn; the only difference between the Ambush and [[Rush]] flickers was that Ambush’s flicker was slightly longer than Rush’s by a very tiny amount.
 
-| 25= <div class="home-card__header">[[Shears]]</div>
-[[File:ShearsIcon.webp|x150px|thumb|link=Shears|class=notpageimage]]
-The [[Shears]]' original function was cutting vine-covered [[Containers|chests]] in [[The Greenhouse]], but it felt like another [[Lockpick]], and it was unusual for an [[Items|item]] to only be useful in about 10 rooms in the entire [[Floors|floor]], so the item was shelved for future use. This idea was reimplemented into [[The Mines]], with vines reappearing throughout the floor.
+Additionally, [[Halt]], prior to [[The Mines Update]], could also flicker lights, with the only difference being that Halt’s flicker was significantly longer than Rush’s. This was possibly removed due to Halt being recoded, as well as getting a new room.
+| 88=
+[[File:Halt Render 2.png|frameless|center|400x300px|class=notpageimage|link=]] Prior to [[The Hotel+ Update]], [[Halt]] functioned differently, as it would glide to the [[player|player’s]] position and turn around once it did. This meant that all players had to do was simply stop moving when Halt told them to turn around, and to simply move back a little.
 
-| 26= <div class="home-card__header">[[Haste]]</div>
-[[File:hasol.webp|x150px|thumb|link=Haste|class=notpageimage]] [[Haste]] was originally planned to be in [[The Hotel]] rather than The Backdoor. Originally, if a [[player]] stalled in a room for too long, Haste would chase down the player and force them to [[Hiding|hide]]. The developers didn't like this mechanic, so Haste was scrapped and would be re-introduced with a new and better mechanic the following year.
+Now, it functions differently, as Halt will now go to your position, but go a little bit farther than it, meaning that you would actually have to move as it followed you till it turned around.
+| 89=
+[[File:VoidRenderReal.png|frameless|center|400x300px|class=notpageimage|link=]] [[Void]] actually gets stronger the more you progress in a floor. At the beginning of the [[floor]], Void will only teleport [[players]] if they are five rooms behind, then it becomes four rooms once players reach the 64th door, and then three rooms once players reach the 80th door.
+| 90=
+[[File:Void&GlitchOLDRENDERS.png|frameless|center|400x300px|class=notpageimage|link=]] When [[The Hotel+ Update]] released, [[Void]] was used to replace [[Glitch|Glitch's]] function to teleport [[players]] ahead when they were left behind in an unloading room and Glitch was changed to only be a failsafe; but in [[subfloors]], Glitch still carries its old function due to Void being absent.
+| 91=
+[[File:GlitchRender2.png|frameless|center|400x300px|class=notpageimage|link=]] [[Glitch]] is a canon [[entity]], meaning it has a role in the lore. During the initial release, it solely appeared to prey on stray wanderers that were too far from their group ahead. However, it currently exists as a failsafe for faulty room generation with the previously mentioned mechanic being given to [[Void]].
+| 92=
+[[File:GlitchWithFrags.png|frameless|center|400x300px|class=notpageimage|link=]] [[Glitch]], and [[entities]] from [[Glitch Fragment]]s, are the only group of entities that can appear in every [[floor]], [[subfloor]], and [[vision]]. 
 
-| 27= <div class="home-card__header">Sightseeing</div>[[File:Eyemodifier.png|x150px|thumb|link=Modifiers#Scrapped|class=notpageimage]] 
-[[Eyes]] have multiple [[modifiers]] to their name, but one was scrapped. This modifier was called "Sightseeing", and it simply gave Eyes the ability to teleport, providing more of a challenge. This modifier was scrapped, and Eyes' ability to teleport was added to its [[The Mines|Mines]] upgrade, as well as its equivelant modifier for [[The Hotel]].
+Though not every vision is able to spawn [[Glitch Fragments]], [[Glitch]] itself is still present either as a failsafe mechanic or a way to make sure [[players]] don’t get left behind.
+| 93=
+[[File:GFRender.png|frameless|center|400x300px|class=notpageimage|link=]] Before the upcoming nerf, the [[Glitch Fragment]] had about a 1/10,000 chance to spawn. Later it was changed so it’s guaranteed to appear after multiple [[Glitch|Glitch(es)]].
+| 94=
+[[File:RNIUSHCg==_HD.png|frameless|center|400x300px|class=notpageimage|link=]] [[RNIUSHCg==]] (or Glitched Rush) was originally called "Armageddon" before the official name of the [[entity]] was found.
 
-| 28= <div class="home-card__header">[[Queen Grumble]]</div>
-[[File:NewQueenGrumbleRender.webp|x150px|thumb|link=Queen Grumble|class=notpageimage]] 
-Unlike normal [[Grumbles]], the [[Queen Grumble]] has extra buffs. Her movement speed is faster than any other Grumble, making her difficult to outrun. The [[Bulklight]] can still blind her, but she can still catch up to [[Player|players]] easily. She doesn't laugh, making it harder for players to sense if she is coming. She is slightly paler and larger than the other Grumbles, and features a large scar on her forehead. She first appears at the end of the first [[Seek]] chase in [[The Mines]], and chases the player once the bridge has been powered.
+The name Armageddon is NOT official, and this entity should not be called by that name to avoid confusion and misinformation!
+| 95=
+[[File:AR0xMBUSH_HD.png|frameless|center|400x300px|class=notpageimage|link=]] [[AR0xMBUSH]] (or Glitched Ambush) was originally referred to as "Doomsday" before its official name was revealed.
 
-| 29= <div class="home-card__header">[[Gloombat]]</div>
-[[File:Gloombat render.png|x150px|link=Gloombats|thumb|class=notpageimage]] 
-[[Gloombats]] have eggs, and when stepped on, they will get hurt and more Gloombats will spawn. If a [[player]] dies by the Gloombats, they will lay eggs on the corpse.
+The name Doomsday is NOT official and this [[entity]] should not be called by that name to avoid confusion and misinformation!
+| 96=
+[[File:JeffMinesNew.png|frameless|center|400x300px|class=notpageimage|link=]] [[Jeff|Jeff's]] real name is "Jefftholomew Von Tentickle” officially.
+| 97=
+[[File:Goblinov3.png|frameless|center|400x300px|class=notpageimage|link=]] [[El Goblino|El Goblino's]] real name is "El Goblino Peque Carmine IV” officially.
+| 98=
+[[File:GoblinoRender3.png|frameless|center|400x300px|class=notpageimage|link=]] [[El Goblino]] is the entity responsible for generating various ambient noises by thumping on walls and doors in [[The Hotel]]. It does this in order to scare [[players|humans]] for its own amusement, though it does not mean any harm as seen with its amiable behavior.
+| 99=
+[[File:BobMinesRender.png|frameless|center|400x300px|class=notpageimage|link=]] [[Bob|Bob's]] real name is "Bob Skellyfriend" officially.
+| 100=
+[[File:HotelBob.png|frameless|center|400x300px|class=notpageimage|link=]] It is heavily implied that [[Bob]] isn't alive, and is just a pile of bones. [[El Goblino]] has mentioned that Bob got in a fight with [[Rush]] after accidentally stepping on [[Snare]], which is implied lead to his death. El Goblino also implies that Bob has recently died of starvation, mentioning that he looks like a "...real bag of bones”, even though, he already is.
+| 101=
+[[File:2DemonicSkullsTogether.png|frameless|center|400x300px|class=notpageimage|link=]] [[Haste]] is a direct reference to [https://spookys-jump-scare-mansion.fandom.com/wiki/Specimen_9 Specimen 9] from [https://spookys-jump-scare-mansion.fandom.com/wiki/Spooky%27s_Jump_Scare_Mansion_Wiki Spooky's Jumpscare Mansion], both having similar appearances and death screens with repeating mantras, Haste's being "NO TIME LEFT" and Specimen 9's being "TO TAKE THE DEAD" in that matter.
+| 102=
+[[File:HasteBed.png|frameless|center|400x300px|class=notpageimage|link=]] [[Haste]] was originally planned to be in [[The Hotel]] rather than [[The Backdoor]] during [[The Hotel+ Update]]. Originally, if a [[player]] stalled in a room for too long, Haste would chase down the player and force them to [[hide]]. The developers didn't like this mechanic, so Haste was scrapped and would be re-introduced with a new and better mechanic the following year.
+| 103=
+[[File:Haste sprite.png|frameless|center|400x300px|class=notpageimage|link=]] No matter how far away from [[Haste]] you are, it will always kill you automatically after about 15 seconds after it spawned.
+| 104=
+[[File:Blitz_Render.png|frameless|center|400x300px|class=notpageimage|link=]] [[Blitz]] actually is programmed to despawn automatically after a certain amount of time, even if it is still attacking or rebounding.
+| 105=
+[[File:Blitz_Render.png|frameless|center|400x300px|class=notpageimage|link=]] The chance for [[Blitz]] to rebound is directly tied to the amount of time remaining in [[The Backdoor]]. It will never rebound if the timer is at 30 seconds or less.
+| 106=
+[[File:AmbuBlitzYea.png|frameless|center|400x300px|class=notpageimage|link=]] [[Blitz]], along with [[Ambush]] will always break the lights in the next room alongside the room that spawns him, most likely due to the [[Updates|Mines-Content Update period]], where [[Rush]] and [[Blitz]] were able to break the next room's lights, and while Rush got changed, Blitz and Ambush never got updated.
+| 107=
+[[File:Wasitlookmanorlookman.png|frameless|center|400x300px|class=notpageimage|link=]] [[The Lookman]] is similar to [[Eyes]] in several ways, as not only does it hurt you when looked at but its name is the previous name of Eyes, along with aspects of its design such as its glowing eyes, resembling Eyes' old design!
+| 108=
+[[File:Honchkeeper.png|frameless|center|400x300px|class=notpageimage|link=]] Two of the ''DOORS'' developers have actually voiced two major [[entities]] in the game, with [[RediblesQW]] voice acting [[The Groundskeeper]], and [[Jasper creations|jasper.creations]] voicing [[Honcho]]. Although, jasper has stated that he will never reveal what he is mumbling in the cutscenes [https://x.com/jaspercreations/status/2114086545531548032?a=wGPpQVn6CKBIuj8eewQ&s=19 in a tweet].
+| 109=
+[[File:World_Lotus_Render.png|frameless|center|400x300px|class=notpageimage|link=]] [[The World Lotus]] is 155.35 Studs Tall. This is equivalent to 43.988 Meters, 44 if rounding up.
+| 110=
+[[File:Mandrakerender2.png|frameless|center|400x300px|class=notpageimage|link=]] If you take a [[Mandrake]] into your hand and step on a [[Snare]], the Mandrake will stop draining your oxygen, and stay in your hands.
 
-| 30= <div class="home-card__header">[[Screech]]</div>
-[[File:ScreechPileRender2.png|x150px|link=Screech|thumb|class=notpageimage]]
-It's heavily implied there are multiple [[Screech|Screeches]]. There are multiple dead Screech piles found in [[The Nest]], and [[El Goblino]] states that he's seen more than one Screech.
+You can still interact with objects even with the Mandrake still with you, though it will despawn once the room it spawned in despawns as well.
+| 111=
+[[File:Monument_height_comparison.png|frameless|center|400x300px|class=notpageimage|link=]] The Vine-Infested variant of [[Monuments]] found in a somewhat rare subroom in [[The Outdoors]] are actually taller and larger than their regular counterparts.
+| 112=
+[[File:Darkergrampy.png|frameless|center|400x300px|class=notpageimage|link=]] Talking to [[Grampy]] in [[The Mill]] actually causes all active [[Monuments]] to despawn, and activating the first cutscene of [[The Hedge Maze]] also does the same!
+| 113=
+[[File:Cawup.png|frameless|center|400x300px|class=notpageimage|link=]] While [[Caws]] may appear useless at first and solely act as decoration, they do have a functionality of perching near [[Lotus Petals]] and [[Iron Key|Iron Keys]], and drastically increasing the spawn chance of [[Lotus Petals]] if [[Bread]] is given to them.
+| 114=
+[[File:CringleRender.png|frameless|center|400x300px|class=notpageimage|link=]] During [[Cringle's Workshop]], you are tasked to stack all of [[Cringle|Cringle's]] [[Present|presents]] after [[Krampus Figure]] scattered the original stack. The reason why us [[players]] have to stack the presents is because Cringle is too small and not strong enough to stack them himself.
 
-| 31= <div class="home-card__header">Entities</div>
-[[File:Seek render.png|x150px|thumb|link=The Rooms|class=notpageimage]]
-Most entities were named by the player, rather then having their own names. Though, this does not include [[Moonlight]] and [[Starlight]], subfloor entities, the [[Jeff Shop]] trio entities, and [[Timothy]]. This may or may not include Louie or Sally.
+This may also mean Cringle is one of the weakest entities in ''DOORS'', but if that were true, then how he stacked the presents in the first place remains a mystery.
+| 115=
+[[File:Gween Cringle render.png|frameless|center|400x300px|class=notpageimage|link=]] It is heavily theorized that [[Cringle]] may actually drink [[Gween Soda]] due to the Gween Chroma exisiting for the Cringle Buddy, as well as him being ‘gween’ in [[The Candy Vault]].
+| 116=
+[[File:A-60 sprite.png|frameless|center|400x300px|class=notpageimage|link=]] [[A-60]] is the first [[entity]] in ''DOORS'' to make an appearance before officially being implemented into the game, as during one of [https://www.youtube.com/c/KreekCraft KreekCraft's] streams before [[The Hotel+ Update]] released a variant of [[A-60]] was activated as a troll entity to mess with Kreek.
+| 117=
+[[File:SLEEPA-60_DOORS.png|frameless|center|300x225px|class=notpageimage|link=]] [[A-60]] has recieved some small changes with its audio over the years; during [[The Hotel+ Update]] when it was added, it had a [[:File:RumbleA60.mp3|quiet rumble sound]] play for around two seconds before its [[:File:DistantA60.mp3|distant]] and [[:File:NearbyA60.mp3|near sounds]] started playing, as seen [https://youtu.be/U6KOs7%20tF1Q?t=263&si=PEylhRTXk7o4FDCX here]. 
 
-| 32= <div class="home-card__header">In Plain Sight</div>
-[[File:RushImgSpr.png|x150px|thumb|link=List of Entities|class=notpageimage]]
-[[Player|Players]] are able to obtain the [[Achievements|"In Plain Sight"]] badge through [[Rush]] and [[Ambush]]. However, they aren't able to obtain it through other Rush-like counterparts, like [[The Backdoor#Blitz|Blitz]], [[Surge]], [[Bash]], [[Scribbles]], [[AR0xMBUSH]], [[RNIUSHCg==]] and [[Drone|Drones Stampedes]]. This is likely an oversight by the [[:Category:Developers|developers]].
+After [[The Mines Update]], the rumble sound was seemingly removed, causing its distant sound to play upon spawning, making it its new arrival cue; the spawn rumble was added back in [[The Content Update]], but the distant and near sounds stayed the same.
+| 118=
+[[File:SLEEPA-60_DOORS.png|frameless|center|300x225px|class=notpageimage|link=]] [[A-60]] received many changes with its behavior across severalupdates, as during [[The Hotel+ Update]] when it was added, it had no screen shake, and opened the next door, which could rarely cause another [[A-60]] to spawn. 
 
-| 33= <div class="home-card__header">[[A-120]]</div>
-[[File:A-120 sprite.png|x150px|thumb|link=The Rooms|class=notpageimage]]
-Before its removal, [[A-120]] would sometimes rebound. This made it the second entity to (intentionally) rebound, with the first being [[Ambush]].
+Additionally, how it spawned was very different, as when A-60 spawned, it would go the last generated room and spawn on the roof, and after a couple of seconds, it would teleport two rooms ahead, drop to the floor and start rushing through, which can be seen in action [https://youtu.be/U6KOs7%20tF1Q?t=263&si=PEylhRTXk7o4FDCX here]. This can be somewhat seen with [[Blitz]] if you spawn it in [[The Outdoors]] at the first room and freecam using the [[Admin Panel]] near the door, where it will spawn in the sky, before dropping down, the only difference being that it does not teleport two rooms ahead.
 
-| 34= <div class="home-card__header">Super Hard Mode</div>
-[[File:SuperHardModeIcon.png|x150px|thumb|link=2023 April Fools Event|class=notpageimage]]
-In [[2023 April Fools Event|SUPER HARD MODE!!!]], players needed to collect 15 books in [[The Library]]. This caused [[Figure]] to move much faster than usual. Figure could also have been killed by a [[Holy Hand Grenade]], which would produce this sound:<br>[[File:FigDeath in-game fixed.mp3]]<small>(Warning: LOUD)</small>
+[[The Mines Update]] added slight screen shake, slightly altered its nearby sound, and removed its ability to open the next door. It also completely reworked its spawn mechanic, now sharing the same code as [[Rush]], as evident with how it shares the same voicelines with the [[Voice Acting]] modifier active; it will spawn in the last room on the ground, before rushing through. This was due to The Mines Update completely recoding the game, which included A-60.
+| 119=
+[[File:A690new.png|frameless|center|400x300px|class=notpageimage|link=]] [[A-60]], contarary to popular belief, doesn't actually stop moving when [[A-90]] spawns if you spawn A-90 manually.
+| 120=
+[[File:BashFaceClear.webp|frameless|center|400x300px|class=notpageimage|link=]] Even when [[Curious Light]] states that [[Bash]] burns you due to its high speed with the carpet, it still has a chance to spawn even in rooms that have metallic floors and/or no carpets located for the thirty rooms it is running through, which is pretty rare, but still a possibility!
+| 121=
+[[File:2FireRedRushiesTogether.png|frameless|center|400x300px|class=notpageimage|link=]] <center>[[File:FarA60BashCombined.wav|500px]]</center> <center><small>A-60 audio first, Bash audio second.</small></center>
+[[Bash]] and [[A-60]] have many similarities to eachother, which is pretty evident in almost everything, visuals, behavior, etc. However, one thing interesting is their audio, as A-60’s distant audio can actually be heard faintly in Bash's distant audio.
+| 122=
+[[File:BashDifferencesBetweenRelease.png|frameless|center|400x300px|class=notpageimage|link=]] During [https://www.youtube.com/watch?v=jCSv6L7fov8 The Archives Trailer], [[Bash]] could be seen as [[Player|DoorsMan]] hides in a locker, being a sort of orangish-yellow color. When the update did release, players were quick to release that Bash was red and looked nothing like in the trailer. Eventually, [[RediblesQW]] [https://x.com/RediblesQW/status/2107268892590780526?a=cdzWIyJc7sZKGFqzOTY&s=19 replied on a twitter post] stating that the Bash seen in the trailer was the same design but with different orange lighting and effects. 
 
-| 35= <div class="home-card__header">[[Visions]]</div>
-Before getting their '''official name''', Visions used to be listed in a floor category called "EVENT". This was however changed to be "Visions" as of the [[Cringle's Workshop Event|Cringle's Workshop]] Event.</small>
+This is the same reason Bash was orange in the [[Journal]] on the release of [[The Archives Update]] due to it being recolored red being a last second decision as Redibles stated [https://x.com/RediblesQW/status/2107298770081796607?a=oxXY3lEEUN85ZGZS1YQ&s=19 here]. Even then however, players were still not convinced it was the same design, only after the design was leaked which showed Bash's sprite in a yellow and orange light.
+| 123=
+[[File:A-90Stop.png|frameless|center|300x200px|class=notpageimage|link=]] [[Ransom]] actually hides behind its stop sign if it is attacking you, as that white static behind the stop sign is actually its face; this is further proven by how Ransom’s face can be seen once the stop sign disappears after surviving it.
+| 124=
+[[File:A90Crucifixion.png|frameless|center|400x300px|class=notpageimage|link=]] [[Ransom]] is the only entity who understands the concept of the stop sign, as not only does it force [[players]] to stop once it shows a stop sign in its attack, but upon using a [[Crucifix]] on it, stop signs could be seen all around the [[entity]], symbolizing how it is asking you to stop the banishment. The same is seen with [[A-90]], its predecessor in [[The Rooms]].
+| 125=
+[[File:A-90RICH.png|frameless|center|300x200px|class=notpageimage|link=]] Getting hit by [[Ransom]] can be more beneficial than harmful to the [[player]], as while Ransom is active, [[Honey Pot|Honey Pots]] can spawn and be saved after paying Ransom with all the increased [[gold]], after Ransom despawns, you can use the Honey Pot to get more gold to skip sectors.
+| 126=
+[[File:A-90WithRansom.png|frameless|center|400x300px|class=notpageimage|link=]] While [[Ransom]] and [[A-90]] may have a similar functionality of not moving when on screen (albeit different consequences), their timing of their attacks is completely different. 
 
-| 36= <div class="home-card__header">[[Weirdo]]</div>
-[[File:Shadowoutlined.png|x150px|thumb|link=Shadow|class=notpageimage]]
-[[Weirdo]] is the most unknown [[List of Entities|entity]] in [[DOORS]]. Unlike other entities, it cannot be spawned through the [[Admin Panel|admin panel]] and doesn't have any death message from both [[The Three Architects|architects]]. The only information known about it is its appearance and that it jumpscares the player whenever it appears.</small>
+Ransom attacks [[players]] one-by-one (with a slight one second delay), and it would continue going to the next person if the person before them survived the attack, however, if the person before them did get hit by Ransom, then the other people won’t encounter Ransom at all, in order to ensure there is enough [[Gold]] for the player with Ransom to pay. 
 
-| 37= <div class="home-card__header">[[The Archives Update]]</div>
-[[File:The Archives Update Icon.png|x150px|thumb|link=The Archives Update|class=notpageimage]]
-The [[The Archives Update|Archives update]] was the first [[Update Logs|update]] to remove a [[Floors|subfloor]]. Additionally, it was also the first one to add two subfloors.
+Unlike Ransom however, A-90 would fire a remote to the server, essentially meaning it would spawn at the exact same time for every person, and each instance was unique, as each player could either get hit or survive the encounter, which would only affect that person.
+| 127=
+[[File:Thestareman1.png|frameless|center|700x500px|class=notpageimage|link=]] When [[Ransom]] attacks the [[player]] in [[The Archives]], you have 1 minute and 30 seconds to pay him off, which equals 90 seconds; this could be a possible reference to its predecessor, [[A-90]] in [[The Rooms]].
+| 128=
+[[File:A-120_SAD.png|frameless|center|270x190px|class=notpageimage|link=]] [[A-120]] used to be able to block the [[player]] from progressing and opening the next door in the room it spawned in, stating “Something is stopping you from opening the door…” until A-120 went to all the doors and despawned.
+
+This was eventually removed in [[The Mines Update]] due to softlock bugs with the door still being blocked even after A-120 despawned, however, this was eventually adopted for [[Scribbles]], with the only difference being that it will block the door until it opens the door and progresses through the rooms.
+| 129=
+[[File:A-120_sprite.png|frameless|center|400x300px|class=notpageimage|link=]] [[A-120]] is the second [[entity]] in the game capable of rebounding (first being [[Ambush]]), using a unique mechanic unlike any other entity. It spawns several studs ahead of the [[player]], travels through previous rooms, and locks onto players’ positions.
+
+A-120 rebounds by heading straight toward the player, even passing through walls. While it could theoretically rebound infinitely, [[The Rooms]]’ seven-room loading limit restricts it to seven rebounds. With a higher limit, like in [[The Archives]], it could rebound much more! Using this logic, since [[The Hotel]] only supports 5 rooms at a time, A-120 would only be able to rebound up to 5 times.
+
+More information can be found in this [https://discord.com/channels/1018420500839530536/1018420502286581817/1551730382435520573 message] and [https://youtu.be/34s4HE-L%20z8?si=n9tIls9DtPNn3Ccz video].
+| 130=
+[[File:GIF_20241221_164340_514.gif|frameless|center|400x300px|class=notpageimage|link=]] [[A-120]] used to only spawn if the previous room had a locker, meaning [[players]] had to quickly run back once hearing A-120 back to the nearest locker. This was removed in [[April Fools 2024]], likely to make A-120 more fair and/or intuitive; presumably due to other similar [[entities]] spawning in rooms that have lockers.
+| 131=
+[[File:Scribbles_Entity.png|frameless|center|400x300px|class=notpageimage|link=]] You can actually survive [[Scribbles]] without [[hiding]] at all, as the way it attacks is flying papers at you, which you can dodge.
+| 132=
+[[File:StarlightHonchoDataRenderHD.png|frameless|center|400x300px|class=notpageimage|link=]] Encountering [[Honcho]] while having a [[Starlight Bottle]] in your inventory will cause him to steal it and drink it for himself, causing it to be stronger and its boss-fight in [[The Mail Room]] to be harder. Eventually, when you make it to [[Z-50]], you can see it praying to [[Starlight]] while still being Starlit.
+| 133=
+[[File:HonchoUnknown.png|frameless|center|400x300px|class=notpageimage|link=]] [[Honcho]] previously did have an actual face, but after years of drinking coffee it burned away as according to the [[terminal]] in [[Executive Office|his office]]. This is likely because his face was made of paper.
+| 134=
+[[File:Honcho.png|frameless|center|400x300px|class=notpageimage|link=]] [[Honcho]] was created and raised in [[The Archives]], it has lived in The Archives for over 200 years and has spent most of its life in [[Executive Office|its office]] until it went to explore and it took it 26 years to find its way back to its office.
+| 135=
+[[File:HonchoHoldingBurner.png|frameless|center|400x300px|class=notpageimage|link=]] You are actually able to skip [[Honcho|Honcho’s]] encounter with [[The Mail Room]].. with a cost. Usually, when encountering Honcho, you need to categorize [[Storage Box|boxes]] into depots in The Mail Room, however, so long as you have over 70 [[health]], you can simply get hit by it and let it damage you, allowing you to skip its encounter, with a bit of damage.
+| 136=
+[[File:HonchoNew.png|frameless|center|400x300px|class=notpageimage|link=]] <center>[[File:Archives_intercom_honchoisangry.ogg|500px]]</center> <center><small>”ATTENTION! COME TO MY OFFICE. NOW!”</small></center> The intercom speakers in [[The Archives]] are actually helpful as not only do they indicate when the [[Drones|Drone Stampede]] is approaching, as well as playing ambience, but it also indicates if [[Honcho]] is coming; if you reach Door 25 of any sector after Sector A, and you here this specific intercom message, it means that Honcho will spawn in one of the next seven sectors.
+| 137=
+[[File:Honcho_render.png|frameless|center|400x300px|class=notpageimage|link=]] While working in [[The Mail Room]], the [[player]] has approximately 2 minutes and 25 seconds until [[Honcho]] will break the door open and hunt the player. This is reduced to only 1 minute and 25 seconds when Honcho is given a [[Starlight Bottle]].
+| 138=
+[[File:HonchoRender.png.png|frameless|center|400x300px|class=notpageimage|link=]] During the development of [[The Archives]], [[Honcho]] was accidentally leaked in [[Trick or Treat 2025]], who was later revamped in [[The Archives Update|the actual update]]. This is proven as there was [[Honcho Mug|a scrapped mug item]] that appeared in [https://youtu.be/jCSv6L7fov8?t=46 The Archives Trailer], and exploiters were able to obtain the mug and found something interesting. The mug itself had a ‘LoadModule’ and ‘HonchoTask’ attributes, which hinted that Honcho would’ve given you a random task in The Archives, like getting it coffee for example. 
+
+This, paired with how some of the rooms in The Archives have “Task” in their code names, along with how grabbing and taking item animations were found unused, and how Honcho [https://youtu.be/jCSv6L7fov8?t=71 could be seen wandering The Archives in the trailer], support this theory. Honcho was eventually revamped to only be a boss fight in the [[subfloor]], but it really makes you wonder how Honcho would’ve functioned otherwise.
+| 139=
+[[File:FMNRender.png|frameless|center|400x300px|class=notpageimage|link=]] Anything in the rooms with the [[Forget-Me-Nots]] can change, except for the sign explaining the main gimmick on the side.
+| 140=
+[[File:ForgetMeNotRender.png|frameless|center|400x300px|class=notpageimage|link=]] [[Alma]] can actually despawn the [[Forget-Me-Nots]], as Alma has a chance to spawn after Sector I, with it being always on Door 25 no matter what. 
+
+The Forget-Me-Nots are noticeable due to the escalators that spawn before their room, which can anywhere from Doors 3 to 47, and if you are lucky enough, if that room, and Alma’s room, are both destined to spawn at Door 25, Alma’s room will take over; meaning you can have the escalators lead into Alma’s room.
+| 141=
+[[File:Forget-Me-Not render.png|frameless|center|400x300px|class=notpageimage|link=]] [[Forget-Me-Nots]] actually have two laughing sounds that they play that can be heard [[:File:Fmnforgetme.mp3|here]] and [[:File:Fmnforgetmenot.mp3|here]]; they are titled based on what they are saying as you can vaguely hear them say “forget me” and “forget me not” respectively.
+| 142=
+[[File:AggresiveTeller.png|frameless|center|400x300px|class=notpageimage|link=]] There are three ways to survive [[Teller]] in [[The Archives]], the first way being to hand it the [[Waiting Ticket]] upon its request, the second being if you have enough [[health]] and let it take your ticket for a cost of damage, and the third being simply [[hiding]] in a locker.
+| 143=
+[[File:TellerAgressiveALT.png|frameless|center|400x300px|class=notpageimage|link=]] [[Teller]] makes its aggro sound [[:File:Teller increase end.mp3|here]] one room early if it can't reach the door to the last room before you open it. When reaching the actual final door Teller then emits the [[:File:Teller increase.mp3|normal beeping sound]] instead.
+| 144=
+[[File:Alma render.png|frameless|center|400x300px|class=notpageimage|link=]] If you enrage [[Alma]] and don’t want to deal with its minigame, you can actually simply dodge it, as the way it attacks is charging at you, and upon touching you will cause its mini game to start, if you are able to weave and dodge it four times, it will despawn on the spot.
+| 145=
+[[File:Almarenderold.png|frameless|center|400x300px|class=notpageimage|link=]] [[Alma|Alma’s]] name, design, and supernatural stalking could be direct references to Alma Wade from the F.E.A.R. series.
+| 146=
+[[File:Alma_Old.gif|frameless|center|400x300px|class=notpageimage|link=]] [[Alma]]'s name was used originally for a scrapped version of [[Lookman]] for [[The Backdoor]] during the production of [[The Hunt Update]], and was scrapped due to being an old design and a new design being made for the [[entity]]; eventually however, Alma was given its own unique design for [[The Archives Update]].
+| 147=
+[[File:Currents Render.png|frameless|center|400x300px|class=notpageimage|link=]] Standing in [[Current]]s will actually recharge any [[Batteries|battery-related]] [[items]] and the [[Shakelight]], for a cost of [[damage]] of course.
+| 148=
+[[File:PotraitRender.png|frameless|center|400x300px|class=notpageimage|link=]] [[Portrait]] has a chance to mimic your avatar, or take specific [[items]] from it and strip their textures. According to its script, it has a 15% to copy one of your items, a 16.7% chance to flip its face 180 degrees, and some other effects included in the script.
+| 149=
+[[File:Temp_Portrait_image.png|frameless|center|400x300px|class=notpageimage|link=]] [[Portrait]] cannot duplicate [[Honey Pot|Honey Pots]], and this is due to [[players]] abusing them to harness immense amounts of [[Gold]] for absolutely insane [[Knobs]], over a million Knobs were able to be gathered in one run!
+| 150=
+[[File:Portrait blank render.png|frameless|center|400x300px|class=notpageimage|link=]] Whenever you try to crucify [[Portrait]], you can actually see it trying to pull away, which indicates that they have a mind of their own but are forced to mirror you.
+| 151=
+[[File:Creak_Render.png|frameless|center|400x300px|class=notpageimage|link=]] [[Creak]] will still be burned and stunned from the [[Fire Sprinklers]] even if it is standing in a Fire Escape.
+| 152=
+[[File:CreakAggressiveRender.png|frameless|center|400x300px|class=notpageimage|link=]] Hiding in a vent after [[Creak]] starts running from its aggression allows the [[player]] to survive the attack and then wait a long time for Creak to calm down. After doing so, Creak will be bugged to both appear and sound fully aggressive, no matter its actual aggression level.
+| 153=
+[[File:Meld_Render.png|frameless|center|400x300px|class=notpageimage|link=]] You are able to burn [[Meld]] open and force it to let you pass by holding a flammable object that is lit, such as a [[Flare]] or [[Lighter]].
+| 154=
+[[File:Stem icon.png|frameless|center|400x300px|class=notpageimage|link=]] Whenever picking up a [[Stem]], if you interact it with it, you will throw it and throwing it enough times will destroy it. 
+
+However, if you are trying to simply put the Stem down without destroying it, you may simply drop the Stem and it will not be destroyed no matter how many times it is dropped.
+| 155=
+[[File:BallStem.png|frameless|center|400x300px|class=notpageimage|link=]] Groups of [[Stems]] can change their shape to pass through a vent and follow the [[player]].
+| 156=
+[[File:NoiseFinalMixBlender.png|frameless|center|400x300px|class=notpageimage|link=]] [[Noise]] may seem to be a tricky entity to navigate with at first, but a very simple way of avoiding risk of dying to it is just to hug the wall, in which if there is a dead-end, you may simply switch walls.
+
+Another method in the case Noise is relatively far is to simply keep moving whilst staying in the same spot, in which when Noise gets near, you can move around it and it will keep copying your movements in the same spot you went to.
+| 157=
+[[File:Noise render.png|frameless|center|400x300px|class=notpageimage|link=]] [[Noise]] is an odd entity, as while it may at first seem to be a shadow of the [[player]], copying their last movements, this may not be the case, as if their [[Television Set|television]] is destroyed, as Noise is fizzling, it will try to reach the player regardless of whether they are moving or not, before despawning.
+| 158=
+[[File:HIJACKRENDER.png|frameless|center|400x300px|class=notpageimage|link=]] Inserting the [[Disc]] from the laptop in Sector S of The Archives into a [[Television Set|television]] that [[Noise]] inhabits will cause [[Ransom]] to hijack Noise, causing [[Hijack]] to emerge from the television instead. However, once Hijack despawns, Ransom will have the chance to spawn in [[The Stairwell]], and getting attacked by him will cause any active Noise(s) to turn into Hijack(s).
+| 159=
+[[File:NoobHijackRender.png|frameless|center|400x300px|class=notpageimage|link=]] When spawning [[Hijack]] in [[The Stairwell]] by inserting the [[disc|CD]] into a [[Television Set|television]], only one Hijack will emerge from the television, and unfortunately, putting another CD into a different television will still play the tape, however will not spawn another Hijack. 
+
+However, don’t worry! As if you get multiple Noise(s) active and you get attacked by [[Ransom]], instead of giving you a 500 [[Gold]] ransom, he will convert all Noise(s) into Hijacks, which can be pretty hectic.
+| 160=
+[[File:SadakoNoiseandHijack.png|frameless|center|400x300px|class=notpageimage|link=]] [[Sadako Noise]] (alongside [[Sadako Hijack]]) from [[The Candy Vault]] are clear references to Sadako Yamamura.
+| 161=
+[[File:SadakoNoiseandHijack.png|frameless|center|400x300px|class=notpageimage|link=]] Unlike inside [[The Stairwell]], you cannot insert a [[Disc]] into [[Sadako Noise|Noise’s]] [[Television Set|television]] to summon [[Sadako Hijack]] within [[The Candy Vault]]. Instead, [[Sadako Noise]] needs to be active, and [[Ransom]] must attack for Sadako Hijack to spawn.
+| 162=
+[[File:HijackFinalMixBlender.png|frameless|center|400x300px|class=notpageimage|link=]] <center>[[File:ReconnectingNHijacktrackclam.wav|500px]]</center> <center><small>’Reconnecting’ first, ‘Unrecoverable’ second.</small></center>
+The intro of ‘Unrecoverable’ is actually just a reversed version of 'Reconnecting' with extra effects thrown in there.
+| 163=
+[[File:Hijack2.png|frameless|center|400x300px|class=notpageimage|link=]] Unlike most [[entities]] in ''DOORS'', where they spawn on their own and attack on their own, Hijack is the only entity as of now that requires the [[player]] to physically go out of their way to create.
+| 164=
+[[File:DestroyedTVCrucy.png|frameless|center|400x300px|class=notpageimage|link=]] If the [[player]] is holding a [[Crucifix]] when getting caught by [[Noise]] or [[Hijack]], it will be chained into reversing back into its [[Television Set|television]], and then the television itself will be crucified. If it is Hijack, [[Ransom]] will also be crucified alongside the television.
+| 165=
+[[File:OldCharles1.png|frameless|center|400x300px|class=notpageimage|link=]] [[EGG]] was originally a game [[ItsThump]] created for a Game Developer Class about 7 years ago back in 2019. The concept stayed mostly the same, and an older version of [[Charles]] could be seen.
+| 166=
+[[File:Flashlight_Modern_Skin.png|frameless|center|400x300px|class=notpageimage|link=]] Although incredibly rare, [[Flashlight|Flashlights]] had the ability spawn in [[The Rooms]].{{Fact}} [[Bandages]] also used to be incredibly rare in The Rooms before [[The Mines Update]].
+| 167=
+[[File:Lighter icon.png|frameless|center|400x300px|class=notpageimage|link=]] In ''DOORS'', the type of [[lighter]] that is used for the Lighter item in-game is the Zippo Lighter in real life, needing a wick and a spark to be used in order to work.
+
+However, in-game, the Lighter is simply turned on normally as with any other lighter, which is inaccurate to the real-life model it is based upon.
+| 168=
+[[File:Lighter icon.png|frameless|center|400x300px|class=notpageimage|link=]] You can actually use a [[Lighter]] to light a [[Candle]], which although many [[players]] know this, this is the only known item-to-item interaction in the whole game.
+| 169=
+[[File:LanternLighterSeeky.png|frameless|center|400x300px|class=notpageimage|link=]] In [[the Dam]], items like [[Lighters]] or [[Lantern|Lanterns]] don't get soaked while standing inside [[Seek|Seek's]] slime.
+| 170=
+[[File:Lighter icon.png|frameless|center|400x300px|class=notpageimage|link=]] It is recommended to always keep [[Lighters]], as well as any other light source besides flashlight types, above half fuel. Not only for the obvious reasons, but in order to get a higher chance of getting other items like [[Vitamins]] instead of the game giving you another Lighter to compensate.
+| 171=
+[[File:Candleimage.png|frameless|center|400x300px|class=notpageimage|link=]] If you light a [[Candle]] with a [[Lighter]] and enter a [[Firedamp]] room, it will play the explosion audio but nothing happens, allowing [[players]] to enter and exit the room to spam the audio. The reason that this happens is because when you light the Candle, it bugs the item to where you can’t drop it or swap it for other items.
+| 172=
+[[File:Candleimage.png|frameless|center|400x300px|class=notpageimage|link=]] Lighting a [[Candle]] from a Fireplace in a room full of [[Firedamp]] won’t cause you to explode. Additionally, you can light a Candle from a Fireplace even if the Fireplace visibly doesn’t have fire within it.
+| 173=
+[[File:TipJar.png|frameless|center|400x300px|class=notpageimage|link=]] The developers have confirmed that the [[Tip Jar]] will not have any real functionality other than being able to be converted into a [[Rift Jar]], due to the item only being meant to be a joke. {{Fact}}
+| 174=
+[[File:Shears icon.png|frameless|center|400x300px|class=notpageimage|link=]] [[Shears]] originally had a different intended function for [[The Hotel+ Update]], which was cutting open [[Containers|vine-covered chests]] in [[The Greenhouse]], however, it felt like another [[Lockpick]], and it was unusual for an item to only be useful in about 10 rooms in the entire floor, so the item was shelved for future use. The Shears were eventually reimplemented into [[The Mines]], with vines reappearing throughout the floor, and has since then been added to other floors with the same mechanic.
+| 175=
+[[File:Icon_lockpick2.png|frameless|center|400x300px|class=notpageimage|link=]] If you have one [[lockpick]], you can use it on a [[Generator]] twice by using it multiple times before it gets removed from your inventory.
+| 176=
+[[File:AVitaminAndAVial.png|frameless|center|400x300px|class=notpageimage|link=]] Cancelling the use of a [[Starlight Vial]] still applies the usage cooldown; the same thing applies to [[Vitamins]].
+| 177=
+[[File:Vitamins icon.png|frameless|center|400x300px|class=notpageimage|link=]] Taking a [[Vitamin]] out of hand mid use causes its lid to either be off or misplaced when holding it again.
+| 178=
+[[File:Iron_Key_Icon.png|frameless|center|400x300px|class=notpageimage|link=]] If you compare the [[Iron Key]] to the lock on Crypts, you might notice that the [[player]] is actually holding the key upside down.
+| 179=
+[[File:BackdoorKey.png|frameless|center|400x300px|class=notpageimage|link=]] [[Key|Room Keys]] don’t get automatically selected when interacting with a [[Locks|lock]] in [[The Backdoor]], unlike [[Hotel Key|keys]] from [[The Hotel]].
+| 180=
+[[File:BreakerSwitch.png|frameless|center|400x300px|class=notpageimage|link=]] [[Breaker Poles]] are not actual items, filling up every time you collect one but never actually going into your inventory.
+| 181=
+[[File:Library_Book.png|frameless|center|400x300px|class=notpageimage|link=]] Despite [[The Content Update]] revamping the design of [[Books]] found in [[The Library]] to be themed around [[Guiding Light]], the inventory icon for said Books still use the old model before the update.
+| 182=
+[[File:ALARMCLOCK.png|frameless|center|400x300px|class=notpageimage|link=]] [[Alarm Clock|Alarm Clocks]] can anger [[Figure]] from multiple rooms away in [[The Mines]], which causes Figure to just run into a wall trying to get the clock.
+| 183=
+[[File:Alarm Clock icon.png|frameless|center|400x300px|class=notpageimage|link=]] The placement of the [[Alarm Clock]] doesn't actually get cancelled if you take the Alarm Clock out and back into your hand.
+| 184=
+[[File:Briefcase.png|frameless|center|400x300px|class=notpageimage|link=]] The [[Briefcase]] is an item that can store three items, and putting it in the Moonlight [[Rift]] will cause it to make your Rift to technically hold three items, and including the Starlight Rift, would cause both of your Rifts be able to hold six items!
+| 185=
+[[File:Images_watercup.png|frameless|center|400x300px|class=notpageimage|link=]] Mixing the hot (red) water with the cold (blue) water in the [[Water Cups]] allows it to heal a tiny bit of [[health]] (approximately 2 to be exact) upon drinking.
+| 186=
+[[File:Pizzaenwater.png|frameless|center|400x300px|class=notpageimage|link=]] For some odd reason, prior to [[Access Granted]], [[players]] were able to eat an entire slice of [[pizza]] at full [[health]] with no complaints, but couldn’t drink a small sip of [[Water Cup|water]] at full health. Pretty weird!
+| 187=
+[[File:Water Cup icon.png|frameless|center|400x300px|class=notpageimage|link=]] [[Water Cups]] that don’t have anything in them can't be inspected. Additionally, the content from Water Cups does not get saved when going from [[floor]] to floor, rendering them empty.
+| 188=
+[[File:Paper_Plane_icon.png|frameless|center|400x300px|class=notpageimage|link=]] [[Paper Planes]] are able to hit buttons from a long range to activate them, meaning they are able to pull [[Levers|Timer Levers]], push [[Minecarts]], pull [[Levers|Gate Levers]], hit [[Generator|Gate Buttons]] from [[Generators]], activate [[Fire Sprinklers|Fire Alarms]], and hit [[Meld|Meld’s]] chores from a distance.
+| 189=
+[[File:PaperPlaneLasterPointer.png|frameless|center|400x300px|class=notpageimage|link=]] Both the [[Laser Pointer|Laser Pointer’s]] laser and [[Paper Planes]] can't go through door frames. The same thing goes for the [[Crushers|Crusher's]] hitbox in [[The Stairwell]], so you can use them as some sort of "Crusher Detector” if you really want.
+| 190=
+[[File:Printer.png|frameless|center|400x300px|class=notpageimage|link=]] When trying to copy a [[Paper Plane]] into a copier in [[The Archives]], the paper comes out blank. 
+
+Whether or not the reason being that paper can't print paper, or the item being completely white and being invisible on the paper is debatable.
+| 191=
+[[File:Crucifix & Skeleton Key Icons.png|frameless|center|400x300px|class=notpageimage|link=]] The [[Crucifix]] and [[Skeleton Key]] were both initially intended to be added in ''DOORS''' initial release, but were scrapped for unknown reasons. They were reimplemented in [[The Hotel+ Update]] as rare, but incredibly useful items.
+| 192=
+[[File:Crucifix_V1.png|frameless|center|400x300px|class=notpageimage|link=]] After [[The Mines Update]], the [[Crucifix]] model has gotten smaller in size than it was previously; it now easily fits into the [[player|player’s]] hand instead of being relatively large and slightly clipping through the hand.
+| 193=
+[[File:2CrucifixesStraight.png|frameless|center|400x300px|class=notpageimage|link=]] You can re-use a [[Crucifix]] if you drop it at the same time an [[entity]] gets immobilized from it. With the right timing, you can use a Crucifix on multiple entities at once, most easily with multiple [[Eyes]].
+| 194=
+[[File:CrucifixSeal.png|frameless|center|400x300px|class=notpageimage|link=]] During the production of [[The Hotel+ Update]], there was a circular ring around the sigil that was accidentally left unanchored from the model. It was reintroduced in [[The Content Update]] after LSPLASH realized so.
+| 195=
+[[File:Crucifixwindingsall.png|frameless|center|400x300px|class=notpageimage|link=]] The banishment sigil of the [[Crucifix]] states in windings, “One of the Three Architects marked by Celestials assists you”, referencing that [[Moonlight]] is powering the Crucifix, as she is an architect marked with the celestial of the moon.
+
+However though, the banishment sigil chances when using a Crucifix in [[visions]], stating, “syougrejlustiseetingcthihng” which states that the player is seeing things, along with the word ‘glitch' being spread out.
+| 196=
+[[File:DesaturatedMoonlightItems.png|frameless|center|400x300px|class=notpageimage|link=]] The [[Moonlight Float]] and [[Moonlight Candle]] do not work in [[subfloors]] due to the lack of [[Moonlight]], and the game further proves this as both [[items]] will be lacking of any color.
+| 197=
+[[File:2BlasterGold.png|frameless|center|400x300px|class=notpageimage|link=]] [[Gold Blaster|Gold Blasters]] are able to pierce through multiple [[players]] in [[BATTLE MODE]] if all the players are in a single line, which may be useful in winning a round.
+| 198=
+[[File:Goldguni.webp|frameless|center|400x300px|class=notpageimage|link=]] [[Gold Blaster|Gold Blasters]] are able to be shot at [[Eyes]] in [[BATTLE MODE]], causing them to despawn. This mechanic originated from [[Rush Mode]] in [[April Fools 2026]].
+
+This also applies to [[Figure]] and [[Jeff The Killer]] if spawned through the [[Admin Panel]] in other floors and subfloors, and [[Custom Entities]] from the Admin Panel.
+| 199=
+[[File:GoldenBlaster2.png|frameless|center|400x300px|class=notpageimage|link=]] After the release of [[BATTLE MODE]], the [[Gold Blaster|Gold Blaster’s]] model has been slightly changed.
+| 200=
+[[File:GoldenBlaster2.png|frameless|center|400x300px|class=notpageimage|link=]] Picking up a [[Golden Blaster]] and shooting instantly causes it to be unusable; picking up more Golden Blasters doesn’t fix it.
+| 201=
+[[File:Damaged Hat icon.png|frameless|center|400x300px|class=notpageimage|link=]] The rare [[Damaged Hat|Damaged Tophat]] item in [[The Stairwell]] is actually a reference to [[Creak|Creak’s]] old model back when he was leaked, in which he was called “Abraham Lincoln” as a placeholder name. 
+
+This, along with the achievement you get for putting the hat on Creak, titled “Emancipation Proclamation” is a major reference to [https://en.wikipedia.org/wiki/Abraham%20Lincoln Abraham Lincoln] with the Emancipation Proclamation Act in 1863.
+| 202=
+[[File:MiniLibraryRoom.png|frameless|center|400x300px|class=notpageimage|link=]] [[Removed and Scrapped Content|The Mini-Library Room]] was removed in [[The Hotel+ Update]] and consisted of a [[Levers|lever]] required to open a gate like in [[The Basements]]. The original use for this room was supposed to be a foreshadow to [[The Library]], with the lever representing the puzzle. The room was also guaranteed to spawn at least once before Door 50. {{Fact}}
+| 203=
+[[File:LeverNew.png|frameless|center|400x300px|class=notpageimage|link=]] The [[levers]] found in [[The Basements]] were originally going to be able to spawn in the barrels found in The Basements, making you look through tens of barrels to progress. {{Fact}} Talk about tedious?
+| 204=
+[[File:Ladder.png|frameless|center|400x300px|class=notpageimage|link=]] Even though there are [[Climbing|ladders]] in [[The Hotel]] (most common in [[The Library]]), you cannot climb them; ladders in [[The Mines]] are able to be interacted with and climbed however. Weird huh?
+| 205=
+[[File:Ladder.png|frameless|center|400x300px|class=notpageimage|link=]] There is a really weird bug involving [[Ladders]] in [[The Nest]], as if you were on a ladder when the bridge powers, you would get teleported for the final chase.
+
+However, if you were to use another ladder after you exited, the game would teleport you back to the ladder you were on in The Nest before getting teleported. Weird right?
+| 206=
+[[File:MinesRoomHallway?.png|frameless|center|400x300px|class=notpageimage|link=]] There is an INCREDIBLY small chance for a room from [[The Sewers]] to appear as early as Door 110 in [[The Mines]], where they are supposed to only be found after [[Door 150]]. {{Fact}}
+| 207=
+[[File:SeekChaseRoom1.png|frameless|center|400x300px|class=notpageimage|link=]] There was a REALLY small chance for the [[The Grand Hallway|first chase sequence]] in [[The Hotel]] with [[Seek]] to just not show up at all, which a lot of [[players]] encountered most very early after [[The Hotel+ Update]] release.
+| 208=
+[[File:GuidingForceField.png|frameless|center|400x300px|class=notpageimage|link=]] For some reason, the entrances of [[The Shafts]] with [[Figure]] present in [[The Mines]] have [[Moonlight]] Barriers, while the exit of the rooms don’t.
+| 209=
+[[File:SewerDupeRender.png|frameless|center|400x300px|class=notpageimage|link=]] After [[The Nest]], the range in which a [[player]] can open a door increases to that of the range found in chase scenes, unless [[Dupe]] is present in the room.
+| 210=
+[[File:AprilFoolsRoomsSmallCollage.png|frameless|center|400x300px|class=notpageimage|link=]] There are two rare rooms in [[SUPER HARD MODE!!!]] that can be found after Door 25 and up, though most common in [[The Greenhouse]]. They both have a 1/9,000 chance of spawning at all in the run.
+| 211=
+[[File:Dark_Room_Hotel.png|frameless|center|400x300px|class=notpageimage|link=]] Because dark rooms can spawn as early as Door 9, and [[Rush]] can break the lights as early as Door 2, it is possible to encounter [[Screech]] before [[Dupe]] in [[The Hotel]].
+| 212=
+[[File:The Estate glowing doors.png|frameless|center|400x300px|class=notpageimage|link=]] Near the end of [[The Candy Vault]] in the final chase, [[The Estate]] is in complete ruins, and [[The Candy Vault/Dialogue Entities|all of the guests]] in the manor presumably all died (in [[The Candy Vault|the vision]]). 
+
+This is proved by how [[Scarfless Grampy|Grampy’s]] and [[Healed Groundskeeper|Groundskeeper’s]] hands and hats could be seen near the debris, as well as [[Butler Honcho|Honcho’s]] hand stuck in debris, holding a [[Bottle Of Starlight]].
+| 213=
+[[File:Ijdfeod.png|frameless|center|400x300px|class=notpageimage|link=]] In [[The Caverns]] of [[The Mines]], the [[player]] drops into a [[minecart]]] summoned by [[Moonlight]], with more wooden and metallic rail tracks. However, this was not always the case, as in [https://www.youtube.com/watch?v=-irDHCt-bug The Mines Full Trailer], a clip of the minecart could be seen on bulkier tracks, similar to the model of the bridges seen in [[The Shafts|The Chasm]].
+
+This was removed as [[RediblesQW|Redibles]] has stated [https://youtube.com/watch?v=XYk%20qHtnGOk&lc=UgwzLcd8oQgGcb2mMm94AaABAg in a comment] that they were annoying to work with and took up more assets than they needed to.
+| 214=
+[[File:SewerLattice2_Brightened.png|frameless|center|400x300px|class=notpageimage|link=]] Upon finishing [[The Nest]] in [[The Mines]], the players enter [[The Sewers]], however, did you know that this was never supposed to be the case, as the second half of the Mines, stated by [[RediblesQW|Redibles]] [https://youtube.com/watch?v=XYk%20qHtnGOk&lc=UgwzLcd8oQgGcb2mMm94AaABAg in a comment], was going to be “The Cavern”, which was going to be a gimmick of the rooms having no lights with tons of [[Gloombats]], with Redibles stating that it “super sucked”.
+| 215=
+[[File:The_Estate_glowing_doors.png|frameless|center|400x300px|class=notpageimage|link=]] When escaping [[The Candy Vault]], it you take a look at the digital sign above the final elevator before heading for the exit, it displays the message: “GO BRUH!!!”.
+| 216=
+[[File:Stair icon.png|frameless|center|400x300px|class=notpageimage|link=]] Every [[floor]] and [[subfloor]] is actually extremely long and can very likely make a true fact that the entire place is as big as a city.
+| 217=
+[[File:Final room (3).png|frameless|center|400x300px|class=notpageimage|link=]] The largest rooms in [[The Hotel]] are [[The Library]] and [[The Electrical Room]], with The Electrical Room being bigger in size due to more rooms, though The Library does come close.
+| 218=
+[[File:Location_Mines_The_Dam.png|frameless|center|400x300px|class=notpageimage|link=]] The largest rooms in [[The Mines]] are [[The Nest]] and [[The Dam]], with The Dam being larger in size, and could be considered even bigger if we include [[The Woods]] above.
+| 219=
+[[File:Starlight_Bottle_Shop.png|frameless|center|400x300px|class=notpageimage|link=]] The largest room in [[The Backdoor]] is [[The Vestibule]] found at the end of the subfloor.
+| 220=
+[[File:Rooms_Catwalk3.png|frameless|center|400x300px|class=notpageimage|link=]] The largest room in [[The Rooms]] was surprisingly not [[A-1000]], but rather the Catwalk room instead. Pretty interesting?
+| 221=
+[[File:Archives_Z-50.png|frameless|center|400x300px|class=notpageimage|link=]] The largest room in [[The Archives]] is at the end of the floor, being [[Z-50]] at well, Z-50.
+| 222=
+[[File:The_Archives_wordmark.png|frameless|center|400x300px|class=notpageimage|link=]] If you manage to find enough [[Gold]] in [[The Archives]], at the end of a sector, you are able to skip up to 8 letters, however, if the next sector contains [[Honcho]], you are only limited to fast travel to that specific sector.
+| 223=
+[[File:S50BindersVersions.png|frameless|center|400x300px|class=notpageimage|link=]] If you go to any sector of [[The Archives]] with the [[Admin Panel]] enabled, and press the ‘Last Room’ button, you will see an old version of the [[Sector Exits|Sector Exit]], with an old clock model. 
+
+Doing this in Sector T gives a different result though, as you will see an old version of [[Archival Storage]], which contains a new binder, stating that the binder is sensitive for “Lind” eyes only, which is usually redacted, and instead of memory cards being inside, there are USB sticks instead.
+| 224=
+[[File:Garden_HedgeMaze.png|frameless|center|400x300px|class=notpageimage|link=]] The largest room in [[The Outdoors]] is [[The Hedge Maze]] with [[Bramble]] as the finale of the subfloor.
+| 225=
+[[File:Beta Garden Room5.png|frameless|center|400x300px|class=notpageimage|link=]] [[The Garden]] was a scrapped 2022 prototype for [[The Outdoors]] that became accessible for under six seconds during [[The Great Outdoors Update]]. Because the developers updated the lobby before the main game, only two quick players were accidentally transported there seen [https://youtu.be/22d96j6SzVI?si=ua6H2V2%20tKcgEdI here] and [https://youtu.be/bLCeBGqeBwo?si=nSWm9CnluWE2lRsy here].
+
+According to [[RediblesQW|Redibles]] [https://youtube.com/watch?v=XYk%20qHtnGOk&lc=UgwzLcd8oQgGcb2mMm94AaABAg in a comment], The Garden featured around 100 rooms, including a scrapped Lever Gate room, but lacked items or events, serving mainly as a shortcut to skip [[The Electrical Room]]. While classic [[entities]] like [[Hide]] and [[Glitch]] appeared, prototypes for [[The Groundskeeper]] and [[Mandrake]] were never added to the spawn list. The developers ultimately delayed the floor to release [[The Mines]] sooner, with Redibles noting the final version of [[The Outdoors]] turned out vastly superior.
+| 226=
+[[File:Stair icon.png|frameless|center|400x300px|class=notpageimage|link=]] It is heavily implied that [[The Stairwell]] and [[The Archives]] were once together, as seen in Sector S with a sign stating “STAIRWELL” pointing toward [[Vacuum]], which could mean that the Vacuum possibly pulled both floors from eachother.
+| 227=
+[[File:The_Stairwell_wordmark.png|frameless|center|400x300px|class=notpageimage|link=]] [[The Stairwell]] is the only [[floor]] in the game that does not contain any actual doors to progress through, and instead being 99 flights of stairs to climb up.
+| 228=
+[[File:Visions_text2.png|frameless|center|400x300px|class=notpageimage|link=]] Before getting their official name, [[Visions]] used to be listed in a floor category called "EVENT". This was however changed to be "Visions" as of the [[Cringle's Workshop Event]].
+| 229=
+[[File:Rush_mode_update_icon_ok_bro.png|frameless|center|400x300px|class=notpageimage|link=]] [[Rush Mode]] is known for having reskinned rooms of [[The Hotel]], however rooms from [[The Mines]] can rarely spawn.
+
+This is because [[RediblesQW]] originally wanted to make Rush Mode go through all the [[floors]], but decided it wasn’t funny after 100 doors, so the idea was cut, but do to the rooms for The Mines already being made, they were just made very rare instead.
+
+With that being said however, [[The Groundskeeper|The Groundskeeper's]] Rush-like reskin for the mode is lost media as according to this [https://discord.com/channels/1205531115713204224/1205536703029444668/1539055316707188879 message].
+| 230=
+[[File:TheDailyLALogo.png|frameless|center|400x300px|class=notpageimage|link=]] During [[Daily Runs]], simply opening the final door in the run and dying will still count as a win. This is because the game treats opening the final door as marking all progress, which counts as a win in the code of the Daily Runs [[vision]].
+| 231=
+[[File:CandyVaultBackdoorCollage.png|frameless|center|400x300px|class=notpageimage|link=]] As [[RediblesQW]] has stated [https://x.com/RediblesQW/status/1780095657518203217?a=lGXwzk4m9IFJuiaS0ic&s=19 in a tweet], [[The Backdoor|The Backdoor’s]] original concept was having a timer be on top of the screen as part of the UI instead of on the timer plates on the actual doors; the timer would’ve been a flat 15 minutes with no way to increase it. This was eventually scrapped to make the timer 2 minutes long, with [[levers]] to increase the timer.
+
+Fast forward to [[The Candy Vault]], and which this once scrapped concept can now be seen in-game; in The Candy Vault, there is a red timer that is 20 minutes (not 15 minutes), with no way to increase it and it being part of the UI itself. Once the timer reaches 0, [[The Estate]] burns up and [[the player]] dies.
+| 232=
+[[File:NIL Rank icon 18359551282.png|frameless|center|400x300px|class=notpageimage|link=]] During [[April Fools 2025|the Ranked Mode event]], if a [[player]] somehow got 1,000,000,000,000,085,000 points, they would get a glitched rank for the Hardstuck achievement, titled “Hardstuck <nowiki><NIL></nowiki>” accordingly.
+
+To put that in to scale, if a player never stopped playing ''DOORS'', it would take them '''20 Billion''' years to get the rank for the [[achievement]].
+| 233=
+[[File:NoHide4U.png|frameless|center|400x300px|class=notpageimage|link=]] [[Players]] are able to obtain the ’In Plain Sight’ badge through [[Rush]] and [[Ambush]]. However, they aren't able to obtain it through [[Blitz]], [[Bash]], [[Scribbles]], and other rush-like [[entities]]. This is likely an oversight by the developers.
+| 234=
+[[File:TrickOrTreat2025Logo.png|frameless|center|400x300px|class=notpageimage|link=]] You can get [[badges]] in [[Trick Or Treat]], such as [[Crucifix]] badges and rare badges like the “D’oh!” badge by purchasing a [[Donut]] from [[Witch Grampy|Grampy’s]] shop and eating it from there.
+
+It is a [[vision]] however, so this shouldn’t be a thing; this works due to the vision having progression enabled, so badges can be obtainable, this also allows Deaths in the vision to count, and [[Stardust]] to spawn, as well as being able to unlock [[Journal]] entries.
+| 235=
+[[File:Screech crucifix anim.gif|frameless|center|400x300px|class=notpageimage|link=]] The description for using a [[Crucifix]] on [[Screech]] (being ‘I Hate You’) states “Could you not be yourself for five minutes?!”, and funnily enough, before [[The Content Update]], it prohibited Screech from spawning for the next five minutes, before being reduced to two after said update.
+| 236=
+[[File:Archives_Placeholder_Badge.png|frameless|center|400x300px|class=notpageimage|link=]] When [[The Archives Update]] first released, a badge called “REDACTED”, which was required for full progression, was temporarily unobtainable due to a bug that made the laptop in [[Archival Storage]] not interactable. 
+
+With zero owners, [[players]] began theorizing and searched the game files, discovering a hidden "disc" prompt on [[Television Sets]] in [[The Stairwell]] and the badge's codename, “Meet Hijack.” 
+
+The mystery ended on September 1, when [[Hijack]] was officially added and the badge became obtainable and now no longer required for progress.
+| 237=
+[[File:Error_Badge_Old.png|frameless|center|400x300px|class=notpageimage|link=]] The ‘Everything Everywhere All At Once’ badge is called one of the hardest and most luck-based badges due to requiring [[players]] to beat the [[Chaos Mode|Chaos vision]], which is [[The Hotel]] but with [[Stream Integration|Random Events]] and Bad Time [[modifiers]] enabled.
+
+However, there is actually a really easy way to cheese it, as the game only detects if you beat [[The Hotel]] with the Random Events and Bad Time modifiers active, meaning you can create an elevator with those two modifiers, and add any modifiers of your liking, eg. Maximum Overdrive would work, as it also bypasses the ‘No Progress’ for certain modifiers!
+| 238=
+[[File:Archives Placeholder Badge.png|frameless|center|400x300px|class=notpageimage|link=]] The achievement “It’s Still You” and its description is a reference to a piece of dialogue in Undertale when interacting with a mirror, saying “Despite everything, it’s still you.”
+| 239=
+[[File:LibraryDeskHighlightedDrawer.png|frameless|center|400x300px|class=notpageimage|link=]] This specific drawer of the [[Containers|Large Office Desk]] at Door 0049 in [[The Hotel]] is guaranteed to contain [[Gold]], which is heavily recommended to search through. The amount of Gold that can be found in this specific drawer ranges from either 50 or 75 Gold.
+| 240=
+[[File:VinefulChest.png|frameless|center|400x300px|class=notpageimage|link=]] Surprisingly, there are actually [[Containers|Vine-Covered Chests]] near the back of [[Grampy|Grampy’s]] cabin in [[The Mill]], which you can for your advantage. This also includes the [[Trick or Treat]] vision, with [[Witch Grampy|Witch Grampy’s]] shop instead.
+| 241=
+[[File:Mines SewerSink.png|frameless|center|400x300px|class=notpageimage|link=]] [[Gold]] and decorations are sometimes misplaced when spawning in Sinks in bathrooms of [[The Hotel]] and [[The Sewers|sewers]] of [[The Mines]].
+| 242=
+[[File:Gold5.png|frameless|center|400x300px|class=notpageimage|link=]] The most expensive [[item]] according to the [[player]] is the [[Starlight Bottle]], as when they drink it, they state that “it tasted expensive” due to it costing 100 [[Gold]].
+
+In actuality though, the most expensive item is the [[NVCS-3000]] from [[Jeff Shop|Jeff's Shop]] in the [[SHM!!!]] vision costing 1,000 Gold, but excluding visions, the most expensive items are the [[Crucifix]] and  [[Multitool]] both costing 500 Gold.
+| 243=
+[[File:Gold1.png|frameless|center|400x300px|class=notpageimage|link=]] [[Gold]] has had various changes with how it was picked up throughout ''DOORS''’ history. During the game’s release (or [[Hotel-]]), if you opened a drawer and gold was inside, simply staring at the gold long enough would automatically pick it up.
+
+This lasted until [[The Mines Update]], which is when you manually needed to interact with the gold to pick it up, but after [[The Archives Update]], simply opening any [[container]] with gold inside will automatically bring the gold to your counter.
+| 244=
+[[File:Stardust ingame.png|frameless|center|400x300px|class=notpageimage|link=]] It was possible to have a negative amount of [[Stardust]]. To do this, enter a [[subfloor]] that costs 10 Stardust, which is no longer possible, but then before opening the first door, buy a 20 Stardust Chroma for an [[Item Skins|item skin]] from the Skins menu that can be accessed from Settings.
+
+If you had 20 to 29 Stardust beforehand, your balance will become negative. This is only visible on certain UI.
+| 245=
+[[File:Knobs Boost icon.png|frameless|center|400x300px|class=notpageimage|link=]] When ''DOORS'' released, buying [[Boosts]] as a Roblox Premium Member would give you five Boosts instead of three, but after [[The Mines Update]], no matter whether or not if you have Roblox Premium (now known as Roblox Plus), you will always get the same amount of Boosts.
+| 246=
+[[File:GiftingIconPoor.png|frameless|center|400x300px|class=notpageimage|link=]] <center>[[File:GiftSFXCombined.wav|500px]]</center> When receiving a [[Gifting|gift]] in ''DOORS'', one of five sounds will play, and when all of them are played in a certain order, they sound reminiscent of [[Soundtracks|Guiding Light]].
+| 247=
+[[File:Gk_safe_run.gif|frameless|center|400x300px|class=notpageimage|link=]] [[The Groundskeeper]] has a scrapped animation for running back to a nearby outhouse upon the arrival of [[Surge]]. Sadly, this was never implemented, and it sits unused in the game files.
+| 248=
+[[File:GiftSelfCoolEasterEgg.png|frameless|center|400x300px|class=notpageimage|link=]] If you try to gift yourself something in ''DOORS'', the game will say "That's you, bruh." but if you try again, it will say "Despite everything, it's still you.”
+| 249=
+[[File:LibraryPadlock.png|frameless|center|400x300px|class=notpageimage|link=]] By pressing right click on the [[Locks|padlock]] of [[The Library]], you are able to swipe to the next digit, however by pressing left click, you are able to swipe to the previous digit instead. This is not available for mobile devices unfortunately.
+| 250=
+[[File:AnchorAndLibraryLock.png|frameless|center|400x300px|class=notpageimage|link=]] The chance of getting every digit of the [[Locks|combination lock]] in [[The Library]] to be the same is a 1 in 10,000 chance of occuring, in which KreekCraft has [https://www.youtube.com/watch?v=sdTa6BfyN6U had it happen on stream].
+
+Additionally, getting the same code for two [[anchors]] in a row in [[The Nest]] is even rarer, being a 1 in 1,000,000 chance, with there being [https://www.youtube.com/watch?v=V2MMrf9jybY only one recorded case of it happening].
+| 251=
+[[File:Doorrender1.png|frameless|center|400x300px|class=notpageimage|link=]] Most doors in.. well ''DOORS'', do not have hinges on them, which leads to the question on how are they opened?
+| 252=
+[[File:Wardrobe.png|frameless|center|400x300px|class=notpageimage|link=]] When trying to [[hiding|hide]] in a Closet in [[The Hotel]] from behind, the game will not let you due to obvious reasons, however, prior to [[The Hotel+ Update]], [[players]] were able to enter Closets from behind.
+| 253=
+[[File:Boxi.webp|frameless|center|400x300px|class=notpageimage|link=]] A bug existed in the game upon the addition of [[Ranked Mode]] where holding a [[Throwable Prop]] made it so entities like [[Rush]], [[Ambush]] and [[Blitz]] could not attack you so long you were looking at them move around. This also applied to [[Hiding Box|Hiding Box(es)]], where holding one would make it so it would defend you from the front and back.
+| 254=
+[[File:Infirmary_Bed.png|frameless|center|400x300px|class=notpageimage|link=]] In [[The Hotel+ Update]], Infirmary Beds were added to the game and were able to be hid under, but was removed in [[The Hunt Update]] due to people being able to hop onto tables by exiting them in specific positions; they are still available to be hid under in the [[SHM!!!]] vision.
+| 255=
+[[File:MinesLocker.png|frameless|center|500x375px|class=notpageimage|link=]] There is actually a small delay for when entering a locker and being safe from [[Rush]] and [[Ambush]], so be sure to [[hiding|hide]] slightly early and not wait for the last second to hide, take care.
+| 256=
+[[File:Hiding icon.png|frameless|center|400x300px|class=notpageimage|link=]] When [[hiding]] in a hiding spot on mobile, there will be a big button that allows you to exit the hiding spot, although you can simply walk out.
+| 257=
+[[File:INTERACTED.png|frameless|center|400x300px|class=notpageimage|link=]] Some [[Interactables|interaction prompts]] are usable through walls if close enough, like Toilets and Timer Levers.
+| 258=
+[[File:ModifierKnob.png|frameless|center|400x300px|class=notpageimage|link=]] When a [[Modifier]] that negatively influences the [[Knobs]] gain percentage, the Knob will actually have a red tint over it.
+| 259=
+[[File:Mods Logo.png|frameless|center|400x300px|class=notpageimage|link=]] Every [[modifier]] has a different name inside the game files that can be seen in the console. 
+
+For example, "MAXIMUM OVERDRIVE" is "PlayerFastest", "Again & Again & Again" was "AmbushAlways", "I Love Pancakes!!!" is "SnareMost".
+| 260=
+[[File:Alarm Clock tp.png|frameless|center|400x300px|class=notpageimage|link=]] Despite the “Out Of Stuff” [[modifier]] stating that [[items|non-essential items]] are prohibited from spawning, the [[Alarm Clock]] is still able to be found in The Library, even though it is a non-essential item.
+| 261=
+[[File:LiveChatVoteUIInGame.png|frameless|center|400x300px|class=notpageimage|link=]] If a streamer is ever using [[Chat Control]] in ''DOORS'', you are actually able to type “gold” in the chat to grant the streamer 1 [[Gold]], and also type “tax” to remove 1 Gold from the streamer. Have fun messing with your streamer!
+| 262=
+[[File:RiftWithOldSkullKey.png|frameless|center|400x300px|class=notpageimage|link=]] During the production of [[The Hotel+ Update]], the [[Rift]] in [[The Electrical Room]] was going to be locked and require a [[Skeleton Key]] to open as according to this [https://x.com/RediblesQW/status/1639048509079863296 tweet]. Luckily though, this idea was shelved and the Rift was made freely accessible.
+
+Eventually though, in [[The Great Outdoors Update]] nearly 2.5 years later, the idea was added back into the concept of [[Mid-Run Rift|Mid-Run Rift Rooms]], where a Rift can be found in the middle of a run, with the door requiring a Skeleton Key.
+| 263=
+[[File:Seed.png|frameless|center|400x300px|class=notpageimage|link=]] There was a bug that was found during Trick Or Treat 2024, where the game would only generate runs with the seeds between 8 to 25, which made all the runs feel the same. This was fixed later on by LSPLASH however.
+| 264=
+[[File:Seed.png|frameless|center|400x300px|class=notpageimage|link=]] [[Seeds]] are time-based, meaning the seed number isn't randomly generated, and it is actually the amount of time in seconds that have passed since Nov 26, 2024 at 4:39:40 UTC when the seed is generated by the server.
+| 265=
+[[File:Herb Of Viridis.png|frameless|center|400x300px|class=notpageimage|link=]] Upon [[The Mines Update]] release, the [[Herb of Virdis]] was changed to not give passive regeneration anymore, but rather heal 10 health per door opened. This was later reduced to only 5 health per door during the nerfs of [[The Mines|the second floor]].
+| 266=
+[[File:StatusEffectNewIconMec.png|frameless|center|400x300px|class=notpageimage|link=]] [[God Mode]] in ''DOORS'' doesn’t completely make you safe from all [[entities]], as [[The Groundskeeper]], [[Monument|Monument(s)]] and [[Seek Hands|Seek’s Hands]] from [[The Grand Hallway]] will all kill you.
+| 267=
+[[File:Brittle & Sour Roulette health.png|frameless|center|400x300px|class=notpageimage|link=]] For some odd reason, [[players]] will die upon their [[health]] reaching 1, which is why many [[entities]] that are non-lethal usually can’t damage past 2 health. This may be a bug that isn’t going to get fixed due to insignificance.
+| 268=
+[[File:StarlightBarrelBottleVial.png|frameless|center|400x300px|class=notpageimage|link=]] Using any [[Starlight]] [[item]] causes your [[health|health-bar]] to stay on screen even if you are full health and the Star Shield wore off.
+| 269=
+[[File:Deathiconboth.png|frameless|center|400x300px|class=notpageimage|link=]] Nowadays, whenever the [[player]] dies, a Skull Icon (above) will drop to the screen before fading into the death screen. This wasn’t always the case however, as before [[The Hotel+ Update]], text would drop to the screen instead stating “YOU DIED” (below) instead of the skull. 
+
+This was most likely replaced due to multiple languages and translation being needed, and a Skull Icon being a universal sign for death.
+| 270=
+[[File:PlayerRenderNew.png|frameless|center|400x300px|class=notpageimage|link=]] Back when ''DOORS'' first released, during chase sequences involving [[Seek]], the game would automatically make [[players]] run, leaving the player’s only responsibility to turn, this was removed in [[The Hotel+ Update]].
+
+However, this same auto-run feature is still used in the game within [[The Nest]], as the first introduction chase with [[Queen Grumble]] will cause you to automatically run, immediately stopping once you make it to the main room with the [[Transmitter]].
+| 271=
+[[File:OldIcon Border.png|frameless|center|400x300px|class=notpageimage|link=]] During the initial release of ''DOORS,'' the game played an animation for [[players]] crawling under furniture during [[Seek|Seek's]] chase sequences which can be seen [https://youtu.be/82fyGrctEJk?t=531 here]. This was removed due to players with bad latency and terrible internet dying due to the animation failing to load or loading too late.
+| 272=
+[[File:Upcoming_icon.png|frameless|center|400x300px|class=notpageimage|link=]] The month of August is typically known as the month where most major ''DOORS''’ updates release, the updates that released during this month are: [[Alpha Release]] on August 10, 2022, [[The Modifiers Update]] on August 10, 2023, [[The Mines Update]] on August 30, 2024, [[The Great Outdoors Update]] on August 10, 2025, and [[The Archives Update]] on August 28, 2026.
+
+And the month of April is similar, as every year on April 1, it is guaranteed that ''DOORS'' has an update for April Fools, including: [[SUPER HARD MODE!!!]] on April 1, 2023, [[Retro Mode]] on April 1, 2024, [[Ranked Mode]] on April 1, 2025, and [[Rush Mode]] on April 1, 2026.
+| 273=
+[[File:HotelPlusIcon.png|frameless|center|400x300px|class=notpageimage|link=]] [[The Hotel+ Update]] was the update that revolutionized the direction of the game, as not only did it revamp the entire [[The Hotel|Hotel]], but many things that were added in later updates were actually supposed to be added in The Hotel+ Update, which includes: [[Dread]], that was only properly added until [[The Mines Update]], [[Shears]], that were only added until [[The Mines Update]], [[The Journal]], that was only added until [[The Archives Update]], and [[The Outdoors]] subfloor, which was only added until [[The Great Outdoors Update]].
+| 274=
+[[File:The_Archives_Update_Icon.png|frameless|center|400x300px|class=notpageimage|link=]] [[The Archives Update]] was the first update to remove a [[subfloor]]; it is also the first update to add two subfloors.
+| 275=
+[[File:Doors Soundtrack Vol 2.jpg|frameless|center|400x300px|class=notpageimage|link=]] <center>[[File:Unhinged2outro.mp3|500px]]</center> The track that plays in [[The Electrical Room]], “Unhinged II” actually has an ending you will never hear in-game; as the track cuts off once you enter the elevator.
+| 276=
+[[File:AnchorDoorsRender2.png|frameless|center|400x300px|class=notpageimage|link=]] <center>[[File:TN_musicDraft1_5.ogg|500px]]</center> Upon the release of [[The Mines]], there used to be a now unused track that plays upon looking for [[Anchor|Anchor E]] in [[The Nest]]. This was removed upon the upcoming nerfs of the floor.
+| 277=
+[[File:Extended Courtyard.webp|frameless|center|400x300px|class=notpageimage|link=]] <center>[[File:Courtyardentranceingameoriginalcombine.wav|500px]]</center> <center><small>Original track first, In-game track second.’</small></center> There has been a unused soundtrack in the game titled ‘Courtyard Entrance’ that has been unused every since the game’s release. This was eventually used in the game, not for [[The Courtyard]], but for [[The Candy Vault Event]], which plays when entering [[The Estate]].
+
+Within the game-files, its instance has a PlaybackSpeed of 0.97, causing it to play slower than its original source audio. Additionally, [[Lightning Splash (developer)|LSPLASH]] has curiously mentioned he hates this soundtrack, which is why it presumably was never used for The Courtyard.
+| 278=
+[[File:VeryBigPainting.png|frameless|center|400x300px|class=notpageimage|link=]] The “Rabbit in a Snow Storm” painting from [[The Hotel]] is not an actual [[painting]], instead it is quite literally a blank canvas.
 }}<!--
 
--->{{#html:Fun facts refresh}}
+-->
+</div>
+<div style="position: absolute; top: 0; right: 8px;">{{#html:Fun facts refresh}}</div>
 </div><noinclude><templatestyles src="DOORS Wiki/styles.css"/>[[Category:Main page templates]]</noinclude>
