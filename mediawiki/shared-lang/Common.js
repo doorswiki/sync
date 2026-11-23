@@ -12,11 +12,6 @@ mw.hook("wikipage.content").add(contents => {
 	}
 });
 
-
-if (mw.config.get('wgCanonicalNamespace') == 'User') {
-	mw.loader.load('https://dev.miraheze.org/w/index.php?title=User:Splatched/mastoblox.js&action=raw&ctype=text/javascript');
-}
-
 const wikidbname = "doorswiki";
 mw.loader.load('https://dev.miraheze.org/w/index.php?title=User:Splatched/ShowYourV2Avatar.js&action=raw&ctype=text/javascript');
 

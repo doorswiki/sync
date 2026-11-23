@@ -1,4 +1,5 @@
-{{DOORS Wiki/Container|title=<span>DOORS Network</span>|body=
+<div class="home-container"><!--
+--><span class="home-container--title">DOORS Network</span>
 <div class="doorswiki-nov26-socials-container">
 <div class="doorswiki-nov26-socials">
 <div class="home-card__label">LSPLASH</div><!--
@@ -79,5 +80,4 @@
 | icon  = DOORS_Wiki_ZH_site_logo.png
 | class = t-button--icon-light-invert}}<!--
 --></div>
-</div>
-}}<noinclude><templatestyles src="DOORS Wiki/styles.css"/>
+</div></div><noinclude><templatestyles src="DOORS Wiki/styles.css"/>

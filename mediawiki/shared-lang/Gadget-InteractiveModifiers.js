@@ -9,13 +9,13 @@ mw.hook("wikipage.content").add(() => {
     currentSection.dataset.initialized = "true";
 
     const IMAGE = {
-        magnifier: "https://static.wikitide.net/doorswiki/9/9f/Magnifier_icon.png",
+        magnifier: "https://static.wikitide.net/doorswiki/2/22/Inspect_icon.svg",
         saves:     "https://static.wikitide.net/doorswiki/c/c3/Saves_icon.svg",
         knobs:     "https://static.wikitide.net/doorswiki/2/2f/Knobs_icon.png",
         noKnobs:   "https://static.wikitide.net/doorswiki/d/dd/No_Knobs_icon.svg",
         modifiers: "https://static.wikitide.net/doorswiki/a/a3/Modifiers_icon.png",
-        trashcan:  "https://static.wikitide.net/doorswiki/d/dd/Trashcan_icon.png",
-        eye:       "https://static.wikitide.net/doorswiki/e/ed/Eye_icon.png",
+        trashcan:  "https://static.wikitide.net/doorswiki/c/c9/Trashcan_icon.svg",
+        eye:       "https://static.wikitide.net/doorswiki/2/23/Overview_icon.svg",
         noEye:     "https://static.wikitide.net/doorswiki/1/1b/No_Eye_icon.png"
     };
 

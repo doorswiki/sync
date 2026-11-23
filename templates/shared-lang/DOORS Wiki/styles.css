@@ -631,7 +631,7 @@ html.skin-theme-clientpref-day .doors-nov26-navigation img {
 }
 
 .doors-funfacts .t-button {
-	margin-top: var(--space-md);
+	/*margin-top: var(--space-md);*/
 	width: max-content;
 }
 

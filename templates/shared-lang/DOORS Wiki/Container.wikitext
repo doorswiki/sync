@@ -1,2 +1,0 @@
-<includeonly><div class="home-container {{#if:{{{class|}}}|{{{class}}}|}}" style="{{{style|}}}">{{#if:{{{title|}}}|<div class="home-container--title" style="{{#if:{{{body|}}}|6px|}}">{{{title}}}</div>}}
-<div style="{{#if:{{{height|}}}|height:{{{height}}}|}}">{{{body|}}}</div></div></includeonly><noinclude>{{Documentation}}<templatestyles src="DOORS Wiki/styles.css"/></noinclude>
