@@ -5,7 +5,7 @@
 * {{Icon|Entities|25|Entities}} [[Entities]]
 * {{Icon|Hazards|25|Hazards}} [[Hazards]]
 * {{Icon|Items|25|Items}} [[Items]]
-* {{Icon|X Button.svg|25|Controls}} [[Controls]]
+* {{Icon|Controls icon monochrome.svg|25|Controls}} [[Controls]]
 </div>
 
 <div class="doors-nov26-navigation-section">
@@ -23,7 +23,7 @@
 * {{Icon|Trolley|25|Shops}} [[Shops]]
 * {{Icon|Headphones|25|Soundtracks}} [[Soundtracks]]
 * {{Icon|Eye|25|Visions}} [[Visions]]
-* {{Icon|Admin Panel|25|Admin Panel}} [[Admin Panel]]
+* {{Icon|Admin Panel icon monochrome.svg|25|Admin Panel}} [[Admin Panel]]
 </div>
 
 <div class="doors-nov26-navigation-section">
@@ -32,7 +32,7 @@
 * {{Icon|Codes|25|Codes}} [[Codes]]
 * {{Icon|Development|25|Update Logs}} [[Update Logs]]
 * {{Icon|Upcoming|25|Upcoming Content}} [[Upcoming Content]]
-* {{Icon|Book|25|Lore}} [[Lore]]
+* {{Icon|Star monochrome|25|Lore}} [[Lore]]
 </div>
 </div>
 <noinclude>{{Documentation}}[[Category:Main page templates]]<templatestyles src="DOORS Wiki/styles.css"/></noinclude>

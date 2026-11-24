@@ -512,7 +512,8 @@ kbd {
 .citizen-drawer__card,
 .citizen-header .citizen-menu__card,
 .citizen-command-palette,
-.citizen-footer {
+.citizen-footer,
+#create-article-dialog {
     &::before {
         content: '';
         position: absolute;

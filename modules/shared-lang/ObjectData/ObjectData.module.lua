@@ -464,6 +464,11 @@ return {
 	link = false,
 	color = false
 },
+['Disc insert'] = {
+	icon = 'Disc insert icon.svg',
+	link = false,
+	color = false
+},
 ['Division'] = {
 	icon = 'Division icon.svg',
 	link = false,
@@ -527,12 +532,12 @@ return {
 	color = false
 },
 ['Enter'] = {
-	icon = 'Enter icon.png',
+	icon = 'Enter icon.svg',
 	link = false,
 	color = false
 },
 ['Exit'] = {
-	icon = 'Enter icon.png',
+	icon = 'Enter icon.svg',
 	link = false,
 	color = false
 },
@@ -585,7 +590,7 @@ return {
 	color = false
 },
 ['Headphones'] = {
-	icon = 'Headphones icon.png',
+	icon = 'Soundtracks icon.svg',
 	link = false,
 	color = false
 },
@@ -625,21 +630,21 @@ return {
 	link = false,
 	color = false
 },
-['Interact'] = {
-	icon = 'Interact icon.png',
+['Interact container'] = {
+	icon = 'Interact container icon.svg',
 	link = false,
 	color = false
 },
 ['Looting'] = {
-	icon = 'Interact icon.png',
+	icon = 'Interact container icon.svg',
 	color = false
 },
 ['Interactables'] = {
-	icon = 'Interacted icon.png',
+	icon = 'Interact icon.svg',
 	color = false
 },
-['Interacted'] = {
-	icon = 'Interacted icon.png',
+['Interact'] = {
+	icon = 'Interact icon.svg',
 	link = false,
 	color = false
 },
@@ -680,11 +685,11 @@ return {
 	color = false
 },
 ['Climbing'] = {
-	icon = 'Ladder icon.png',
+	icon = 'Ladder icon.svg',
 	color = false
 },
 ['Ladder'] = {
-	icon = 'Ladder icon.png',
+	icon = 'Ladder icon.svg',
 	link = false,
 	color = false
 },
