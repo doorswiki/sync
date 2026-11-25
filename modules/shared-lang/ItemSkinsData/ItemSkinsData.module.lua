@@ -6179,6 +6179,61 @@ local data = {
 			{ name = 'Bandage throw' },
 		},
 	},
+	{
+		name = 'Egg Carton',
+		knobs = 499,
+		bundle = nil,
+		obtainable = true,
+		text = 'We all just some egg fr',
+		description = 'Dropped bandages appear as cracked eggs.',
+		designer = 'Varzkitt',
+		added = nil,
+		chroma = {
+			stardust = 5,
+			variants = {
+				{
+					name = 'Brown',
+					color = '#D5A172',
+					description = nil,
+				},
+				{
+					name = 'Caw',
+					color = '#756073',
+					description = nil,
+				},
+				{
+					name = 'Chocolate',
+					color = '#9D6B52',
+					description = nil,
+				},
+				{
+					name = 'Gloombat',
+					color = '#94AA8D',
+					description = nil,
+				},
+				{
+					name = 'Rotten',
+					color = '#A8C36F',
+					description = nil,
+				},
+				{
+					name = 'Speckled',
+					color = '#AFB3EA',
+					description = nil,
+				},
+				{
+					name = 'White',
+					color = '#FFE7D1',
+					description = nil,
+				},
+			}
+		},
+		media = {
+			{ name = 'Equip', sound = false },
+			{ name = 'Inspect', sound = false },
+			{ name = 'Bandage throw', sound = 'default' },
+		},
+	},
 },
 
 ['Battery Pack'] = {
