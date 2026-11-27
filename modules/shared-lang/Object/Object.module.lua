@@ -52,7 +52,7 @@ function p.build(name, args, frame)
 
 	-- Color text & link
 	local colorString = color(name, {
-		text = plural or name,
+		text = plural or (obj.text or name),
 		link = args.link
 	})
 

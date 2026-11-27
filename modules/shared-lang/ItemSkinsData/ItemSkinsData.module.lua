@@ -7896,6 +7896,46 @@ local data = {
 			{ name = 'Inspect 2' },
 		},
 	},
+		{
+		name = 'Creakling',
+		other = nil,
+		knobs = 1499,
+		bundle = nil,
+		obtainable = true,
+		text = 'I like chicken nuggets and pizza and honey mustard',
+		description = nil,
+		designer = 'Varzkitt',
+		added = 'November 27th, 2026',
+		chroma = {
+			stardust = 20,
+			variants = {
+				{
+					name = 'Abe',
+					color = '#676474',
+					description = 'Has a unique inspect animation.',
+				},
+				{
+					name = 'Silly',
+					color = '#F0736B',
+					description = 'Has a unique inspect animation.',
+				},
+				{
+					name = 'Top Hat',
+					color = '#F0736B',
+					description = nil,
+				},
+			}
+		},
+		media = {
+			{ name = 'Equip' },
+			{ name = 'Idle', sound = false },
+			{ name = 'Inspect 1' },
+			{ name = 'Inspect 2' },
+			{ name = 'Inspect 2 (Abe)', sound = 'Buddy_skin_Creakling_sound_Inspect_2_Abe.ogg' },
+			{ name = 'Inspect 2 (Silly)', sound = 'Buddy_skin_Creakling_sound_Inspect_2_Silly.ogg'  },
+			{ name = 'Propeller Hat Loop', sound = 'Buddy_skin_Creakling_sound_Propeller.ogg', animation = false },
+		},
+	},
 	{
 		name = 'Teddy Bear',
 		other = 'Developer Exclusive',

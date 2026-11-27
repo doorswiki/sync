@@ -33,6 +33,12 @@ return {
 ['Stardust'] = {
 	icon = 'Stardust icon.png'
 },
+['Stardust in-game'] = {
+	icon = 'Stardust in-game icon.png',
+	text = 'Stardust',
+	link = 'Stardust',
+	color = 'Stardust'
+},
 
 
 -- Floors / Visions --
@@ -441,7 +447,7 @@ return {
 	color = false
 },
 ['Damage'] = {
-	icon = 'Damage icon, simplified.png',
+	icon = 'Damage simplified icon.png',
 	link = false,
 	color = false
 },
@@ -489,7 +495,7 @@ return {
 	color = false
 },
 ['Door tilted'] = {
-	icon = 'Door icon, tilted.svg',
+	icon = 'Door tilted icon.svg',
 	link = false,
 	color = false
 },
@@ -763,7 +769,7 @@ return {
 	color = false
 },
 ['Modifiers red'] = {
-	icon = 'Modifier icon in-game.svg',
+	icon = 'Modifier in-game icon.svg',
 	link = 'Modifiers',
 	color = false,
 	text = 'Modifiers'
@@ -1189,7 +1195,7 @@ return {
 	color = false
 },
 ['Shakelight'] = {
-	icon = 'Shakelight icon v2.png',
+	icon = 'Shakelight icon.png',
 	plural = 'Shakelights',
 	color = false
 },
@@ -1209,7 +1215,7 @@ return {
 	color = false
 },
 ['Flashlight'] = {
-	icon = 'Flashlight icon v2.png',
+	icon = 'Flashlight icon.png',
 	plural = 'Flashlights',
 	color = false
 },
@@ -1249,12 +1255,12 @@ return {
 	color = false
 },
 ['Skeleton Key'] = {
-	icon = 'Skeleton Key icon v2.png',
+	icon = 'Skeleton Key icon.png',
 	plural = 'Skeleton Keys',
 	color = false
 },
 ['Lockpick'] = {
-	icon = 'Lockpick icon v2.png',
+	icon = 'Lockpick icon.png',
 	plural = 'Lockpicks',
 	color = false
 },
@@ -1453,7 +1459,7 @@ return {
 	color = false
 },
 ['Hotel Key'] = {
-	icon = 'Hotel Key icon v2.png',
+	icon = 'Hotel Key icon.png',
 	link = 'Hotel Key',
 	plural = 'Hotel Keys',
 	color = false
@@ -3056,558 +3062,558 @@ return {
 
 -- Modifiers --
 ['ADMIN PANEL'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful4'
 },
 ['RANDOM EVENTS'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Cool'
 },
 ['CUSTOM SEED'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Cool'
 },
 ['Trick Or Treat (modifier)'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'White'
 },
 ['Voice Acting'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'White'
 },
 ['Uh Oh'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger3'
 },
 ['How Unfortunate'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger4'
 },
 ['Chaos, Chaos'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger5'
 },
 ['Electrical Work'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger0'
 },
 ['Bad Electrical Work'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger1'
 },
 ['Power Shortage'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger2'
 },
 ['Lights Out'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger3'
 },
 ['El Goblino Was Here'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger1'
 },
 ['El Goblino\'s Payday'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger2'
 },
 ['More Stuff'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful2'
 },
 ['Less Stuff'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger1'
 },
 ['Out Of Stuff'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger3'
 },
 ['Wear And Tear'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger1'
 },
 ['Small Hands'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger2'
 },
 ['Baby Hands'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger2'
 },
 ['Gone Fishing'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger0'
 },
 ['Soundproofing'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger0'
 },
 ['Wet Floor'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger1'
 },
 ['Bad Ventilation'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger1'
 },
 ['Smelt It'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger1'
 },
 ['Dealt It'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger1'
 },
 ['Locked And Loaded'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger2'
 },
 ['Key Key Key Key'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger3'
 },
 ['Nowhere To Hide'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger2'
 },
 ['Jammin\''] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger2'
 },
 ['Tripped'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger1'
 },
 ['Tripped And Fell'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger2'
 },
 ['Last Few Breaths'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger3'
 },
 ['Last Breath'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger4'
 },
 ['Didn\'t Skip Leg Day'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful1'
 },
 ['Faster, Faster, Faster'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful2'
 },
 ['MAXIMUM OVERDRIVE'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful4'
 },
 ['My Knees Are Killing Me'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger0'
 },
 ['My Legs Are Killing Me'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger1'
 },
 ['Injuries'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger1'
 },
 ['Good Time'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful1'
 },
 ['Bad Time'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger2'
 },
 ['Really Bad Time'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger3'
 },
 ['Worst Time Ever'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger6'
 },
 ['Rush Hour'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Rushm'
 },
 ['I\'m Runnin\' Here'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Rushm'
 },
 ['I\'m Tip-Toein\' Here'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Rushm'
 },
 ['Rush Around'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Rushm'
 },
 ['Wrong Number'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Dupe'
 },
 ['Battle Of Wits'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Dupe'
 },
 ['I\'m Everywhere'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Screech'
 },
 ['Think Fast'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Screech'
 },
 ['Think Faster'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Screech'
 },
 ['Bug Spray'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Timothy'
 },
 ['Itchy'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Timothy'
 },
 ['Nosey'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Eyes'
 },
 ['Always Watching'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Eyes'
 },
 ['Seeing Double'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Eyes'
 },
 ['Four Eyes'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Eyes'
 },
 ['Every Angle'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Eyes'
 },
 ['Come Back Here'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Figure'
 },
 ['Back For Seconds'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Ambush'
 },
 ['Afterimage'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Ambush'
 },
 ['Rent\'s Due'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Hide'
 },
 ['New Roommate'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Hide'
 },
 ['Watch Your Step'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Snare'
 },
 ['Are Those Pancakes?!'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Snare'
 },
 ['I Love Pancakes!!!'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Snare'
 },
 ['Run From It'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'White'
 },
 ['Destiny Still Arrives'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'White'
 },
 ['Haha'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Giggle'
 },
 ['Laughing Stock'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Giggle'
 },
 ['No Laughing Matter'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Giggle'
 },
 ['Dripped Out'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Giggle'
 },
 ['Infested'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Defaultm'
 },
 ['Bug Problem'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Defaultm'
 },
 ['Blitz, Oh'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Curious'
 },
 ['Look, Man'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Curious'
 },
 ['Vacuum Sealed'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Curious'
 },
 ['Make Haste'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Curious'
 },
 ['MOCK PROFILE'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful4'
 },
 ['UNLOCK ALL JOURNAL'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful4'
 },
 ['UNLOCK ALL JOURNAL+'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful4'
 },
 ['SKIP TO OUTDOORS MAZE'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful4'
 },
 ['MINES: SKIP TO 1ST SEEK'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful4'
 },
 ['MINES: SKIP TO 2ND SEEK'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful4'
 },
 ['TRAILER TESTING'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Cool'
 },
 ['SKIP TO LIBRARY'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful4'
 },
 ['SKIP TO ARCHIVES'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful4'
 },
 ['SKIP TO END'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful4'
 },
 ['Trick Or Treat'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Defaultm'
 },
 ['SUPER HARD MODE!!!'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Defaultm'
 },
 ['BATTLE MODE'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Defaultm'
 },
 ['SURVIVE THE DRAKOBLOXXERS'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Defaultm'
 },
 ['Cringle\'s Workshop'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Defaultm'
 },
 ['CHAT CONTROL'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Defaultm'
 },
 ['HOTEL-'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Defaultm'
 },
 ['Lights On'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful1'
 },
 ['El Goblino On Break'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful2'
 },
 ['A Few Places To Hide'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Danger1'
 },
 ['Again & Again & Again'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Ambush'
 },
 ['You Really Can Run'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Seek'
 },
 ['It Can Run Too'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Seek'
 },
 ['Roundabout'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Halt'
 },
 ['Room For More'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Curious'
 },
 ['Stop Right Then'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Curious',
     text = 'Stop Right Then'
 },
 ['Upcoming Modifier 1'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Defaultm'
 },
 ['Upcoming Modifier 2'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Curious'
 },
 ['Upcoming Modifier 3'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Curious'
 },
 ['Pocket Change'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful2'
 },
 ['One For All'] = {
-    icon = 'Modifier icon in-game.svg',
+    icon = 'Modifier in-game icon.svg',
     link = 'Modifiers',
     color = 'Helpful2'
 },

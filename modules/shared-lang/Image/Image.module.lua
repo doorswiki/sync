@@ -12,10 +12,11 @@ local stf = string.format
 
 -- API
 function p.image(name, size, link)
-    local imageName
+    local imageName, dataLink
 
     if name:find('%.%w+$') then
         imageName = name
+        dataLink = name
     else
         local obj = objectData[name]
         if not obj then
@@ -23,6 +24,7 @@ function p.image(name, size, link)
         end
 
         imageName = obj.icon or name
+        dataLink = obj.link or name
     end
 
     local fileName = imageName:find('%.%w+$')
@@ -36,7 +38,7 @@ function p.image(name, size, link)
     local linkTarget = 'link=|'
 
     if link == '1' or link == true then
-        linkTarget = 'link=' .. name .. '|'
+        linkTarget = 'link=' .. dataLink .. '|'
     elseif link == 'default' or link == '-1' then
         linkTarget = ''
     elseif link and link ~= '' and link ~= '0' and link ~= false then
