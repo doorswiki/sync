@@ -18,13 +18,8 @@
 	--doorswiki-surface-4: light-dark(rgba(231, 219, 200, 0.3), rgba(47, 27, 21, 0.5));
 
     --doorswiki-container-color-original: light-dark(rgba(246, 238, 225, 0.9), rgba(46, 27, 21, 0.8));
-
-    --light-bg: url("https://static.wikitide.net/doorswiki/8/80/Main_theme_light_mode_background.webp"); /* [[File:Main_theme_light_mode_background.webp]] */
-    --dark-bg:  url("https://static.wikitide.net/doorswiki/a/a0/Main_theme_dark_mode_background.webp");  /* [[File:Main_theme_dark_mode_background.webp]]  */
-    --black-bg: url("https://static.wikitide.net/doorswiki/b/b8/Main_theme_black_mode_background.webp"); /* [[File:Main_theme_black_mode_background.webp]] */
     --bg: light-dark(var(--temp-light-bg, var(--light-bg)), var(--temp-dark-bg, var(--dark-bg)));
-    
-    
+
     --color-surface-1: var(--doorswiki-surface-1);
     --color-surface-2: var(--doorswiki-surface-2);
     --color-surface-3: var(--doorswiki-surface-3);
@@ -146,6 +141,14 @@ html:not(.doorswiki-mood-clientpref-0).skin-theme-clientpref-black {
     --doors-light-accent: oklch(from var(--doors-light-accent-original) l c var(--color-primary-oklch__h));
 }
 
+/* The Hotel theme */
+:root,
+:root.doorswiki-mood-clientpref-10 {
+    --light-bg: url("https://static.wikitide.net/doorswiki/8/80/Main_theme_light_mode_background.webp"); /* [[File:Main_theme_light_mode_background.webp]] */
+    --dark-bg:  url("https://static.wikitide.net/doorswiki/a/a0/Main_theme_dark_mode_background.webp");  /* [[File:Main_theme_dark_mode_background.webp]]  */
+    --black-bg: url("https://static.wikitide.net/doorswiki/b/b8/Main_theme_black_mode_background.webp"); /* [[File:Main_theme_black_mode_background.webp]] */
+}
+
 /* The Mines theme */
 :root.doorswiki-mood-clientpref-1 {
     &[class*="skin-theme-clientpref-"] {
@@ -204,7 +207,7 @@ html:not(.doorswiki-mood-clientpref-0).skin-theme-clientpref-black {
 }
 
 /* Seasonal theme */
-:root.doorswiki-mood-clientpref-10 {
+:root.doorswiki-mood-clientpref-64 {
 	&[class*="skin-theme-clientpref-"] {
         --color-primary-oklch__h: 20!important;
     }

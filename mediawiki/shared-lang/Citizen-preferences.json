@@ -25,6 +25,10 @@
 					"label": "Default"
 				},
 				{
+					"value": 10,
+					"label": "Hotel"
+				},
+				{
 					"value": 1,
 					"label": "Mines"
 				},

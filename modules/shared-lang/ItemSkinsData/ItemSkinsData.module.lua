@@ -2062,6 +2062,21 @@ local data = {
 			{ name = 'Turn on', sound = false },
 		},
 	},
+	{
+		name = 'Thankful',
+		knobs = 2999,
+		bundle = 'Thankful',
+		obtainable = true,
+		text = 'K thx bye!',
+		description = nil,
+		designer = nil,
+		added = nil,
+		chroma = nil,
+		media = {
+			{ name = 'Inspect', sound = false },
+			{ name = 'Turn on', sound = false },
+		},
+	},
 },
 
 ['Moonlight Candle'] = {
@@ -2494,6 +2509,21 @@ local data = {
 		bundle = 'Kitty',
 		obtainable = true,
 		text = 'Nyoo! My fur-babies!!!',
+		description = nil,
+		designer = nil,
+		added = nil,
+		chroma = nil,
+		media = {
+			{ name = 'Inspect' },
+			{ name = 'Toggle' },
+		},
+	},
+	{
+		name = 'Thankful',
+		knobs = 2999,
+		bundle = 'Thankful',
+		obtainable = true,
+		text = 'K thx bye!',
 		description = nil,
 		designer = nil,
 		added = nil,
@@ -3304,6 +3334,22 @@ local data = {
 				},
 			}
 		},
+		media = {
+			{ name = 'Inspect' },
+			{ name = 'Turn on' },
+			{ name = 'Turn off' },
+		},
+	},
+	{
+		name = 'Thankful',
+		knobs = 2999,
+		bundle = 'Thankful',
+		obtainable = true,
+		text = 'K thx bye!',
+		description = nil,
+		designer = nil,
+		added = nil,
+		chroma = nil,
 		media = {
 			{ name = 'Inspect' },
 			{ name = 'Turn on' },
@@ -4189,6 +4235,20 @@ local data = {
 		media = {
 			{ name = 'Inspect' },
 			{ name = 'Use' },
+		},
+	},
+	{
+		name = 'Thankful',
+		knobs = 2999,
+		bundle = 'Thankful',
+		obtainable = true,
+		text = 'K thx bye!',
+		description = nil,
+		designer = nil,
+		added = nil,
+		chroma = nil,
+		media = {
+			
 		},
 	},
 	{
@@ -5932,6 +5992,25 @@ local data = {
 			{ name = 'Break', sound = 'default' },
 		},
 	},
+	{
+		name = 'Thankful',
+		knobs = 2999,
+		bundle = 'Thankful',
+		obtainable = true,
+		text = 'K thx bye!',
+		description = nil,
+		designer = nil,
+		added = nil,
+		chroma = nil,
+		media = {
+			{ name = 'Equip', sound = false },
+			{ name = 'Inspect', sound = false },
+			{ name = 'Wind up', sound = 'default' },
+			{ name = 'Ticking', sound = 'default' },
+			{ name = 'Ringing', sound = 'default' },
+			{ name = 'Break', sound = 'default' },
+		},
+	},
 },
 
 ['Bandage Pack'] = {
@@ -6228,6 +6307,22 @@ local data = {
 				},
 			}
 		},
+		media = {
+			{ name = 'Equip', sound = false },
+			{ name = 'Inspect', sound = false },
+			{ name = 'Bandage throw', sound = 'default' },
+		},
+	},
+	{
+		name = 'Thankful',
+		knobs = 2999,
+		bundle = 'Thankful',
+		obtainable = true,
+		text = 'K thx bye!',
+		description = nil,
+		designer = nil,
+		added = nil,
+		chroma = nil,
 		media = {
 			{ name = 'Equip', sound = false },
 			{ name = 'Inspect', sound = false },
