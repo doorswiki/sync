@@ -1051,7 +1051,7 @@ Requires a "data-text" attribute containing the element's text. */
     }
     
     &:has(#Overview) > #Overview {
-        --icon-image: url(https://static.wikitide.net/doorswiki/e/ed/Eye_icon.png);
+        --icon-image: url(https://static.wikitide.net/doorswiki/2/23/Overview_icon.svg);
     }
     
     &:has(#Entities) > #Entities {
@@ -1059,7 +1059,7 @@ Requires a "data-text" attribute containing the element's text. */
     }
     
     &:has(#Appearance) > #Appearance {
-        --icon-image: url(https://static.wikitide.net/doorswiki/b/b7/DoorsWikiUI_Paintbrush.svg);
+        --icon-image: url(https://static.wikitide.net/doorswiki/f/fb/Paintbrush_monochrome_icon.svg);
     }
     
     &:has(#Trivia) > #Trivia {
@@ -1088,7 +1088,7 @@ Requires a "data-text" attribute containing the element's text. */
     }
     
     &:has(#History) > #History {
-        --icon-image: url(https://static.wikitide.net/doorswiki/9/9f/Magnifier_icon.png);
+        --icon-image: url(https://static.wikitide.net/doorswiki/d/d0/Magnifier_icon.svg);
     }
     
     &:has(#Achievements) > #Achievements {
@@ -1096,7 +1096,7 @@ Requires a "data-text" attribute containing the element's text. */
     }
     
     &:has(#Modifiers) > #Modifiers {
-        --icon-image: url(https://static.wikitide.net/doorswiki/1/14/Modifiers_monochrome_icon.png);
+        --icon-image: url(https://static.wikitide.net/doorswiki/d/d5/Modifiers_monochrome_icon.svg);
     }
     
     &:has(#Notes) > #Notes {
@@ -1104,11 +1104,11 @@ Requires a "data-text" attribute containing the element's text. */
     }
     
     &:has(#Abilities) > #Abilities {
-    	--icon-image: url(https://static.wikitide.net/doorswiki/f/f1/Hiding_icon.png);
+    	--icon-image: url(https://static.wikitide.net/doorswiki/2/21/Hiding_icon.svg);
     }
     
     &:has(#Strategy) > #Strategy {
-    	--icon-image: url(https://static.wikitide.net/doorswiki/6/6d/Crucifix_wiki_icon.png);
+    	--icon-image: url(https://static.wikitide.net/doorswiki/3/3b/Crucifix_monochrome_icon.png);
     }
     
     &:has(#Puzzles) > #Puzzles {
@@ -1116,11 +1116,11 @@ Requires a "data-text" attribute containing the element's text. */
     }
     
     &:has(#Rooms) > #Rooms {
-    	--icon-image: url(https://static.wikitide.net/doorswiki/8/80/Enter_icon.png);
+    	--icon-image: url(https://static.wikitide.net/doorswiki/1/14/Enter_icon.svg);
     }
     
     &:has(#Usage) > #Usage {
-    	--icon-image: url(https://static.wikitide.net/doorswiki/2/26/Lighter_button_icon.png);
+    	--icon-image: url(https://static.wikitide.net/doorswiki/5/50/Lighter_button_icon.svg);
     }
     
     &:has(#Item_Skins) > #Item_Skins {
@@ -1128,7 +1128,7 @@ Requires a "data-text" attribute containing the element's text. */
     }
     
     &:has(#References) > #References {
-    	--icon-image: url(https://static.wikitide.net/doorswiki/c/c1/References_icon.png);
+    	--icon-image: url(https://static.wikitide.net/doorswiki/3/31/References_icon.svg);
     }
 }
 

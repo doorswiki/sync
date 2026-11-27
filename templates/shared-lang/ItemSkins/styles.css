@@ -188,7 +188,6 @@
 .skin-image {
 	position: relative;
 	width: 100px;
-	height: 100%;
 	align-content: center;
 	overflow: hidden;
 	border: 1px solid var(--border-color-base);
@@ -196,6 +195,7 @@
 	outline: 1px solid transparent;
 	outline-offset: 1px;
 	transition: .1s ease-in-out;
+	aspect-ratio: 1;
 }
 
 .skin-image:hover {
@@ -295,24 +295,21 @@
 	min-width: 0;
 	overflow: auto hidden;
 	scrollbar-width: thin;
-	mask: linear-gradient(to right, black 80%, transparent);
-	padding-right: var(--space-xl);
 	grid-area: right;
 }
 
 .skin-right-wrapper {
 	display: flex;
 	flex: unset;
-	width: max-content;
+	width: 100%;
 }
 
 .skin-media {
-	display: flex;
-	flex-flow: row nowrap;
-	align-content: flex-start;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
 	gap: var(--space-md);
 	width: max-content;
-	height: auto !important;
+	height: auto;
 	overflow: auto hidden;
 	padding: 0 2px;
 }
@@ -322,9 +319,10 @@
 	flex-direction: column;
 	flex: 0 0 auto;
 	gap: 5px;
-	width: 200px;
 	height: 100%;
-	justify-content: center;
+	width: auto;
+	flex: 1;
+	justify-content: start;
 }
 
 .skin-media-caption {
@@ -341,7 +339,7 @@
 	outline: 1px solid transparent;
 	outline-offset: 1px;
 	transition: .1s ease-in-out;
-	height: 114.5px;
+	aspect-ratio: 16 / 9;
 }
 
 .skin-animation:hover {
@@ -380,6 +378,11 @@
 	background: var(--color-surface-1);
 	font-weight: 500;
 	opacity: 1;
+}
+
+.skin-missing-upload:has(a[href$=".ogg"]),
+.skin-missing-upload:has(a[href$=".mp3"]) {
+	aspect-ratio: 4 / 1;
 }
 
 .skin-missing-upload a {
@@ -478,7 +481,6 @@
 
 	.skin-image {
 		width: 100px !important;
-		height: 100px !important;
 		border-radius: 8px;
 	}
 
@@ -527,6 +529,9 @@
 	}
 
 	.skin-media {
+		display: flex;
+		flex-flow: row nowrap;
+		align-content: flex-start;
 		width: max-content;
 		overflow: auto hidden;
 	}
