@@ -10,21 +10,25 @@ local order = {
 'Glowstick',
 'Bulklight',
 'Straplight',
+'Laser Pointer',
 'Lantern',
 'Vitamins',
 'Smoothie',
 'Moonlight Float',
 'Starlight Bottle',
+'Starlight Jug',
 'Gween Soda',
 'Lockpick',
 'Crucifix',
 'Alarm Clock',
 'Shears',
+'Pocket Mirror',
 'Scanner',
 'Bandage Pack',
 'Battery Pack',
-'Boxing Gloves',
+'Briefcase',
 'Skeleton Key',
+'Boxing Gloves',
 'Gold Blaster',
 'Buddy',
 'Journal',
@@ -48,6 +52,22 @@ local data = {
 		obtainable = false,
 		text = 'I like the yellow ones.',
 		description = 'Inspect to place Sticky Notes on surfaces.',
+		designer = nil,
+		added = nil,
+		chroma = nil,
+		media = {
+			{ name = 'Inspect' },
+			{ name = 'Turn on' },
+			{ name = 'Turn off' },
+		},
+	},
+	{
+		name = 'Creaked',
+		knobs = 2999,
+		bundle = 'Creaked',
+		obtainable = true,
+		text = nil,
+		description = nil,
 		designer = nil,
 		added = nil,
 		chroma = nil,
@@ -2537,6 +2557,23 @@ local data = {
 
 ['Straplight'] = {
 	{
+		name = 'Creaked',
+		knobs = 2999,
+		bundle = 'Creaked',
+		obtainable = true,
+		text = nil,
+		description = nil,
+		designer = nil,
+		added = nil,
+		chroma = nil,
+		media = {
+			{ name = 'Equip' },
+			{ name = 'Inspect' },
+			{ name = 'Turn on' },
+			{ name = 'Turn off' },
+		},
+	},
+	{
 		name = 'Straplightie',
 		knobs = 2763,
 		bundle = 'Thingies',
@@ -3833,6 +3870,26 @@ local data = {
 	},
 },
 
+['Laser Pointer'] = {
+	{
+		name = 'Creaked',
+		knobs = 2999,
+		bundle = 'Creaked',
+		obtainable = true,
+		text = 'Buttons might need some grease.',
+		description = nil,
+		designer = nil,
+		added = nil,
+		chroma = nil,
+		media = {
+			{ name = 'Equip', sound = false },
+			{ name = 'Inspect', sound = 'Inspect' },
+			{ name = 'Turn on', sound = 'Turn on' },
+			{ name = 'Turn off', sound = 'Turn off' },
+		},
+	},
+},
+
 ['Shears'] = {
 	{
 		name = 'Safety Scissors',
@@ -4177,6 +4234,25 @@ local data = {
 	},	
 },
 
+['Starlight Jug'] = {
+	{
+		name = 'Creaked',
+		knobs = 2999,
+		bundle = 'Creaked',
+		obtainable = true,
+		text = 'Tastes... rusty.',
+		description = nil,
+		designer = nil,
+		added = nil,
+		chroma = nil,
+		media = {
+			{ name = 'Equip', sound = false },
+			{ name = 'Inspect', sound = false },
+			{ name = 'Use' },
+		},
+	},
+},
+
 ['Vitamins'] = {
 	{
 		name = 'Lucky',
@@ -4223,6 +4299,50 @@ local data = {
 		},
 	},
 	{
+		name = 'Magical Moon',
+		knobs = 1499,
+		bundle = 'Magical Moon',
+		obtainable = true,
+		text = 'I wish...',
+		description = 'Sound effects & animations are magical-y.',
+		designer = nil,
+		added = nil,
+		chroma = {
+			stardust = 20,
+			variants = {
+				{
+					name = 'Gunslinger',
+					color = 'fff790',
+					description = 'Crucifixion color is yellow.',
+				},
+				{
+					name = 'Ribbons',
+					color = 'ff95d8',
+					description = 'Crucifixion color is pink.',
+				},
+				{
+					name = 'Timeless',
+					color = 'fff5e8',
+					description = 'Crucifixion color is red.',
+				},
+				{
+					name = 'Warrior',
+					color = '7e92ef',
+					description = 'Crucifixion color is blue.',
+				},
+				{
+					name = 'Witch',
+					color = '8c6a90',
+					description = 'Crucifixion color is purple.',
+				},
+			}
+		},
+		media = {
+			{ name = 'Inspect' },
+			{ name = 'Use' },
+		},
+	},
+	{
 		name = 'Makeshift',
 		knobs = 1499,
 		bundle = nil,
@@ -4248,7 +4368,8 @@ local data = {
 		added = nil,
 		chroma = nil,
 		media = {
-			
+			{ name = 'Inspect' },
+			{ name = 'Use' },
 		},
 	},
 	{
@@ -4835,6 +4956,50 @@ local data = {
 		},
 	},
 	{
+		name = 'Magical Moon',
+		knobs = 1499,
+		bundle = 'Magical Moon',
+		obtainable = true,
+		text = 'I wish...',
+		description = 'Sound effects & animations are magical-y.',
+		designer = nil,
+		added = nil,
+		chroma = {
+			stardust = 20,
+			variants = {
+				{
+					name = 'Gunslinger',
+					color = 'fff790',
+					description = 'Crucifixion color is yellow.',
+				},
+				{
+					name = 'Ribbons',
+					color = 'ff95d8',
+					description = 'Crucifixion color is pink.',
+				},
+				{
+					name = 'Timeless',
+					color = 'fff5e8',
+					description = 'Crucifixion color is red.',
+				},
+				{
+					name = 'Warrior',
+					color = '7e92ef',
+					description = 'Crucifixion color is blue.',
+				},
+				{
+					name = 'Witch',
+					color = '8c6a90',
+					description = 'Crucifixion color is purple.',
+				},
+			}
+		},
+		media = {
+			{ name = 'Inspect' },
+			{ name = 'Success' },
+		},
+	},
+	{
 		name = 'Ban Hammer',
 		knobs = 1499,
 		bundle = 'Classic Gear',
@@ -5400,6 +5565,51 @@ local data = {
 
 ['Skeleton Key'] = {
 	{
+		name = 'Magical Moon',
+		knobs = 1499,
+		bundle = 'Magical Moon',
+		obtainable = true,
+		text = 'I wish...',
+		description = 'Sound effects & animations are magical-y.',
+		designer = nil,
+		added = nil,
+		chroma = {
+			stardust = 20,
+			variants = {
+				{
+					name = 'Gunslinger',
+					color = 'fff790',
+					description = 'Crucifixion color is yellow.',
+				},
+				{
+					name = 'Ribbons',
+					color = 'ff95d8',
+					description = 'Crucifixion color is pink.',
+				},
+				{
+					name = 'Timeless',
+					color = 'fff5e8',
+					description = 'Crucifixion color is red.',
+				},
+				{
+					name = 'Warrior',
+					color = '7e92ef',
+					description = 'Crucifixion color is blue.',
+				},
+				{
+					name = 'Witch',
+					color = '8c6a90',
+					description = 'Crucifixion color is purple.',
+				},
+			}
+		},
+		media = {
+			{ name = 'Equip', sound = false },
+			{ name = 'Inspect' },
+			{ name = 'Use', sound = false },
+		},
+	},
+	{
 		name = 'Voxel',
 		knobs = 1499,
 		bundle = 'Voxel',
@@ -5644,7 +5854,7 @@ local data = {
     {
 		name = 'Bobby Pins',
 		knobs = 499,
-		bundle = nil,
+		bundle = 'Magical Moon',
 		obtainable = true,
 		text = "I got 99 bobby pins and I can find 2",
 		description = nil,
@@ -7030,6 +7240,23 @@ local data = {
 		},
 	},
 	{
+		name = 'Creaked',
+		knobs = 2999,
+		bundle = 'Creaked',
+		obtainable = true,
+		text = nil,
+		description = nil,
+		designer = nil,
+		added = nil,
+		chroma = nil,
+		media = {
+			{ name = 'Equip' },
+			{ name = 'Inspect' },
+			{ name = 'Shoot' },
+			{ name = 'Shoot final' },
+		},
+	},
+	{
 		name = 'Holy Handgun',
 		knobs = 2999,
 		bundle = nil,
@@ -7613,6 +7840,46 @@ local data = {
 },
 
 ['Buddy'] = {
+		{
+		name = 'Creakling',
+		other = nil,
+		knobs = 1499,
+		bundle = nil,
+		obtainable = true,
+		text = 'I like chicken nuggets and pizza and honey mustard',
+		description = nil,
+		designer = 'Varzkitt',
+		added = 'November 27th, 2026',
+		chroma = {
+			stardust = 20,
+			variants = {
+				{
+					name = 'Abe',
+					color = '#676474',
+					description = 'Has a unique inspect animation.',
+				},
+				{
+					name = 'Silly',
+					color = '#F0736B',
+					description = 'Has a unique inspect animation.',
+				},
+				{
+					name = 'Top Hat',
+					color = '#F0736B',
+					description = nil,
+				},
+			}
+		},
+		media = {
+			{ name = 'Equip' },
+			{ name = 'Idle', sound = false },
+			{ name = 'Inspect 1' },
+			{ name = 'Inspect 2' },
+			{ name = 'Inspect 2 (Abe)', sound = 'Buddy_skin_Creakling_sound_Inspect_2_Abe.ogg' },
+			{ name = 'Inspect 2 (Silly)', sound = 'Buddy_skin_Creakling_sound_Inspect_2_Silly.ogg'  },
+			{ name = 'Propeller Hat Loop', sound = 'Buddy_skin_Creakling_sound_Propeller.ogg', animation = false },
+		},
+	},
 	{
 		name = 'Pupkin',
 		knobs = 2999,
@@ -7894,46 +8161,6 @@ local data = {
 			{ name = 'Idle', sound = false },
 			{ name = 'Inspect 1' },
 			{ name = 'Inspect 2' },
-		},
-	},
-		{
-		name = 'Creakling',
-		other = nil,
-		knobs = 1499,
-		bundle = nil,
-		obtainable = true,
-		text = 'I like chicken nuggets and pizza and honey mustard',
-		description = nil,
-		designer = 'Varzkitt',
-		added = 'November 27th, 2026',
-		chroma = {
-			stardust = 20,
-			variants = {
-				{
-					name = 'Abe',
-					color = '#676474',
-					description = 'Has a unique inspect animation.',
-				},
-				{
-					name = 'Silly',
-					color = '#F0736B',
-					description = 'Has a unique inspect animation.',
-				},
-				{
-					name = 'Top Hat',
-					color = '#F0736B',
-					description = nil,
-				},
-			}
-		},
-		media = {
-			{ name = 'Equip' },
-			{ name = 'Idle', sound = false },
-			{ name = 'Inspect 1' },
-			{ name = 'Inspect 2' },
-			{ name = 'Inspect 2 (Abe)', sound = 'Buddy_skin_Creakling_sound_Inspect_2_Abe.ogg' },
-			{ name = 'Inspect 2 (Silly)', sound = 'Buddy_skin_Creakling_sound_Inspect_2_Silly.ogg'  },
-			{ name = 'Propeller Hat Loop', sound = 'Buddy_skin_Creakling_sound_Propeller.ogg', animation = false },
 		},
 	},
 	{
@@ -8235,6 +8462,73 @@ local data = {
 		media = {
 			{ name = 'Inspect', sound = false },
 			{ name = 'Shake', sound = false },
+		},
+	},
+},
+
+['Pocket Mirror'] = {
+	{
+		name = 'Magical Moon',
+		knobs = 1499,
+		bundle = 'Magical Moon',
+		obtainable = true,
+		text = 'I wish...',
+		description = 'Sound effects & animations are magical-y.',
+		designer = nil,
+		added = nil,
+		chroma = {
+			stardust = 20,
+			variants = {
+				{
+					name = 'Gunslinger',
+					color = 'fff790',
+					description = 'Crucifixion color is yellow.',
+				},
+				{
+					name = 'Ribbons',
+					color = 'ff95d8',
+					description = 'Crucifixion color is pink.',
+				},
+				{
+					name = 'Timeless',
+					color = 'fff5e8',
+					description = 'Crucifixion color is red.',
+				},
+				{
+					name = 'Warrior',
+					color = '7e92ef',
+					description = 'Crucifixion color is blue.',
+				},
+				{
+					name = 'Witch',
+					color = '8c6a90',
+					description = 'Crucifixion color is purple.',
+				},
+			}
+		},
+		media = {
+			{ name = 'Inspect' },
+			{ name = 'Throw' },
+		},
+	},
+},
+
+['Briefcase'] = {
+	{
+		name = 'Creaked',
+		knobs = 2999,
+		bundle = 'Creaked',
+		obtainable = true,
+		text = 'Hinges might need some grease.',
+		description = nil,
+		designer = nil,
+		added = nil,
+		chroma = nil,
+		media = {
+			{ name = 'Equip', sound = false },
+			{ name = 'Inspect', sound = 'Inspect' },
+			{ name = 'Pickup Item', sound = 'Pickup Item' },
+			{ name = 'Throw Item', sound = 'Throw Item' },
 		},
 	},
 },

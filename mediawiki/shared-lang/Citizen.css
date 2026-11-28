@@ -937,7 +937,7 @@ details[open]::details-content {
 		width: 24px;
 		height: 24px;
 		background: var(--color-base);
-		mask-image: url(https://static.wikitide.net/doorswiki/c/c1/References_icon.png);
+		mask-image: url(https://static.wikitide.net/doorswiki/3/31/References_icon.svg);
 		mask-size: contain;
 	}
 }
