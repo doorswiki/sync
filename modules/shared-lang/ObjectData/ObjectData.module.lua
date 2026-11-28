@@ -18,6 +18,10 @@ return {
 	link = 'Knobs',
 	plural = 'Knobs'
 },
+['Shakelight'] = {
+	icon = 'Shakelight icon V2.png',
+	link = 'Shakelight'
+},
 ['Knobs'] = {
 	icon = 'Knobs icon.png',
 	color = 'Knob'
